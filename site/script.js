@@ -9,3 +9,30 @@ function normalizeCountry(value){return String(value||'').normalize('NFD').repla
 function formatDate(value){const date=new Date(value);return Number.isNaN(date.getTime())?String(value):date.toLocaleDateString('en',{dateStyle:'medium'})}
 function safeUrl(value){try{const url=new URL(value);return url.protocol==='https:'?escapeHtml(url.href):'#'}catch{return '#'}}
 function escapeHtml(value){return String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+
+async function loadSourceDirectory(){
+  const grid=document.getElementById('sourceGrid');
+  const count=document.getElementById('sourcesCount');
+  const health=document.getElementById('sourceHealth');
+  try{
+    const [sourceResponse,healthResponse]=await Promise.all([
+      fetch('./data/sources.json',{headers:{Accept:'application/json'}}),
+      fetch('./data/source-health.json',{headers:{Accept:'application/json'}}).catch(()=>null)
+    ]);
+    if(!sourceResponse.ok)throw new Error('Source directory unavailable');
+    const payload=await sourceResponse.json();
+    const sources=Array.isArray(payload.sources)?payload.sources:[];
+    count.textContent=`${sources.length} OFFICIAL SOURCES`;
+    let healthMap={}; let checkedAt=null;
+    if(healthResponse&&healthResponse.ok){const h=await healthResponse.json();healthMap=h.sources||{};checkedAt=h.checkedAt||null}
+    const reachable=Object.values(healthMap).filter(x=>x.ok).length;
+    if(checkedAt){health.textContent=`Website check: ${reachable} of ${sources.length} sources reachable · ${new Date(checkedAt).toLocaleString('en',{dateStyle:'medium',timeStyle:'short'})}`}
+    else{health.textContent='Daily website availability checks are being set up.'}
+    grid.innerHTML=sources.map((item,index)=>`<a class="source-card" href="${safeUrl(item.url)}" target="_blank" rel="noreferrer"><span class="source-number">${String(index+1).padStart(2,'0')}</span><span class="source-card-main"><b>${escapeHtml(item.name)}</b><small>${escapeHtml(item.region)} · ${escapeHtml(item.type)}</small></span><span class="source-access">${escapeHtml(item.access)}</span><span class="source-open">↗</span></a>`).join('');
+  }catch{
+    count.textContent='OFFICIAL SOURCES';
+    health.textContent='The source directory could not be loaded right now.';
+    grid.innerHTML='<p>Please refresh the page to try again.</p>';
+  }
+}
+loadSourceDirectory();
