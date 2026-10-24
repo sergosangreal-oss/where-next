@@ -1,16 +1,23 @@
 # Where Next
 
-Where Next helps young people discover exchanges, summer schools, volunteering projects, scholarships, and other international opportunities.
+Where Next helps young people explore international exchanges, summer schools, volunteering, scholarships, and other opportunities.
 
-## Publish with GitHub Pages
+## Live site
 
-1. Create a public GitHub repository named `where-next` and upload the **contents** of this folder (including the hidden `.github` folder).
-2. In the repository, open **Settings → Pages** and choose **GitHub Actions** as the build and deployment source.
-3. Push a commit to the `main` branch, or run **Publish site to GitHub Pages** from the Actions tab.
-4. GitHub will show the public website URL under **Settings → Pages** after the workflow succeeds.
+https://sergosangreal-oss.github.io/where-next/
 
-The site is static and does not require an API key. Its matcher reads `site/data/opportunities.json`. The file is deliberately empty until source feeds with confirmed public access and reliable eligibility fields are added. The site links to official directories in the meantime; it does not present invented or stale records as live listings.
+## Current data status
 
-## Catalog source requirements
+- `site/data/sources.json` contains 51 official source directories and program pages from governments, universities, and international organizations.
+- `scripts/check_sources.py` checks whether each registered source website responds. The `Refresh official source status` GitHub Actions workflow is scheduled daily and can also be run manually.
+- The source register is not the same as 51 machine-readable database integrations. Many providers publish web pages without a public API or feed.
+- The matcher reads `site/data/opportunities.json`. It currently has no synchronized opportunity records. Do not treat the source directory as proof that a program is currently open or that a person is eligible.
+- User profile matching happens in the browser; the site does not store age, residence, citizenship, or budget.
 
-For each source, confirm its terms permit reuse, a public API or feed exists, refresh limits, and which fields are exposed. A scheduled GitHub Actions job can refresh the JSON file only after those details are established. GitHub Pages publishes static files; it is not a relational database.
+## Deployment
+
+GitHub Pages publishes the `site/` directory when a commit is pushed to `main`. The workflow is in `.github/workflows/pages.yml`.
+
+## Adding a real data connector
+
+Before ingesting listings, confirm that the provider publishes a machine-readable API/feed and permits reuse. Preserve each listing's original URL, source name, last-checked time, eligibility evidence, currency, and deadline. Leave unknown fields unset and do not recommend listings whose eligibility cannot be checked.
