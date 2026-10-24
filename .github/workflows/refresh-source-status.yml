@@ -1,0 +1,28 @@
+name: Refresh official source status
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-source-status
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+      - name: Check source websites
+        run: python3 scripts/check_sources.py
+      - name: Save updated source status
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/data/source-health.json
+          git diff --cached --quiet || git commit -m "Refresh official source status" && git push
