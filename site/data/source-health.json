@@ -1,6 +1,262 @@
 {
-  "checkedAt": null,
-  "total": 0,
-  "reachable": 0,
-  "sources": {}
+  "checkedAt": "2026-10-24T18:47:35+00:00",
+  "total": 51,
+  "reachable": 42,
+  "sources": {
+    "https://youth.europa.eu/go-abroad_en": {
+      "ok": true,
+      "status": 200,
+      "url": "https://youth.europa.eu/go-abroad_en"
+    },
+    "https://erasmus-plus.ec.europa.eu/opportunities/individuals/youth-exchanges-and-activities": {
+      "ok": true,
+      "status": 200,
+      "url": "https://erasmus-plus.ec.europa.eu/opportunities/individuals/youth-exchanges-and-activities"
+    },
+    "https://youth.europa.eu/solidarity_en": {
+      "ok": true,
+      "status": 200,
+      "url": "https://youth.europa.eu/solidarity_en"
+    },
+    "https://programmes.eurodesk.eu/": {
+      "ok": false,
+      "status": 403,
+      "error": "HTTPError"
+    },
+    "https://www.salto-youth.net/tools/european-training-calendar/": {
+      "ok": true,
+      "status": 200,
+      "url": "https://www.salto-youth.net/tools/european-training-calendar/"
+    },
+    "https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/erasmus-mundus-joint-masters": {
+      "ok": true,
+      "status": 200,
+      "url": "https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/erasmus-mundus-joint-masters"
+    },
+    "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-search": {
+      "ok": true,
+      "status": 200,
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-search"
+    },
+    "https://www.daad.de/en/study-and-research-in-germany/scholarships/": {
+      "ok": false,
+      "status": 403,
+      "error": "HTTPError"
+    },
+    "https://campusbourses.campusfrance.org/": {
+      "ok": true,
+      "status": 200,
+      "url": "https://campusbourses.campusfrance.org/"
+    },
+    "https://www.chevening.org/scholarships/": {
+      "ok": true,
+      "status": 200,
+      "url": "https://www.chevening.org/scholarships/"
+    },
+    "https://cscuk.fcdo.gov.uk/scholarships/": {
+      "ok": true,
+      "status": 200,
+      "url": "https://cscuk.fcdo.gov.uk/scholarships/"
+    },
+    "https://study-uk.britishcouncil.org/scholarships-funding": {
+      "ok": false,
+      "status": 403,
+      "error": "HTTPError"
+    },
+    "https://foreign.fulbrightonline.org/": {
+      "ok": true,
+      "status": 200,
+      "url": "https://foreign.fulbrightonline.org/"
+    },
+    "https://educationusa.state.gov/your-5-steps-us-study/finance-your-studies": {
+      "ok": true,
+      "status": 200,
+      "url": "https://educationusa.state.gov/your-5-steps-us-study/finance-your-studies"
+    },
+    "https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-government-excellence-scholarships.html": {
+      "ok": true,
+      "status": 200,
+      "url": "https://www.sbfi.admin.ch/en/swiss-government-excellence-scholarships"
+    },
+    "https://grants.at/en/": {
+      "ok": true,
+      "status": 200,
+      "url": "https://grants.at/en/"
+    },
+    "https://stipendiumhungaricum.hu/": {
+      "ok": true,
+      "status": 200,
+      "url": "https://stipendiumhungaricum.hu/"
+    },
+    "https://www.turkiyeburslari.gov.tr/": {
+      "ok": true,
+      "status": 200,
+      "url": "https://www.turkiyeburslari.gov.tr/"
+    },
+    "https://www.studyinjapan.go.jp/en/planning/scholarships/": {
+      "ok": true,
+      "status": 200,
+      "url": "https://www.studyinjapan.go.jp/en/planning/scholarships/"
+    },
+    "https://www.jasso.go.jp/en/ryugaku/scholarship_j/": {
+      "ok": true,
+      "status": 200,
+      "url": "https://www.jasso.go.jp/en/ryugaku/scholarship_j/"
+    },
+    "https://studyinkorea.go.kr/ko/plan/scholarship.do?tab=gks-tab1": {
+      "ok": true,
+      "status": 200,
+      "url": "https://studyinkorea.go.kr/ko/plan/scholarship.do?tab=gks-tab1"
+    },
+    "https://www.campuschina.org/": {
+      "ok": false,
+      "status": 412,
+      "error": "HTTP error"
+    },
+    "https://english.moe.gov.tw/": {
+      "ok": true,
+      "status": 200,
+      "url": "https://english.moe.gov.tw/mp-1.html"
+    },
+    "https://www.icdf.org.tw/wSite/np?ctNode=31561&mp=2": {
+      "ok": true,
+      "status": 200,
+      "url": "https://www.icdf.org.tw/wSite/np?ctNode=31561&mp=2"
+    },
+    "https://a2ascholarships.iccr.gov.in/": {
+      "ok": true,
+      "status": 200,
+      "url": "https://a2ascholarships.iccr.gov.in/"
+    },
+    "https://studyinindia.gov.in/": {
+      "ok": false,
+      "status": null,
+      "error": "URLError"
+    },
+    "https://www.dfat.gov.au/people-to-people/australia-awards": {
+      "ok": false,
+      "status": null,
+      "error": "TimeoutError"
+    },
+    "https://www.nzscholarships.govt.nz/": {
+      "ok": true,
+      "status": 200,
+      "url": "https://www.nzscholarships.govt.nz/"
+    },
+    "https://www.educanada.ca/scholarships-bourses/index.aspx?lang=eng": {
+      "ok": true,
+      "status": 200,
+      "url": "https://www.educanada.ca/scholarships-bourses/index.aspx?lang=eng"
+    },
+    "https://www.mitacs.ca/our-programs/globalink-research-internship-students/": {
+      "ok": true,
+      "status": 200,
+      "url": "https://www.mitacs.ca/our-programs/globalink-research-internship-students/"
+    },
+    "https://www.oas.org/en/scholarships/": {
+      "ok": true,
+      "status": 200,
+      "url": "https://www.oas.org/en/scholarships/"
+    },
+    "https://web.icetex.gov.co/becas/becas-para-estudios-en-el-exterior": {
+      "ok": true,
+      "status": 200,
+      "url": "https://web.icetex.gov.co/becas/becas-para-estudios-en-el-exterior"
+    },
+    "https://anid.cl/concursos/": {
+      "ok": false,
+      "status": 403,
+      "error": "HTTPError"
+    },
+    "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas": {
+      "ok": true,
+      "status": 200,
+      "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas"
+    },
+    "https://www.gob.mx/amexcid/acciones-y-programas/becas-para-extranjeros-29785": {
+      "ok": true,
+      "status": 200,
+      "url": "https://www.gob.mx/amexcid/acciones-y-programas/becas-para-extranjeros-29785"
+    },
+    "https://www.a-star.edu.sg/gis/join-us/students": {
+      "ok": true,
+      "status": 202,
+      "url": "https://www.a-star.edu.sg/gis/join-us/students"
+    },
+    "https://www.nus.edu.sg/oam/scholarships": {
+      "ok": true,
+      "status": 200,
+      "url": "https://www.nus.edu.sg/oam/scholarships"
+    },
+    "https://www.ntu.edu.sg/admissions/undergraduate/scholarships": {
+      "ok": true,
+      "status": 200,
+      "url": "https://www.ntu.edu.sg/admissions/undergraduate/scholarships-and-awards"
+    },
+    "https://www.moe.gov.sg/financial-matters/awards-scholarships/asean-scholarships": {
+      "ok": true,
+      "status": 202,
+      "url": "https://www.moe.gov.sg/financial-matters/awards-scholarships/asean-scholarships"
+    },
+    "https://www.worldbank.org/en/programs/scholarships": {
+      "ok": true,
+      "status": 200,
+      "url": "https://www.worldbank.org/en/programs/scholarships"
+    },
+    "https://www.adb.org/work-with-us/careers/japan-scholarship-program": {
+      "ok": false,
+      "status": 403,
+      "error": "HTTPError"
+    },
+    "https://www.isdb.org/scholarships": {
+      "ok": true,
+      "status": 200,
+      "url": "https://www.isdb.org/scholarships"
+    },
+    "https://www.unesco.org/en/fellowships": {
+      "ok": true,
+      "status": 200,
+      "url": "https://www.unesco.org/en/fellowships"
+    },
+    "https://www.unicef.org/careers/internships": {
+      "ok": true,
+      "status": 200,
+      "url": "https://www.unicef.org/careers/internships"
+    },
+    "https://www.unv.org/become-volunteer": {
+      "ok": true,
+      "status": 200,
+      "url": "https://www.unv.org/become-volunteer"
+    },
+    "https://www.who.int/careers/internship-programme": {
+      "ok": true,
+      "status": 200,
+      "url": "https://www.who.int/careers/internship-programme"
+    },
+    "https://www.undp.org/careers": {
+      "ok": false,
+      "status": 403,
+      "error": "HTTPError"
+    },
+    "https://ecosocc.au.int/index.php/en/opportunities": {
+      "ok": true,
+      "status": 200,
+      "url": "https://ecosocc.au.int/index.php/en/opportunities"
+    },
+    "https://mastercardfdn.org/all/scholars/": {
+      "ok": true,
+      "status": 200,
+      "url": "https://mastercardfdn.org/en/what-we-do/our-programs/mastercard-foundation-scholars-program/"
+    },
+    "https://www.akdn.org/our-agencies/aga-khan-foundation/international-scholarship-programme": {
+      "ok": true,
+      "status": 200,
+      "url": "https://the.akdn/en/what-we-do/developing-human-capacity/education/international-scholarships"
+    },
+    "https://www.rhodeshouse.ox.ac.uk/scholarships/": {
+      "ok": true,
+      "status": 200,
+      "url": "https://www.rhodeshouse.ox.ac.uk/scholarships/"
+    }
+  }
 }
