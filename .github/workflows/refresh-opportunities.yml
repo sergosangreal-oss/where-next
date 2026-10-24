@@ -1,0 +1,42 @@
+name: Refresh live opportunity feeds
+
+on:
+  schedule:
+    - cron: "13 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "site/data/opportunities.json"
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: refresh-catalog-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out website
+        uses: actions/checkout@v6
+      - name: Collect public feed listings
+        run: python3 scripts/fetch_opportunities.py
+      - name: Save catalog and publish
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/data/opportunities.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh live opportunity catalog"
+            git pull --rebase origin main
+            git push
+            gh workflow run pages.yml --ref main
+          else
+            echo "The opportunity catalog has not changed."
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}
