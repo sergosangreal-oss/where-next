@@ -1,0 +1,363 @@
+{
+  "updatedAt": null,
+  "note": "Official opportunity and scholarship directories. A directory link is not an API connection; connector status is shown separately.",
+  "sources": [
+    {
+      "name": "European Youth Portal — Opportunities",
+      "region": "Europe",
+      "type": "Youth programs",
+      "access": "Official directory",
+      "url": "https://youth.europa.eu/go-abroad_en"
+    },
+    {
+      "name": "Erasmus+ — Opportunities for young people",
+      "region": "Europe",
+      "type": "Youth exchange",
+      "access": "Official directory",
+      "url": "https://erasmus-plus.ec.europa.eu/opportunities/individuals/youth-exchanges-and-activities"
+    },
+    {
+      "name": "European Solidarity Corps",
+      "region": "Europe",
+      "type": "Volunteering",
+      "access": "Official directory",
+      "url": "https://youth.europa.eu/solidarity_en"
+    },
+    {
+      "name": "Eurodesk Opportunity Finder",
+      "region": "Europe and worldwide",
+      "type": "Youth opportunities",
+      "access": "Official directory",
+      "url": "https://programmes.eurodesk.eu/"
+    },
+    {
+      "name": "SALTO-YOUTH — Training and cooperation",
+      "region": "Europe",
+      "type": "Training and youth work",
+      "access": "Official directory",
+      "url": "https://www.salto-youth.net/tools/european-training-calendar/"
+    },
+    {
+      "name": "Erasmus Mundus Joint Masters Catalogue",
+      "region": "Worldwide",
+      "type": "Scholarships and study",
+      "access": "Official directory",
+      "url": "https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/erasmus-mundus-joint-masters"
+    },
+    {
+      "name": "EU Funding & Tenders Portal",
+      "region": "European Union",
+      "type": "Calls and grants",
+      "access": "Public API",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-search"
+    },
+    {
+      "name": "DAAD Scholarship Database",
+      "region": "Germany and worldwide",
+      "type": "Scholarships",
+      "access": "Official directory",
+      "url": "https://www.daad.de/en/study-and-research-in-germany/scholarships/"
+    },
+    {
+      "name": "Campus France — CampusBourses",
+      "region": "France and worldwide",
+      "type": "Scholarships",
+      "access": "Official directory",
+      "url": "https://campusbourses.campusfrance.org/"
+    },
+    {
+      "name": "Chevening Scholarships",
+      "region": "United Kingdom and worldwide",
+      "type": "Scholarships",
+      "access": "Official directory",
+      "url": "https://www.chevening.org/scholarships/"
+    },
+    {
+      "name": "Commonwealth Scholarships",
+      "region": "Commonwealth",
+      "type": "Scholarships",
+      "access": "Official directory",
+      "url": "https://cscuk.fcdo.gov.uk/scholarships/"
+    },
+    {
+      "name": "British Council — Study UK funding",
+      "region": "United Kingdom and worldwide",
+      "type": "Scholarships",
+      "access": "Official directory",
+      "url": "https://study-uk.britishcouncil.org/scholarships-funding"
+    },
+    {
+      "name": "Fulbright Foreign Student Program",
+      "region": "United States and worldwide",
+      "type": "Exchange and scholarships",
+      "access": "Official directory",
+      "url": "https://foreign.fulbrightonline.org/"
+    },
+    {
+      "name": "EducationUSA — Find financial aid",
+      "region": "United States and worldwide",
+      "type": "Study and scholarships",
+      "access": "Official directory",
+      "url": "https://educationusa.state.gov/your-5-steps-us-study/finance-your-studies"
+    },
+    {
+      "name": "Swiss Government Excellence Scholarships",
+      "region": "Switzerland and worldwide",
+      "type": "Scholarships and research",
+      "access": "Official directory",
+      "url": "https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-government-excellence-scholarships.html"
+    },
+    {
+      "name": "OeAD — Grants and scholarships",
+      "region": "Austria and worldwide",
+      "type": "Scholarships",
+      "access": "Official directory",
+      "url": "https://grants.at/en/"
+    },
+    {
+      "name": "Stipendium Hungaricum",
+      "region": "Hungary and worldwide",
+      "type": "Scholarships",
+      "access": "Official directory",
+      "url": "https://stipendiumhungaricum.hu/"
+    },
+    {
+      "name": "Türkiye Scholarships",
+      "region": "Türkiye and worldwide",
+      "type": "Scholarships",
+      "access": "Official directory",
+      "url": "https://www.turkiyeburslari.gov.tr/"
+    },
+    {
+      "name": "MEXT Scholarships — Study in Japan",
+      "region": "Japan and worldwide",
+      "type": "Scholarships",
+      "access": "Official directory",
+      "url": "https://www.studyinjapan.go.jp/en/planning/scholarships/"
+    },
+    {
+      "name": "JASSO — Scholarships for international students",
+      "region": "Japan",
+      "type": "Scholarships",
+      "access": "Official directory",
+      "url": "https://www.jasso.go.jp/en/ryugaku/scholarship_j/"
+    },
+    {
+      "name": "Global Korea Scholarship",
+      "region": "South Korea and worldwide",
+      "type": "Scholarships",
+      "access": "Official directory",
+      "url": "https://studyinkorea.go.kr/ko/plan/scholarship.do?tab=gks-tab1"
+    },
+    {
+      "name": "China Scholarship Council",
+      "region": "China and worldwide",
+      "type": "Scholarships",
+      "access": "Official directory",
+      "url": "https://www.campuschina.org/"
+    },
+    {
+      "name": "Taiwan Ministry of Education Scholarships",
+      "region": "Taiwan and worldwide",
+      "type": "Scholarships",
+      "access": "Official directory",
+      "url": "https://english.moe.gov.tw/"
+    },
+    {
+      "name": "TaiwanICDF Scholarships",
+      "region": "Taiwan and partner countries",
+      "type": "Scholarships",
+      "access": "Official directory",
+      "url": "https://www.icdf.org.tw/wSite/np?ctNode=31561&mp=2"
+    },
+    {
+      "name": "Indian Council for Cultural Relations",
+      "region": "India and worldwide",
+      "type": "Scholarships and exchanges",
+      "access": "Official directory",
+      "url": "https://a2ascholarships.iccr.gov.in/"
+    },
+    {
+      "name": "Study in India — Scholarships",
+      "region": "India",
+      "type": "Study and scholarships",
+      "access": "Official directory",
+      "url": "https://studyinindia.gov.in/"
+    },
+    {
+      "name": "Australia Awards",
+      "region": "Australia and partner countries",
+      "type": "Scholarships",
+      "access": "Official directory",
+      "url": "https://www.dfat.gov.au/people-to-people/australia-awards"
+    },
+    {
+      "name": "Manaaki New Zealand Scholarships",
+      "region": "New Zealand and partner countries",
+      "type": "Scholarships",
+      "access": "Official directory",
+      "url": "https://www.nzscholarships.govt.nz/"
+    },
+    {
+      "name": "EduCanada — Scholarships",
+      "region": "Canada and worldwide",
+      "type": "Scholarships and exchanges",
+      "access": "Official directory",
+      "url": "https://www.educanada.ca/scholarships-bourses/index.aspx?lang=eng"
+    },
+    {
+      "name": "Mitacs Globalink Research Internship",
+      "region": "Canada and partner countries",
+      "type": "Research internship",
+      "access": "Official directory",
+      "url": "https://www.mitacs.ca/our-programs/globalink-research-internship-students/"
+    },
+    {
+      "name": "Organization of American States Scholarships",
+      "region": "Americas",
+      "type": "Scholarships",
+      "access": "Official directory",
+      "url": "https://www.oas.org/en/scholarships/"
+    },
+    {
+      "name": "ICETEX — International scholarships",
+      "region": "Colombia and worldwide",
+      "type": "Scholarships and exchanges",
+      "access": "Official directory",
+      "url": "https://web.icetex.gov.co/becas/becas-para-estudios-en-el-exterior"
+    },
+    {
+      "name": "ANID — International scholarships",
+      "region": "Chile",
+      "type": "Scholarships and research",
+      "access": "Official directory",
+      "url": "https://anid.cl/concursos/"
+    },
+    {
+      "name": "CAPES — International programs",
+      "region": "Brazil",
+      "type": "Scholarships and research",
+      "access": "Official directory",
+      "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas"
+    },
+    {
+      "name": "AMEXCID — Scholarships for foreigners",
+      "region": "Mexico",
+      "type": "Scholarships and exchanges",
+      "access": "Official directory",
+      "url": "https://www.gob.mx/amexcid/acciones-y-programas/becas-para-extranjeros-29785"
+    },
+    {
+      "name": "Singapore International Graduate Award",
+      "region": "Singapore and worldwide",
+      "type": "Research scholarship",
+      "access": "Official directory",
+      "url": "https://www.a-star.edu.sg/gis/join-us/students"
+    },
+    {
+      "name": "National University of Singapore Scholarships",
+      "region": "Singapore",
+      "type": "Scholarships",
+      "access": "Official directory",
+      "url": "https://www.nus.edu.sg/oam/scholarships"
+    },
+    {
+      "name": "Nanyang Technological University Scholarships",
+      "region": "Singapore",
+      "type": "Scholarships",
+      "access": "Official directory",
+      "url": "https://www.ntu.edu.sg/admissions/undergraduate/scholarships"
+    },
+    {
+      "name": "ASEAN Scholarships",
+      "region": "Southeast Asia",
+      "type": "Scholarships and exchanges",
+      "access": "Official directory",
+      "url": "https://www.moe.gov.sg/financial-matters/awards-scholarships/asean-scholarships"
+    },
+    {
+      "name": "World Bank Joint Japan/Graduate Scholarship Program",
+      "region": "Worldwide",
+      "type": "Graduate scholarships",
+      "access": "Official directory",
+      "url": "https://www.worldbank.org/en/programs/scholarships"
+    },
+    {
+      "name": "Asian Development Bank — Japan Scholarship Program",
+      "region": "Asia and Pacific",
+      "type": "Graduate scholarships",
+      "access": "Official directory",
+      "url": "https://www.adb.org/work-with-us/careers/japan-scholarship-program"
+    },
+    {
+      "name": "Islamic Development Bank Scholarships",
+      "region": "Member countries and worldwide",
+      "type": "Scholarships",
+      "access": "Official directory",
+      "url": "https://www.isdb.org/scholarships"
+    },
+    {
+      "name": "UNESCO Fellowships and Study Opportunities",
+      "region": "Worldwide",
+      "type": "Fellowships",
+      "access": "Official directory",
+      "url": "https://www.unesco.org/en/fellowships"
+    },
+    {
+      "name": "UNICEF Internships",
+      "region": "Worldwide",
+      "type": "Internships",
+      "access": "Official directory",
+      "url": "https://www.unicef.org/careers/internships"
+    },
+    {
+      "name": "United Nations Volunteers",
+      "region": "Worldwide",
+      "type": "Volunteering",
+      "access": "Official directory",
+      "url": "https://www.unv.org/become-volunteer"
+    },
+    {
+      "name": "WHO Internships",
+      "region": "Worldwide",
+      "type": "Internships",
+      "access": "Official directory",
+      "url": "https://www.who.int/careers/internship-programme"
+    },
+    {
+      "name": "UNDP Internships",
+      "region": "Worldwide",
+      "type": "Internships",
+      "access": "Official directory",
+      "url": "https://www.undp.org/careers"
+    },
+    {
+      "name": "African Union — Scholarships and fellowships",
+      "region": "Africa",
+      "type": "Scholarships and fellowships",
+      "access": "Official directory",
+      "url": "https://ecosocc.au.int/index.php/en/opportunities"
+    },
+    {
+      "name": "Mastercard Foundation Scholars Program",
+      "region": "Africa and worldwide",
+      "type": "Scholarships",
+      "access": "Official directory",
+      "url": "https://mastercardfdn.org/all/scholars/"
+    },
+    {
+      "name": "Aga Khan Foundation International Scholarship Programme",
+      "region": "Selected countries",
+      "type": "Scholarships",
+      "access": "Official directory",
+      "url": "https://www.akdn.org/our-agencies/aga-khan-foundation/international-scholarship-programme"
+    },
+    {
+      "name": "Rhodes Scholarships",
+      "region": "Oxford and worldwide",
+      "type": "Scholarships",
+      "access": "Official directory",
+      "url": "https://www.rhodeshouse.ox.ac.uk/scholarships/"
+    }
+  ]
+}
