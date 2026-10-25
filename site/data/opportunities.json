@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T15:57:18+00:00",
+  "updatedAt": "2026-10-25T16:09:53+00:00",
   "listingCount": 424,
   "sources": [
     {
@@ -7,28 +7,28 @@
       "url": "https://techopportunities.eu/api/v1/opportunities",
       "ok": true,
       "count": 400,
-      "checkedAt": "2026-10-25T15:57:18+00:00"
+      "checkedAt": "2026-10-25T16:09:53+00:00"
     },
     {
       "name": "Opportunity Desk",
       "url": "https://opportunitydesk.org/feed/",
       "ok": true,
       "count": 8,
-      "checkedAt": "2026-10-25T15:57:18+00:00"
+      "checkedAt": "2026-10-25T16:09:53+00:00"
     },
     {
       "name": "ScholarshipHunter",
       "url": "https://scholarshiphunter.app/feed.xml",
       "ok": true,
       "count": 2,
-      "checkedAt": "2026-10-25T15:57:18+00:00"
+      "checkedAt": "2026-10-25T16:09:53+00:00"
     },
     {
       "name": "Grants.gov RSS",
       "url": "https://www.grants.gov/rss/GG_NewOppByCategory.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-10-25T15:57:18+00:00",
+      "checkedAt": "2026-10-25T16:09:53+00:00",
       "error": "ParseError"
     },
     {
@@ -36,17 +36,35 @@
       "url": "https://api.grants.gov/v1/api/search2",
       "ok": true,
       "count": 1,
-      "checkedAt": "2026-10-25T15:57:18+00:00"
+      "checkedAt": "2026-10-25T16:09:53+00:00"
     },
     {
       "name": "ResearchRadar.at",
       "url": "https://researchradar.at/api/v1/grants",
       "ok": true,
       "count": 13,
-      "checkedAt": "2026-10-25T15:57:18+00:00"
+      "checkedAt": "2026-10-25T16:09:53+00:00"
     }
   ],
   "opportunities": [
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/10/25/how-to-leverage-the-end-of-the-year-to-make-smarter-investment-decisions/",
+      "title": "How to Leverage the End of the Year to Make Smarter Investment Decisions",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/10/25/how-to-leverage-the-end-of-the-year-to-make-smarter-investment-decisions/",
+      "summary": "As the year draws to a close, many people begin reflecting on their achievements, financial decisions and aspirations for the future. While the festive season often comes with increased spending, it also presents an opportunity to reassess financial priorities, strengthen investment strategies and prepare for a more financially secure new year. Whether you are a student, young professional, entrepreneur or experienced investor, the final months of the year can be an important period for evaluating your financial progress and identifying opportunities for long-term wealth creation. Rather than ",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": null,
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-10-25T16:02:38+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
     {
       "id": "scholarshiphunter:https://www.aalto.fi/en/open-positions/doctoral-and-postdoctoral-positions-in-hybrid-magnonics-photonics",
       "title": "Doctoral and postdoctoral positions in hybrid magnonics-photonics",
@@ -207,24 +225,6 @@
       "source": "Opportunity Desk",
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-10-23T15:38:33+00:00",
-      "sourceConnector": "Opportunity Desk"
-    },
-    {
-      "id": "opportunity desk:https://opportunitydesk.org/2026/10/23/columbia-university-italian-academy-fellowship-2027-2028/",
-      "title": "Columbia University Italian Academy Fellowship Program 2027-2028",
-      "type": "Opportunity",
-      "organizer": "Opportunity Desk listing",
-      "url": "https://opportunitydesk.org/2026/10/23/columbia-university-italian-academy-fellowship-2027-2028/",
-      "summary": "Deadline: December 4, 2026 Applications are open for the Columbia University Italian Academy Fellowship Program 2027-2028. The multi-disciplinary Fellowship Program is the heart of the work of the Italian Academy. Fellowships are open to scholars who wish to devote a semester or a full academic year to genuinely innovative work in the humanities, sciences, or [...]",
-      "location": null,
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": "2026-12-04",
-      "source": "Opportunity Desk",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-10-23T14:55:57+00:00",
       "sourceConnector": "Opportunity Desk"
     },
     {
