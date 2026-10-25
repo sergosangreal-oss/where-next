@@ -1,12 +1,183 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="refresh" content="0; url=site/index.html">
-  <title>Where Next</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Where Next — international exchanges, volunteering and study programs</title>
+<meta name="description" content="A curated directory of international youth exchanges, volunteering programs, scholarships and summer schools, with links to official organizers.">
+<meta property="og:title" content="Where Next — find your opportunity">
+<meta property="og:description" content="Curated directory of international exchanges, volunteering and study programs.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0f2a3d">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0f2a3d;--paper:#f3f6f8;--line:#d3dde4;--blue:#0b6e8a;--sun:#f2b134;--muted:#52687a;--card:#fff}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font:400 17px/1.6 Manrope,system-ui,sans-serif;color:var(--ink);background:var(--paper)}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 22px}
+h1,h2,h3{font-family:'Bricolage Grotesque',Manrope,sans-serif;line-height:1.08;margin:0}
+header{background:var(--ink);color:#fff}
+nav{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
+.logo{font:800 22px 'Bricolage Grotesque',sans-serif;text-decoration:none}
+.logo span{color:var(--sun)}
+nav a.l{margin-left:22px;text-decoration:none;font-weight:500;opacity:.85}
+nav a.l:hover{opacity:1}
+.hero{padding:56px 0 72px}
+.hero h1{font-size:clamp(40px,7vw,78px);font-weight:800;max-width:14ch}
+.hero p{max-width:52ch;font-size:19px;color:#c9d8e3;margin:22px 0 28px}
+.btn{display:inline-block;background:var(--sun);color:var(--ink);font-weight:700;padding:13px 24px;border-radius:999px;text-decoration:none}
+.btn:hover{background:#ffc652}
+section{padding:64px 0}
+h2{font-size:clamp(28px,4vw,44px);font-weight:800;margin-bottom:10px}
+.lead{color:var(--muted);max-width:60ch;margin:0 0 28px}
+.tools{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:22px}
+.chip{font:500 15px Manrope,sans-serif;border:1.5px solid var(--ink);background:transparent;color:var(--ink);padding:8px 16px;border-radius:999px;cursor:pointer}
+.chip[aria-pressed=true]{background:var(--ink);color:#fff}
+#q{flex:1;min-width:200px;font:inherit;padding:10px 16px;border:1.5px solid var(--line);border-radius:999px;background:var(--card)}
+.row{display:grid;grid-template-columns:200px 1fr auto;gap:8px 28px;align-items:baseline;padding:20px 0;border-top:1px solid var(--line)}
+.row:last-child{border-bottom:1px solid var(--line)}
+.row h3{font-size:21px}
+.row p{margin:0;color:var(--muted);font-size:16px}
+.tag{font-size:14px;font-weight:700;color:var(--blue)}
+.go{font-weight:700;text-decoration:none;border-bottom:2px solid var(--sun);white-space:nowrap}
+.go:hover{background:var(--sun)}
+#count{font-size:15px;color:var(--muted)}
+.note{background:var(--ink);color:#c9d8e3}
+.note h2{color:#fff}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:32px;margin-top:26px}
+.steps h3{font-size:20px;color:#fff;margin-bottom:6px}
+.steps p{margin:0}
+#contact ul{list-style:none;padding:0;margin:20px 0 0;display:grid;gap:10px}
+#contact li{font-size:19px}
+#contact b{display:inline-block;min-width:110px;color:var(--muted);font-weight:500;font-size:16px}
+footer{padding:28px 0;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}
+
+.finder{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;background:var(--card);border:1.5px solid var(--line);border-radius:14px;padding:18px;margin-bottom:26px}
+.finder label{display:block;font-size:14px;font-weight:700;margin-bottom:4px}
+.finder input,.finder select{width:100%;font:inherit;padding:10px 12px;border:1.5px solid var(--line);border-radius:10px;background:#fff;color:var(--ink)}
+.finder small{grid-column:1/-1;color:var(--muted);font-size:14px}
+.meta{font-size:14px;color:var(--muted);margin-top:4px}
+@media(max-width:720px){.row{grid-template-columns:1fr}.hero{padding:36px 0 52px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
 </head>
 <body>
-  <p><a href="site/index.html">Open Where Next</a></p>
+<header>
+<div class="wrap">
+<nav aria-label="Main"><a class="logo" href="#top">where<span>next</span></a>
+<div><a class="l" href="#directory">Directory</a><a class="l" href="#how">How it works</a><a class="l" href="#contact" id="navc">Contact</a></div></nav>
+<div class="hero" id="top">
+<h1>Your next step abroad starts here.</h1>
+<p>Tell us your age, where you live and your budget, and see programs that fit. Every listing leads to the official organizer.</p>
+<a class="btn" href="#directory">Browse programs</a>
+</div>
+</div>
+</header>
+
+<main>
+<section id="directory">
+<div class="wrap">
+<h2>Program directory</h2>
+<p class="lead">Filter by type or search by name. Eligibility, deadlines and costs change, so always confirm them on the organizer’s website.</p>
+<div class="finder" role="group" aria-label="Personal match">
+<div><label for="age">Your age</label><input id="age" type="number" min="10" max="99" inputmode="numeric" placeholder="e.g. 19"></div>
+<div><label for="cty">Country of residence</label><select id="cty"><option value="">Any country</option><option>Armenia</option><option>Georgia</option><option>Kazakhstan</option><option>Kyrgyzstan</option><option>Moldova</option><option>Russia</option><option>Tajikistan</option><option>Türkiye</option><option>Ukraine</option><option>Uzbekistan</option><option>Another country</option></select></div>
+<div><label for="bud">Budget, € (total)</label><input id="bud" type="number" min="0" step="10" inputmode="numeric" placeholder="e.g. 200"></div>
+<small>Leave a field empty to skip it. Matching runs in your browser and nothing is stored. Costs and eligibility are rough guides: confirm them with the organizer.</small>
+</div>
+<div class="tools" role="group" aria-label="Filter by type">
+<button class="chip" data-f="all" aria-pressed="true">All</button>
+<button class="chip" data-f="exchange" aria-pressed="false">Exchanges</button>
+<button class="chip" data-f="volunteer" aria-pressed="false">Volunteering</button>
+<button class="chip" data-f="study" aria-pressed="false">Study &amp; grants</button>
+<input id="q" type="search" placeholder="Search programs" aria-label="Search programs">
+</div>
+<div id="count" aria-live="polite"></div>
+<div id="list"></div>
+</div>
+</section>
+
+<section class="note" id="how">
+<div class="wrap">
+<h2>How to use Where Next</h2>
+<div class="steps">
+<div><h3>Pick a type</h3><p>Exchanges are short group projects, volunteering is longer service, and study programs include scholarships and summer schools.</p></div>
+<div><h3>Check the criteria</h3><p>Open the organizer’s page and check age limits, your country’s eligibility, costs and deadlines.</p></div>
+<div><h3>Apply directly</h3><p>Where Next does not collect applications or personal data. You apply on the official site.</p></div>
+</div>
+</div>
+</section>
+
+<section id="contact" hidden>
+<div class="wrap">
+<h2>Contact</h2>
+<p class="lead">Questions, corrections or a program to add? Get in touch.</p>
+<ul id="clist"></ul>
+</div>
+</section>
+</main>
+
+<footer><div class="wrap">Where Next is an independent information project and is not affiliated with the listed organizations. © <span id="y"></span></div></footer>
+
+<script>
+const CONTACT={name:"Sergo",email:"sergo.sangreal@gmail.com",instagram:"sergosollo_"};
+
+const EU=["Armenia","Georgia","Kazakhstan","Kyrgyzstan","Moldova","Tajikistan","Türkiye","Ukraine","Uzbekistan"];
+/* t=type, age=[min,max], c=eligible residence countries (omit = any), no=excluded, cost=approx. minimum out-of-pocket in EUR, ct=cost note */
+const DATA=[
+{t:"exchange",n:"Erasmus+ Youth Exchanges",d:"Group exchanges for ages 13–30, run through youth organizations and funded by the EU.",u:"https://erasmus-plus.ec.europa.eu",age:[13,30],c:EU,cost:0,ct:"Mostly funded; travel is partly reimbursed"},
+{t:"exchange",n:"SALTO-YOUTH",d:"Partner search, training courses and project tools for Erasmus+ youth work.",u:"https://www.salto-youth.net",c:EU,cost:0,ct:"Free to use"},
+{t:"exchange",n:"European Youth Portal",d:"Official EU hub for youth opportunities, events and information.",u:"https://youth.europa.eu",cost:0,ct:"Free to use"},
+{t:"exchange",n:"AIESEC",d:"Youth-led exchanges for ages 18–30: volunteering and professional placements abroad.",u:"https://aiesec.org",age:[18,30],cost:300,ct:"Program fees vary, roughly €300+ plus travel"},
+{t:"exchange",n:"AFS Intercultural Programs",d:"School-year, semester and short-term exchange programs for students.",u:"https://www.afs.org",cost:3000,ct:"Paid; scholarships are available"},
+{t:"exchange",n:"YFU Youth For Understanding",d:"Long-standing school exchange organization with national partners worldwide.",u:"https://www.yfu.org",cost:3000,ct:"Paid; scholarships are available"},
+{t:"volunteer",n:"European Solidarity Corps",d:"Volunteering and solidarity projects in Europe for ages 18–30.",u:"https://youth.europa.eu/solidarity_en",age:[18,30],c:EU,cost:0,ct:"Costs covered, with a small allowance"},
+{t:"volunteer",n:"UN Volunteers",d:"Volunteer assignments with UN agencies, on-site and online.",u:"https://www.unv.org",age:[18,99],cost:0,ct:"Online roles are free; field roles include an allowance"},
+{t:"volunteer",n:"Service Civil International",d:"Short-term workcamps and long-term volunteering through a global network.",u:"https://sci.ngo",cost:100,ct:"Participation fee, roughly €100+ plus travel"},
+{t:"volunteer",n:"Workaway",d:"Work-for-stay exchanges with hosts worldwide. Membership fee applies.",u:"https://www.workaway.info",cost:60,ct:"Membership fee plus travel"},
+{t:"volunteer",n:"WWOOF",d:"Volunteer on organic farms in exchange for food and lodging.",u:"https://wwoof.net",cost:30,ct:"Membership fee plus travel"},
+{t:"volunteer",n:"Idealist",d:"Volunteer roles, internships and jobs at nonprofits.",u:"https://www.idealist.org",cost:0,ct:"Free to search"},
+{t:"study",n:"Türkiye Burslari",d:"Government scholarships for study in Türkiye at all degree levels.",u:"https://turkiyeburslari.gov.tr",age:[16,35],no:["Türkiye"],cost:0,ct:"Fully funded scholarship"},
+{t:"study",n:"DAAD",d:"Scholarships and study programs in Germany, including summer courses.",u:"https://www.daad.de",cost:0,ct:"Scholarships cover most costs"},
+{t:"study",n:"Chevening",d:"UK government scholarships for one-year master’s degrees.",u:"https://www.chevening.org",age:[18,99],cost:0,ct:"Fully funded scholarship"},
+{t:"study",n:"Erasmus Mundus Joint Masters",d:"Funded joint master’s programs at universities in several European countries.",u:"https://erasmus-plus.ec.europa.eu",age:[18,99],cost:0,ct:"Scholarships cover most costs"},
+{t:"study",n:"Studyportals",d:"Search engine for degrees, short courses and summer schools worldwide.",u:"https://www.studyportals.com",cost:0,ct:"Free to search; programs have their own fees"},
+{t:"study",n:"Scholarship Portal",d:"Database of scholarships for international students.",u:"https://www.scholarshipportal.com",cost:0,ct:"Free to search"}
+];
+const L={exchange:"Exchange",volunteer:"Volunteering",study:"Study & grants"};
+let f="all";
+const $=id=>document.getElementById(id);
+const list=$("list"),q=$("q"),cnt=$("count");
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
+function render(){
+const s=q.value.trim().toLowerCase(),age=parseInt($("age").value,10),cty=$("cty").value,bud=$("bud").value===""?null:Number($("bud").value);
+const r=DATA.filter(x=>{
+if(f!=="all"&&x.t!==f)return false;
+if(s&&(x.n+" "+x.d).toLowerCase().indexOf(s)<0)return false;
+if(!isNaN(age)&&x.age&&(age<x.age[0]||age>x.age[1]))return false;
+if(cty){if(x.no&&x.no.includes(cty))return false;if(x.c&&!x.c.includes(cty))return false}
+if(bud!==null&&x.cost>bud)return false;
+return true});
+cnt.textContent=r.length?r.length+" matching programs":"Nothing matches these filters. Try a higher budget, another type or clear a field.";
+list.innerHTML=r.map(x=>`<div class="row"><div class="tag">${L[x.t]}</div><div><h3>${esc(x.n)}</h3><p>${esc(x.d)}</p><div class="meta">${x.age?"Ages "+x.age[0]+(x.age[1]<99?"–"+x.age[1]:"+")+" · ":""}${esc(x.ct)}</div></div><a class="go" href="${esc(x.u)}" target="_blank" rel="noopener">Official site</a></div>`).join("");
+}
+document.querySelectorAll(".chip").forEach(b=>b.addEventListener("click",()=>{f=b.dataset.f;document.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",c===b));render()}));
+["q","age","cty","bud"].forEach(i=>$(i).addEventListener("input",render));
+render();
+
+const labels={name:"Name",email:"Email",phone:"Phone",telegram:"Telegram",instagram:"Instagram",linkedin:"LinkedIn"};
+const links={email:v=>"mailto:"+v,phone:v=>"tel:"+v.replace(/\s/g,""),telegram:v=>"https://t.me/"+v.replace(/^@/,""),instagram:v=>"https://instagram.com/"+v.replace(/^@/,""),linkedin:v=>v};
+const shown={instagram:v=>"@"+v.replace(/^@/,"")};
+const items=Object.keys(labels).filter(k=>CONTACT[k]);
+if(items.length){$("contact").hidden=false;
+$("clist").innerHTML=items.map(k=>{const v=CONTACT[k],t=shown[k]?shown[k](v):v;return `<li><b>${labels[k]}</b>${links[k]?`<a href="${esc(links[k](v))}" target="_blank" rel="noopener">${esc(t)}</a>`:esc(t)}</li>`}).join("")}
+else{$("navc").hidden=true}
+$("y").textContent=new Date().getFullYear();
+</script>
 </body>
 </html>
