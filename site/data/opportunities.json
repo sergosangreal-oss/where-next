@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-10-24T20:06:44+00:00",
-  "listingCount": 421,
+  "updatedAt": "2026-10-25T04:35:13+00:00",
+  "listingCount": 422,
   "sources": [
     {
       "name": "European Tech Opportunities",
       "url": "https://techopportunities.eu/api/v1/opportunities",
       "ok": true,
       "count": 400,
-      "checkedAt": "2026-10-24T20:06:44+00:00"
+      "checkedAt": "2026-10-25T04:35:13+00:00"
     },
     {
       "name": "Opportunity Desk",
       "url": "https://opportunitydesk.org/feed/",
       "ok": true,
       "count": 8,
-      "checkedAt": "2026-10-24T20:06:44+00:00"
+      "checkedAt": "2026-10-25T04:35:13+00:00"
     },
     {
       "name": "ScholarshipHunter",
       "url": "https://scholarshiphunter.app/feed.xml",
       "ok": true,
       "count": 0,
-      "checkedAt": "2026-10-24T20:06:44+00:00"
+      "checkedAt": "2026-10-25T04:35:13+00:00"
     },
     {
       "name": "Grants.gov RSS",
       "url": "https://www.grants.gov/rss/GG_NewOppByCategory.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-10-24T20:06:44+00:00",
+      "checkedAt": "2026-10-25T04:35:13+00:00",
       "error": "ParseError"
     },
     {
@@ -36,14 +36,14 @@
       "url": "https://api.grants.gov/v1/api/search2",
       "ok": true,
       "count": 1,
-      "checkedAt": "2026-10-24T20:06:44+00:00"
+      "checkedAt": "2026-10-25T04:35:13+00:00"
     },
     {
       "name": "ResearchRadar.at",
       "url": "https://researchradar.at/api/v1/grants",
       "ok": true,
-      "count": 12,
-      "checkedAt": "2026-10-24T20:06:44+00:00"
+      "count": 13,
+      "checkedAt": "2026-10-25T04:35:13+00:00"
     }
   ],
   "opportunities": [
@@ -7409,6 +7409,27 @@
       "sourceUpdatedAt": "2026-08-03",
       "eligibleResidenceCountries": [
         "any"
+      ],
+      "sourceConnector": "ResearchRadar.at"
+    },
+    {
+      "id": "rr:wwtf-vrg",
+      "title": "Vienna Research Groups",
+      "type": "Research funding / award",
+      "organizer": "ResearchRadar listed funder",
+      "url": "https://fundingportal.wwtf.at",
+      "summary": "Major funding for international top young researchers to establish a research group in Vienna. 6–8 year duration. Application in tandem with an established scientist at a Viennese research institution.",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2027-03-02",
+      "source": "ResearchRadar.at",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-07-22",
+      "eligibleResidenceCountries": [
+        "Austria"
       ],
       "sourceConnector": "ResearchRadar.at"
     },
