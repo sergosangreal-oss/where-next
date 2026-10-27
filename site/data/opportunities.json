@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T04:57:52+00:00",
+  "updatedAt": "2026-10-27T12:04:55+00:00",
   "listingCount": 416,
   "sources": [
     {
@@ -7,28 +7,28 @@
       "url": "https://techopportunities.eu/api/v1/opportunities",
       "ok": true,
       "count": 400,
-      "checkedAt": "2026-10-27T04:57:52+00:00"
+      "checkedAt": "2026-10-27T12:04:55+00:00"
     },
     {
       "name": "Opportunity Desk",
       "url": "https://opportunitydesk.org/feed/",
       "ok": true,
       "count": 2,
-      "checkedAt": "2026-10-27T04:57:52+00:00"
+      "checkedAt": "2026-10-27T12:04:55+00:00"
     },
     {
       "name": "ScholarshipHunter",
       "url": "https://scholarshiphunter.app/feed.xml",
       "ok": true,
       "count": 0,
-      "checkedAt": "2026-10-27T04:57:52+00:00"
+      "checkedAt": "2026-10-27T12:04:55+00:00"
     },
     {
       "name": "Grants.gov RSS",
       "url": "https://www.grants.gov/rss/GG_NewOppByCategory.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-10-27T04:57:52+00:00",
+      "checkedAt": "2026-10-27T12:04:55+00:00",
       "error": "ParseError"
     },
     {
@@ -36,14 +36,14 @@
       "url": "https://api.grants.gov/v1/api/search2",
       "ok": true,
       "count": 1,
-      "checkedAt": "2026-10-27T04:57:52+00:00"
+      "checkedAt": "2026-10-27T12:04:55+00:00"
     },
     {
       "name": "ResearchRadar.at",
       "url": "https://researchradar.at/api/v1/grants",
       "ok": true,
       "count": 13,
-      "checkedAt": "2026-10-27T04:57:52+00:00"
+      "checkedAt": "2026-10-27T12:04:55+00:00"
     }
   ],
   "opportunities": [
