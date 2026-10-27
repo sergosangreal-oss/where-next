@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-10-27T17:57:09+00:00",
-  "listingCount": 416,
+  "updatedAt": "2026-10-27T22:09:08+00:00",
+  "listingCount": 417,
   "sources": [
     {
       "name": "European Tech Opportunities",
       "url": "https://techopportunities.eu/api/v1/opportunities",
       "ok": true,
       "count": 400,
-      "checkedAt": "2026-10-27T17:57:09+00:00"
+      "checkedAt": "2026-10-27T22:09:08+00:00"
     },
     {
       "name": "Opportunity Desk",
       "url": "https://opportunitydesk.org/feed/",
       "ok": true,
-      "count": 2,
-      "checkedAt": "2026-10-27T17:57:09+00:00"
+      "count": 3,
+      "checkedAt": "2026-10-27T22:09:08+00:00"
     },
     {
       "name": "ScholarshipHunter",
       "url": "https://scholarshiphunter.app/feed.xml",
       "ok": true,
       "count": 0,
-      "checkedAt": "2026-10-27T17:57:09+00:00"
+      "checkedAt": "2026-10-27T22:09:08+00:00"
     },
     {
       "name": "Grants.gov RSS",
       "url": "https://www.grants.gov/rss/GG_NewOppByCategory.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-10-27T17:57:09+00:00",
+      "checkedAt": "2026-10-27T22:09:08+00:00",
       "error": "ParseError"
     },
     {
@@ -36,17 +36,35 @@
       "url": "https://api.grants.gov/v1/api/search2",
       "ok": true,
       "count": 1,
-      "checkedAt": "2026-10-27T17:57:09+00:00"
+      "checkedAt": "2026-10-27T22:09:08+00:00"
     },
     {
       "name": "ResearchRadar.at",
       "url": "https://researchradar.at/api/v1/grants",
       "ok": true,
       "count": 13,
-      "checkedAt": "2026-10-27T17:57:09+00:00"
+      "checkedAt": "2026-10-27T22:09:08+00:00"
     }
   ],
   "opportunities": [
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/10/27/idrc-john-g-bene-fellowship-2026/",
+      "title": "IDRC John G. Bene Fellowship 2026 (up to $30,000 CAD)",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/10/27/idrc-john-g-bene-fellowship-2026/",
+      "summary": "Deadline: November 30, 2026 Applications are open for the IDRC John G. Bene Fellowship 2026. The Bene fellowship, a bequest from the estate of John G. Bene, is offered to Canadians and permanent residents of Canada pursuing master’s or doctoral studies at a Canadian university. Candidates should have an academic background that combines an interest [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2026-11-30",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-10-27T18:20:03+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
     {
       "id": "opportunity desk:https://opportunitydesk.org/2026/10/27/iwa-grundfos-youth-action-for-sdg-6-fellowship-2027-2028/",
       "title": "IWA & Grundfos “Youth Action for SDG 6” Fellowship 2027-2028",
