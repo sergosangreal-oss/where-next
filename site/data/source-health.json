@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-10-26T13:01:48+00:00",
+  "checkedAt": "2026-10-27T12:11:04+00:00",
   "total": 51,
-  "reachable": 43,
+  "reachable": 42,
   "sources": {
     "https://youth.europa.eu/go-abroad_en": {
       "ok": true,
@@ -69,9 +69,9 @@
       "url": "https://foreign.fulbrightonline.org/"
     },
     "https://educationusa.state.gov/your-5-steps-us-study/finance-your-studies": {
-      "ok": true,
-      "status": 200,
-      "url": "https://educationusa.state.gov/your-5-steps-us-study/finance-your-studies"
+      "ok": false,
+      "status": 503,
+      "error": "HTTP error"
     },
     "https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-government-excellence-scholarships.html": {
       "ok": true,
@@ -110,8 +110,8 @@
     },
     "https://www.campuschina.org/": {
       "ok": false,
-      "status": 412,
-      "error": "HTTP error"
+      "status": null,
+      "error": "URLError"
     },
     "https://english.moe.gov.tw/": {
       "ok": true,
