@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-10-28T05:33:45+00:00",
-  "listingCount": 417,
+  "updatedAt": "2026-10-28T12:45:24+00:00",
+  "listingCount": 421,
   "sources": [
     {
       "name": "European Tech Opportunities",
       "url": "https://techopportunities.eu/api/v1/opportunities",
       "ok": true,
       "count": 400,
-      "checkedAt": "2026-10-28T05:33:45+00:00"
+      "checkedAt": "2026-10-28T12:45:24+00:00"
     },
     {
       "name": "Opportunity Desk",
       "url": "https://opportunitydesk.org/feed/",
       "ok": true,
-      "count": 3,
-      "checkedAt": "2026-10-28T05:33:45+00:00"
+      "count": 7,
+      "checkedAt": "2026-10-28T12:45:24+00:00"
     },
     {
       "name": "ScholarshipHunter",
       "url": "https://scholarshiphunter.app/feed.xml",
       "ok": true,
       "count": 0,
-      "checkedAt": "2026-10-28T05:33:45+00:00"
+      "checkedAt": "2026-10-28T12:45:24+00:00"
     },
     {
       "name": "Grants.gov RSS",
       "url": "https://www.grants.gov/rss/GG_NewOppByCategory.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-10-28T05:33:45+00:00",
+      "checkedAt": "2026-10-28T12:45:24+00:00",
       "error": "ParseError"
     },
     {
@@ -36,17 +36,107 @@
       "url": "https://api.grants.gov/v1/api/search2",
       "ok": true,
       "count": 1,
-      "checkedAt": "2026-10-28T05:33:45+00:00"
+      "checkedAt": "2026-10-28T12:45:24+00:00"
     },
     {
       "name": "ResearchRadar.at",
       "url": "https://researchradar.at/api/v1/grants",
       "ok": true,
       "count": 13,
-      "checkedAt": "2026-10-28T05:33:45+00:00"
+      "checkedAt": "2026-10-28T12:45:24+00:00"
     }
   ],
   "opportunities": [
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/10/28/ceb-internship-2027/",
+      "title": "Council of Europe Development Bank (CEB) Internship 2027",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/10/28/ceb-internship-2027/",
+      "summary": "Deadline: November 11, 2026 Applications are open for the Council of Europe Development Bank (CEB) Internship 2027. The TAM Directorate of the Council of Europe Development Bank (CEB) is looking for an intern for its ESS Unit within its Technical Advisors (TA) Division. The incumbent will report to the Head of Unit and work in [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2026-11-11",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-10-28T08:40:02+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/10/28/smart-scholarship-for-service-program-2027-2028/",
+      "title": "Science, Mathematics, and Research for Transformation (SMART) Scholarship-for-Service Program 2027/2028",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/10/28/smart-scholarship-for-service-program-2027-2028/",
+      "summary": "Deadline: December 4, 2026 Applications are open for the Science, Mathematics, and Research for Transformation (SMART) Scholarship-for-Service Program 2027/2028. The Science, Mathematics, and Research for Transformation (SMART) Scholarship-for-Service Program awards science, technology, engineering, and mathematics (STEM) scholarships to hundreds of incoming college freshmen, current college students, and current U.S. Department of War (DoW) civilian employees [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2026-12-04",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-10-28T08:21:00+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/10/28/ahrc-doctoral-landscape-awards-at-birmingham-city-university-2027/",
+      "title": "AHRC Doctoral Landscape Scholarship Awards at Birmingham City University 2027",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/10/28/ahrc-doctoral-landscape-awards-at-birmingham-city-university-2027/",
+      "summary": "Deadline: November 16, 2026 Applications are open for the AHRC Doctoral Landscape Awards at Birmingham City University 2027. The AHRC Doctoral Landscape Award is a major new funding scheme from the Arts and Humanities Research Council (AHRC). Its aim is to grow the UK’s capacity for doctoral research in the arts and humanities and to [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2026-11-16",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-10-28T07:43:41+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/10/28/ai4hr-peer-learning-programme-2027/",
+      "title": "AI for Human Rights (AI4HR) Peer-learning Programme for Youth-focused Organisations 2027",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/10/28/ai4hr-peer-learning-programme-2027/",
+      "summary": "Deadline: November 4, 2026 Applications are open for the AI for Human Rights (AI4HR) Peer-learning Programme for Youth-focused Organisations 2027. Each participating youth organisation will be matched with an AI expert NGO that over six months will share its experience, offer practical guidance and help you work out how AI could support your priorities. You [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2026-11-04",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-10-28T07:32:42+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/10/28/cdc-steven-m-teutsch-prevention-effectiveness-fellowship-2027/",
+      "title": "CDC Steven M. Teutsch Prevention Effectiveness (PE) Fellowship 2027 (Paid)",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/10/28/cdc-steven-m-teutsch-prevention-effectiveness-fellowship-2027/",
+      "summary": "Deadline: January 8, 2027 Applications are open for the CDC Steven M. Teutsch Prevention Effectiveness (PE) Fellowship 2027. CDC’s Steven M. Teutsch Prevention Effectiveness (PE) Fellowship is a two-year, post-doctoral, applied training fellowship. It addresses public health demand for quantitative policy analysis, health economics-based inquiry, integrative health services research, and rigorous decision modeling. The Traditional [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2027-01-08",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-10-28T07:17:00+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
     {
       "id": "opportunity desk:https://opportunitydesk.org/2026/10/27/idrc-john-g-bene-fellowship-2026/",
       "title": "IDRC John G. Bene Fellowship 2026 (up to $30,000 CAD)",
@@ -81,24 +171,6 @@
       "source": "Opportunity Desk",
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-10-27T14:03:15+00:00",
-      "sourceConnector": "Opportunity Desk"
-    },
-    {
-      "id": "opportunity desk:https://opportunitydesk.org/2026/10/27/dpoa-mtr-journalism-fellowship-2027/",
-      "title": "United Nations DPoA MTR Journalism Fellowship 2027 (Fully-funded)",
-      "type": "Opportunity",
-      "organizer": "Opportunity Desk listing",
-      "url": "https://opportunitydesk.org/2026/10/27/dpoa-mtr-journalism-fellowship-2027/",
-      "summary": "Deadline: November 30, 2026 Applications are open for the United Nations DPoA MTR Journalism Fellowship 2027. This is a fully funded opportunity for journalists from Least Developed Countries to attend and cover the 2027 Midterm Review of the Doha Programme of Action (DPoA MTR) in Doha, Qatar. The DPoA is the overarching framework for accelerating [...]",
-      "location": null,
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": "2026-11-30",
-      "source": "Opportunity Desk",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-10-27T12:55:43+00:00",
       "sourceConnector": "Opportunity Desk"
     },
     {
