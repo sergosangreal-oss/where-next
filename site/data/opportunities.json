@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T12:54:55+00:00",
+  "updatedAt": "2026-10-29T22:42:14+00:00",
   "listingCount": 420,
   "sources": [
     {
@@ -7,28 +7,28 @@
       "url": "https://techopportunities.eu/api/v1/opportunities",
       "ok": true,
       "count": 400,
-      "checkedAt": "2026-10-29T12:54:55+00:00"
+      "checkedAt": "2026-10-29T22:42:14+00:00"
     },
     {
       "name": "Opportunity Desk",
       "url": "https://opportunitydesk.org/feed/",
       "ok": true,
       "count": 6,
-      "checkedAt": "2026-10-29T12:54:55+00:00"
+      "checkedAt": "2026-10-29T22:42:14+00:00"
     },
     {
       "name": "ScholarshipHunter",
       "url": "https://scholarshiphunter.app/feed.xml",
       "ok": true,
       "count": 0,
-      "checkedAt": "2026-10-29T12:54:55+00:00"
+      "checkedAt": "2026-10-29T22:42:14+00:00"
     },
     {
       "name": "Grants.gov RSS",
       "url": "https://www.grants.gov/rss/GG_NewOppByCategory.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-10-29T12:54:55+00:00",
+      "checkedAt": "2026-10-29T22:42:14+00:00",
       "error": "ParseError"
     },
     {
@@ -36,17 +36,35 @@
       "url": "https://api.grants.gov/v1/api/search2",
       "ok": true,
       "count": 1,
-      "checkedAt": "2026-10-29T12:54:55+00:00"
+      "checkedAt": "2026-10-29T22:42:14+00:00"
     },
     {
       "name": "ResearchRadar.at",
       "url": "https://researchradar.at/api/v1/grants",
       "ok": true,
       "count": 13,
-      "checkedAt": "2026-10-29T12:54:55+00:00"
+      "checkedAt": "2026-10-29T22:42:14+00:00"
     }
   ],
   "opportunities": [
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/10/29/green-global-fellowship-2027/",
+      "title": "Green Global Fellowship 2027 for Emerging Leaders",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/10/29/green-global-fellowship-2027/",
+      "summary": "Deadline: January 7, 2027 Applications are invited for the Green Global Fellowship 2027. The Green Fellows Programme invites applications from emerging leaders committed to advancing sustainability through education, advocacy, and community action. The February 2027 cohort seeks changemakers from around the world who are ready to translate knowledge into meaningful, measurable impact. This is an [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2027-01-07",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-10-29T13:25:17+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
     {
       "id": "opportunity desk:https://opportunitydesk.org/2026/10/29/youth4climate-services-innovation-hackathon-2026/",
       "title": "Youth4Climate Services Innovation Hackathon 2026",
@@ -135,24 +153,6 @@
       "source": "Opportunity Desk",
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-10-29T09:08:03+00:00",
-      "sourceConnector": "Opportunity Desk"
-    },
-    {
-      "id": "opportunity desk:https://opportunitydesk.org/2026/10/28/ceb-internship-2027/",
-      "title": "Council of Europe Development Bank (CEB) Internship 2027",
-      "type": "Opportunity",
-      "organizer": "Opportunity Desk listing",
-      "url": "https://opportunitydesk.org/2026/10/28/ceb-internship-2027/",
-      "summary": "Deadline: November 11, 2026 Applications are open for the Council of Europe Development Bank (CEB) Internship 2027. The TAM Directorate of the Council of Europe Development Bank (CEB) is looking for an intern for its ESS Unit within its Technical Advisors (TA) Division. The incumbent will report to the Head of Unit and work in [...]",
-      "location": null,
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": "2026-11-11",
-      "source": "Opportunity Desk",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-10-28T08:40:02+00:00",
       "sourceConnector": "Opportunity Desk"
     },
     {
@@ -5322,24 +5322,6 @@
       "sourceConnector": "European Tech Opportunities"
     },
     {
-      "id": "eto:4467392676",
-      "title": "Young Graduate - Java developer",
-      "type": "Graduate role",
-      "organizer": "Cegeka",
-      "url": "https://www.linkedin.com/jobs/view/4467392676",
-      "summary": "Flemish Region, Belgium · new-grad",
-      "location": "Flemish Region, Belgium",
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": null,
-      "source": "European Tech Opportunities",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-09-21T14:18:01.197502+00:00",
-      "sourceConnector": "European Tech Opportunities"
-    },
-    {
       "id": "eto:4468457612",
       "title": "Graduate software engineer",
       "type": "Graduate role",
@@ -5419,24 +5401,6 @@
       "url": "https://www.linkedin.com/jobs/view/4468461532",
       "summary": "Turin, Piedmont, Italy · new-grad",
       "location": "Turin, Piedmont, Italy",
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": null,
-      "source": "European Tech Opportunities",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-09-21T10:08:50.838329+00:00",
-      "sourceConnector": "European Tech Opportunities"
-    },
-    {
-      "id": "eto:4468461531",
-      "title": "Graduate software engineer",
-      "type": "Graduate role",
-      "organizer": "Bending Spoons",
-      "url": "https://www.linkedin.com/jobs/view/4468461531",
-      "summary": "Bucharest, Bucharest, Romania · new-grad",
-      "location": "Bucharest, Bucharest, Romania",
       "minAge": null,
       "maxAge": null,
       "eligibleCountries": [],
@@ -6078,6 +6042,24 @@
       "sourceConnector": "European Tech Opportunities"
     },
     {
+      "id": "eto:4466176659",
+      "title": "Graduate software engineer",
+      "type": "Graduate role",
+      "organizer": "Bending Spoons",
+      "url": "https://www.linkedin.com/jobs/view/4466176659",
+      "summary": "Milan, Lombardy, Italy · new-grad",
+      "location": "Milan, Lombardy, Italy",
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": null,
+      "source": "European Tech Opportunities",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-09-15T06:49:56.631094+00:00",
+      "sourceConnector": "European Tech Opportunities"
+    },
+    {
       "id": "eto:4465203923",
       "title": "Software Tester - Intern",
       "type": "Internship",
@@ -6111,6 +6093,24 @@
       "source": "European Tech Opportunities",
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-09-14T12:44:28.217776+00:00",
+      "sourceConnector": "European Tech Opportunities"
+    },
+    {
+      "id": "eto:4465771218",
+      "title": "Graduate Hardware Engineer",
+      "type": "Graduate role",
+      "organizer": "Arm",
+      "url": "https://www.linkedin.com/jobs/view/4465771218",
+      "summary": "Trondheim, Trøndelag, Norway · new-grad",
+      "location": "Trondheim, Trøndelag, Norway",
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": null,
+      "source": "European Tech Opportunities",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-09-14T12:32:09.299320+00:00",
       "sourceConnector": "European Tech Opportunities"
     },
     {
