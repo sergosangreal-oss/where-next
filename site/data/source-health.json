@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-10-28T12:54:40+00:00",
+  "checkedAt": "2026-10-29T13:00:02+00:00",
   "total": 51,
-  "reachable": 43,
+  "reachable": 42,
   "sources": {
     "https://youth.europa.eu/go-abroad_en": {
       "ok": true,
@@ -39,9 +39,9 @@
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-search"
     },
     "https://www.daad.de/en/study-and-research-in-germany/scholarships/": {
-      "ok": true,
-      "status": 200,
-      "url": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/"
+      "ok": false,
+      "status": 403,
+      "error": "HTTPError"
     },
     "https://campusbourses.campusfrance.org/": {
       "ok": true,
@@ -69,9 +69,9 @@
       "url": "https://foreign.fulbrightonline.org/"
     },
     "https://educationusa.state.gov/your-5-steps-us-study/finance-your-studies": {
-      "ok": false,
-      "status": 503,
-      "error": "HTTP error"
+      "ok": true,
+      "status": 200,
+      "url": "https://educationusa.state.gov/your-5-steps-us-study/finance-your-studies"
     },
     "https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-government-excellence-scholarships.html": {
       "ok": true,
@@ -110,8 +110,8 @@
     },
     "https://www.campuschina.org/": {
       "ok": false,
-      "status": 412,
-      "error": "HTTP error"
+      "status": null,
+      "error": "URLError"
     },
     "https://english.moe.gov.tw/": {
       "ok": true,
@@ -124,9 +124,9 @@
       "url": "https://www.icdf.org.tw/wSite/np?ctNode=31561&mp=2"
     },
     "https://a2ascholarships.iccr.gov.in/": {
-      "ok": true,
-      "status": 200,
-      "url": "https://a2ascholarships.iccr.gov.in/"
+      "ok": false,
+      "status": 500,
+      "error": "HTTP error"
     },
     "https://studyinindia.gov.in/": {
       "ok": true,
