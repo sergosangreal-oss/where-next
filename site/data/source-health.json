@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-10-29T13:00:02+00:00",
+  "checkedAt": "2026-10-30T12:55:05+00:00",
   "total": 51,
-  "reachable": 42,
+  "reachable": 41,
   "sources": {
     "https://youth.europa.eu/go-abroad_en": {
       "ok": true,
@@ -69,9 +69,9 @@
       "url": "https://foreign.fulbrightonline.org/"
     },
     "https://educationusa.state.gov/your-5-steps-us-study/finance-your-studies": {
-      "ok": true,
-      "status": 200,
-      "url": "https://educationusa.state.gov/your-5-steps-us-study/finance-your-studies"
+      "ok": false,
+      "status": 503,
+      "error": "HTTP error"
     },
     "https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-government-excellence-scholarships.html": {
       "ok": true,
@@ -110,8 +110,8 @@
     },
     "https://www.campuschina.org/": {
       "ok": false,
-      "status": null,
-      "error": "URLError"
+      "status": 412,
+      "error": "HTTP error"
     },
     "https://english.moe.gov.tw/": {
       "ok": true,
@@ -124,14 +124,14 @@
       "url": "https://www.icdf.org.tw/wSite/np?ctNode=31561&mp=2"
     },
     "https://a2ascholarships.iccr.gov.in/": {
-      "ok": false,
-      "status": 500,
-      "error": "HTTP error"
-    },
-    "https://studyinindia.gov.in/": {
       "ok": true,
       "status": 200,
-      "url": "https://studyinindia.gov.in/"
+      "url": "https://a2ascholarships.iccr.gov.in/"
+    },
+    "https://studyinindia.gov.in/": {
+      "ok": false,
+      "status": null,
+      "error": "URLError"
     },
     "https://www.dfat.gov.au/people-to-people/australia-awards": {
       "ok": false,
