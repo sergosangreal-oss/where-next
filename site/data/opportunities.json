@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-10-31T12:18:29+00:00",
-  "listingCount": 419,
+  "updatedAt": "2026-10-31T21:29:11+00:00",
+  "listingCount": 421,
   "sources": [
     {
       "name": "European Tech Opportunities",
       "url": "https://techopportunities.eu/api/v1/opportunities",
       "ok": true,
       "count": 400,
-      "checkedAt": "2026-10-31T12:18:29+00:00"
+      "checkedAt": "2026-10-31T21:29:11+00:00"
     },
     {
       "name": "Opportunity Desk",
       "url": "https://opportunitydesk.org/feed/",
       "ok": true,
-      "count": 5,
-      "checkedAt": "2026-10-31T12:18:29+00:00"
+      "count": 7,
+      "checkedAt": "2026-10-31T21:29:11+00:00"
     },
     {
       "name": "ScholarshipHunter",
       "url": "https://scholarshiphunter.app/feed.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-10-31T12:18:29+00:00",
+      "checkedAt": "2026-10-31T21:29:11+00:00",
       "error": "HTTPError"
     },
     {
@@ -29,7 +29,7 @@
       "url": "https://www.grants.gov/rss/GG_NewOppByCategory.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-10-31T12:18:29+00:00",
+      "checkedAt": "2026-10-31T21:29:11+00:00",
       "error": "ParseError"
     },
     {
@@ -37,17 +37,71 @@
       "url": "https://api.grants.gov/v1/api/search2",
       "ok": true,
       "count": 1,
-      "checkedAt": "2026-10-31T12:18:29+00:00"
+      "checkedAt": "2026-10-31T21:29:11+00:00"
     },
     {
       "name": "ResearchRadar.at",
       "url": "https://researchradar.at/api/v1/grants",
       "ok": true,
       "count": 13,
-      "checkedAt": "2026-10-31T12:18:29+00:00"
+      "checkedAt": "2026-10-31T21:29:11+00:00"
     }
   ],
   "opportunities": [
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/10/31/mastercard-foundation-scholars-program-at-sciences-po-2027/",
+      "title": "Mastercard Foundation Scholars Program at Sciences Po 2027 (Fully-funded)",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/10/31/mastercard-foundation-scholars-program-at-sciences-po-2027/",
+      "summary": "Deadline: December 14, 2026 Applications are open for the Mastercard Foundation Scholars Program at Sciences Po 2027. The Mastercard Foundation Scholars Program at Sciences Po is designed for students from the African continent who wish to pursue a two-year Master’s degree at Sciences Po. Across its various Master’s programmes, each Graduate School offers students a [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2026-12-14",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-10-31T14:24:45+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/10/31/mit-summer-research-program-2027/",
+      "title": "MIT Summer Research Program (MSRP) 2027 (stipend available)",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/10/31/mit-summer-research-program-2027/",
+      "summary": "Deadline: January 19, 2027 Applications are open for the MIT Summer Research Program (MSRP) 2027. The MIT Summer Research Program (MSRP) is a competitive summer initiative designed to promote the value of graduate education, broaden participation in the research enterprise, and prepare and recruit exceptional undergraduate students for graduate study at MIT and beyond. Launched [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2027-01-19",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-10-31T12:56:57+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/10/31/mastercard-foundation-scholars-program-at-auc-2027/",
+      "title": "Mastercard Foundation Scholars Program at American University of Cairo (AUC) Spring 2027",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/10/31/mastercard-foundation-scholars-program-at-auc-2027/",
+      "summary": "Deadline: November 2, 2026 Applications for the Mastercard Foundation Scholars Program at American University of Cairo (AUC) 2027 are now open. The Mastercard Foundation Scholars Program at American University of Cairo (AUC) provides full scholarships and comprehensive support to talented young people from across Africa, enabling them to pursue higher education while developing their leadership [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2026-11-02",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-10-31T12:38:12+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
     {
       "id": "eto:4484897692",
       "title": "Graduate software engineer",
@@ -461,24 +515,6 @@
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-10-29T22:09:27.176779+00:00",
       "sourceConnector": "European Tech Opportunities"
-    },
-    {
-      "id": "opportunity desk:https://opportunitydesk.org/2026/10/29/green-global-fellowship-2027/",
-      "title": "Green Global Fellowship 2027 for Emerging Leaders",
-      "type": "Opportunity",
-      "organizer": "Opportunity Desk listing",
-      "url": "https://opportunitydesk.org/2026/10/29/green-global-fellowship-2027/",
-      "summary": "Deadline: January 7, 2027 Applications are invited for the Green Global Fellowship 2027. The Green Fellows Programme invites applications from emerging leaders committed to advancing sustainability through education, advocacy, and community action. The February 2027 cohort seeks changemakers from around the world who are ready to translate knowledge into meaningful, measurable impact. This is an [...]",
-      "location": null,
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": "2027-01-07",
-      "source": "Opportunity Desk",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-10-29T13:25:17+00:00",
-      "sourceConnector": "Opportunity Desk"
     },
     {
       "id": "eto:4483876431",
