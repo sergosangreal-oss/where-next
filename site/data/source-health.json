@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-10-30T12:55:05+00:00",
+  "checkedAt": "2026-10-31T12:28:42+00:00",
   "total": 51,
-  "reachable": 41,
+  "reachable": 43,
   "sources": {
     "https://youth.europa.eu/go-abroad_en": {
       "ok": true,
@@ -39,9 +39,9 @@
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-search"
     },
     "https://www.daad.de/en/study-and-research-in-germany/scholarships/": {
-      "ok": false,
-      "status": 403,
-      "error": "HTTPError"
+      "ok": true,
+      "status": 200,
+      "url": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/"
     },
     "https://campusbourses.campusfrance.org/": {
       "ok": true,
@@ -129,9 +129,9 @@
       "url": "https://a2ascholarships.iccr.gov.in/"
     },
     "https://studyinindia.gov.in/": {
-      "ok": false,
-      "status": null,
-      "error": "URLError"
+      "ok": true,
+      "status": 200,
+      "url": "https://studyinindia.gov.in/"
     },
     "https://www.dfat.gov.au/people-to-people/australia-awards": {
       "ok": false,
