@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-10-31T21:29:11+00:00",
-  "listingCount": 421,
+  "updatedAt": "2026-11-01T05:56:07+00:00",
+  "listingCount": 420,
   "sources": [
     {
       "name": "European Tech Opportunities",
       "url": "https://techopportunities.eu/api/v1/opportunities",
       "ok": true,
       "count": 400,
-      "checkedAt": "2026-10-31T21:29:11+00:00"
+      "checkedAt": "2026-11-01T05:56:07+00:00"
     },
     {
       "name": "Opportunity Desk",
       "url": "https://opportunitydesk.org/feed/",
       "ok": true,
-      "count": 7,
-      "checkedAt": "2026-10-31T21:29:11+00:00"
+      "count": 6,
+      "checkedAt": "2026-11-01T05:56:07+00:00"
     },
     {
       "name": "ScholarshipHunter",
       "url": "https://scholarshiphunter.app/feed.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-10-31T21:29:11+00:00",
+      "checkedAt": "2026-11-01T05:56:07+00:00",
       "error": "HTTPError"
     },
     {
@@ -29,7 +29,7 @@
       "url": "https://www.grants.gov/rss/GG_NewOppByCategory.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-10-31T21:29:11+00:00",
+      "checkedAt": "2026-11-01T05:56:07+00:00",
       "error": "ParseError"
     },
     {
@@ -37,14 +37,14 @@
       "url": "https://api.grants.gov/v1/api/search2",
       "ok": true,
       "count": 1,
-      "checkedAt": "2026-10-31T21:29:11+00:00"
+      "checkedAt": "2026-11-01T05:56:07+00:00"
     },
     {
       "name": "ResearchRadar.at",
       "url": "https://researchradar.at/api/v1/grants",
       "ok": true,
       "count": 13,
-      "checkedAt": "2026-10-31T21:29:11+00:00"
+      "checkedAt": "2026-11-01T05:56:07+00:00"
     }
   ],
   "opportunities": [
@@ -370,24 +370,6 @@
       "source": "Opportunity Desk",
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-10-30T13:03:30+00:00",
-      "sourceConnector": "Opportunity Desk"
-    },
-    {
-      "id": "opportunity desk:https://opportunitydesk.org/2026/10/30/morgan-stanley-sustainable-finance-fellowship-program-2027/",
-      "title": "Morgan Stanley Sustainable Finance Fellowship Program 2027 (Paid)",
-      "type": "Opportunity",
-      "organizer": "Opportunity Desk listing",
-      "url": "https://opportunitydesk.org/2026/10/30/morgan-stanley-sustainable-finance-fellowship-program-2027/",
-      "summary": "Deadline: November 13, 2026 Applications are invited for the Morgan Stanley Sustainable Finance Fellowship Program 2027. The Sustainable Finance Summer Fellowship provides a unique opportunity to work with Morgan Stanley teams that seek to drive capital toward investments that promote sustainable economic growth and scalable solutions to global challenges. With support from across the Global [...]",
-      "location": null,
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": "2026-11-13",
-      "source": "Opportunity Desk",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-10-30T12:50:05+00:00",
       "sourceConnector": "Opportunity Desk"
     },
     {
