@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T21:58:30+00:00",
+  "updatedAt": "2026-11-02T05:55:41+00:00",
   "listingCount": 420,
   "sources": [
     {
@@ -7,21 +7,21 @@
       "url": "https://techopportunities.eu/api/v1/opportunities",
       "ok": true,
       "count": 400,
-      "checkedAt": "2026-11-01T21:58:30+00:00"
+      "checkedAt": "2026-11-02T05:55:41+00:00"
     },
     {
       "name": "Opportunity Desk",
       "url": "https://opportunitydesk.org/feed/",
       "ok": true,
       "count": 6,
-      "checkedAt": "2026-11-01T21:58:30+00:00"
+      "checkedAt": "2026-11-02T05:55:41+00:00"
     },
     {
       "name": "ScholarshipHunter",
       "url": "https://scholarshiphunter.app/feed.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-01T21:58:30+00:00",
+      "checkedAt": "2026-11-02T05:55:41+00:00",
       "error": "HTTPError"
     },
     {
@@ -29,7 +29,7 @@
       "url": "https://www.grants.gov/rss/GG_NewOppByCategory.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-01T21:58:30+00:00",
+      "checkedAt": "2026-11-02T05:55:41+00:00",
       "error": "ParseError"
     },
     {
@@ -37,14 +37,14 @@
       "url": "https://api.grants.gov/v1/api/search2",
       "ok": true,
       "count": 1,
-      "checkedAt": "2026-11-01T21:58:30+00:00"
+      "checkedAt": "2026-11-02T05:55:41+00:00"
     },
     {
       "name": "ResearchRadar.at",
       "url": "https://researchradar.at/api/v1/grants",
       "ok": true,
       "count": 13,
-      "checkedAt": "2026-11-01T21:58:30+00:00"
+      "checkedAt": "2026-11-02T05:55:41+00:00"
     }
   ],
   "opportunities": [
@@ -5863,24 +5863,6 @@
       "sourceConnector": "European Tech Opportunities"
     },
     {
-      "id": "eto:4469032679",
-      "title": "Junior (Post-Graduate) Software Engineer",
-      "type": "Graduate role",
-      "organizer": "Balyasny Asset Management L.P.",
-      "url": "https://www.linkedin.com/jobs/view/4469032679",
-      "summary": "Warsaw, Mazowieckie, Poland · new-grad",
-      "location": "Warsaw, Mazowieckie, Poland",
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": null,
-      "source": "European Tech Opportunities",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-09-22T18:25:56.056861+00:00",
-      "sourceConnector": "European Tech Opportunities"
-    },
-    {
       "id": "eto:4457483743",
       "title": "FY27 IT Cloud Engineering Intern - Cork 8 months",
       "type": "Internship",
@@ -5950,24 +5932,6 @@
       "source": "European Tech Opportunities",
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-09-22T11:15:25.484140+00:00",
-      "sourceConnector": "European Tech Opportunities"
-    },
-    {
-      "id": "eto:4457950045",
-      "title": "Cybersecurity Operations Intern",
-      "type": "Internship",
-      "organizer": "EY",
-      "url": "https://www.linkedin.com/jobs/view/4457950045",
-      "summary": "Warsaw, Mazowieckie, Poland · internship",
-      "location": "Warsaw, Mazowieckie, Poland",
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": null,
-      "source": "European Tech Opportunities",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-09-22T11:06:24.749772+00:00",
       "sourceConnector": "European Tech Opportunities"
     },
     {
@@ -6346,6 +6310,24 @@
       "source": "European Tech Opportunities",
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-09-18T00:15:14.556146+00:00",
+      "sourceConnector": "European Tech Opportunities"
+    },
+    {
+      "id": "eto:4468844053",
+      "title": "Software Engineer, Webex - Graduate - Poland",
+      "type": "Graduate role",
+      "organizer": "Cisco",
+      "url": "https://www.linkedin.com/jobs/view/4468844053",
+      "summary": "Cracow, Małopolskie, Poland · new-grad",
+      "location": "Cracow, Małopolskie, Poland",
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": null,
+      "source": "European Tech Opportunities",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-09-17T22:51:55.078559+00:00",
       "sourceConnector": "European Tech Opportunities"
     },
     {
@@ -7354,6 +7336,24 @@
       "source": "European Tech Opportunities",
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-09-01T08:43:36.654502+00:00",
+      "sourceConnector": "European Tech Opportunities"
+    },
+    {
+      "id": "eto:4461547388",
+      "title": "Software Engineer, Intern (Summer or Winter)",
+      "type": "Internship",
+      "organizer": "Stripe",
+      "url": "https://www.linkedin.com/jobs/view/4461547388",
+      "summary": "Dublin, County Dublin, Ireland · internship",
+      "location": "Dublin, County Dublin, Ireland",
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": null,
+      "source": "European Tech Opportunities",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-09-01T08:41:35.252762+00:00",
       "sourceConnector": "European Tech Opportunities"
     },
     {
