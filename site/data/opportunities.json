@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T00:55:45+00:00",
+  "updatedAt": "2026-11-03T14:04:43+00:00",
   "listingCount": 417,
   "sources": [
     {
@@ -7,21 +7,21 @@
       "url": "https://techopportunities.eu/api/v1/opportunities",
       "ok": true,
       "count": 400,
-      "checkedAt": "2026-11-03T00:55:45+00:00"
+      "checkedAt": "2026-11-03T14:04:43+00:00"
     },
     {
       "name": "Opportunity Desk",
       "url": "https://opportunitydesk.org/feed/",
       "ok": true,
       "count": 3,
-      "checkedAt": "2026-11-03T00:55:45+00:00"
+      "checkedAt": "2026-11-03T14:04:43+00:00"
     },
     {
       "name": "ScholarshipHunter",
       "url": "https://scholarshiphunter.app/feed.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-03T00:55:45+00:00",
+      "checkedAt": "2026-11-03T14:04:43+00:00",
       "error": "HTTPError"
     },
     {
@@ -29,7 +29,7 @@
       "url": "https://www.grants.gov/rss/GG_NewOppByCategory.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-03T00:55:45+00:00",
+      "checkedAt": "2026-11-03T14:04:43+00:00",
       "error": "ParseError"
     },
     {
@@ -37,17 +37,53 @@
       "url": "https://api.grants.gov/v1/api/search2",
       "ok": true,
       "count": 1,
-      "checkedAt": "2026-11-03T00:55:45+00:00"
+      "checkedAt": "2026-11-03T14:04:43+00:00"
     },
     {
       "name": "ResearchRadar.at",
       "url": "https://researchradar.at/api/v1/grants",
       "ok": true,
       "count": 13,
-      "checkedAt": "2026-11-03T00:55:45+00:00"
+      "checkedAt": "2026-11-03T14:04:43+00:00"
     }
   ],
   "opportunities": [
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/03/harvard-pollman-fellowship-in-real-estate-and-urban-development-2027/",
+      "title": "Harvard Pollman Fellowship in Real Estate and Urban Development 2027 (up to $55,000)",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/03/harvard-pollman-fellowship-in-real-estate-and-urban-development-2027/",
+      "summary": "Deadline: February 18, 2027 Applications are open for the Harvard Pollman Fellowship in Real Estate and Urban Development 2027. Established in 2002 through the generous gift of Harold A. Pollman, the Pollman Fellowship in Real Estate and Urban Development is awarded to outstanding postdoctoral graduates in real estate and urban planning to spend one year [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2027-02-18",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-03T06:18:00+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/03/mastercard-foundation-edtech-fellowship-uganda-cohort-2/",
+      "title": "Mastercard Foundation EdTech Fellowship Uganda Cohort 2",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/03/mastercard-foundation-edtech-fellowship-uganda-cohort-2/",
+      "summary": "Deadline: November 26, 2026 Applications are open for the Mastercard Foundation EdTech Fellowship Uganda Cohort 2. The Mastercard Foundation EdTech Fellowship, Uganda, implemented by Hive Colab in partnership with the Mastercard Foundation, supports high-impact, growth-stage EdTech ventures to build sustainable and scalable education enterprises. The Fellowship strengthens ventures’ business models, improves the quality and relevance [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2026-11-26",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-03T05:25:00+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
     {
       "id": "opportunity desk:https://opportunitydesk.org/2026/11/02/waaw-foundation-scholarship-2027/",
       "title": "WAAW Foundation Scholarship 2027 for Female College Students in Africa",
@@ -64,42 +100,6 @@
       "source": "Opportunity Desk",
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-11-02T20:33:21+00:00",
-      "sourceConnector": "Opportunity Desk"
-    },
-    {
-      "id": "opportunity desk:https://opportunitydesk.org/2026/11/02/beyond-the-classroom-my-journey-doing-a-placement-based-masters-dissertation-in-sierra-leone/",
-      "title": "Beyond the Classroom: My Journey Doing a Placement-Based Master’s Dissertation in Sierra Leone",
-      "type": "Opportunity",
-      "organizer": "Opportunity Desk listing",
-      "url": "https://opportunitydesk.org/2026/11/02/beyond-the-classroom-my-journey-doing-a-placement-based-masters-dissertation-in-sierra-leone/",
-      "summary": "“I come as one, but I stand as ten thousand.” These words by Maya Angelou have been a lifelong mantra for me. They remind me that wherever I go, I carry the experiences, lessons and contributions of the people and communities who have shaped my journey. When I began my master’s degree in Africa and [...]",
-      "location": null,
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": null,
-      "source": "Opportunity Desk",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-11-02T10:54:10+00:00",
-      "sourceConnector": "Opportunity Desk"
-    },
-    {
-      "id": "opportunity desk:https://opportunitydesk.org/2026/11/02/text-to-speech-careers-roles-and-skills-in-ai-voice-work/",
-      "title": "Text to Speech Careers: Roles and Skills in AI Voice Work",
-      "type": "Opportunity",
-      "organizer": "Opportunity Desk listing",
-      "url": "https://opportunitydesk.org/2026/11/02/text-to-speech-careers-roles-and-skills-in-ai-voice-work/",
-      "summary": "Text to Speech and wider AI voice technology are changing how training courses, product tutorials, apps and customer service lines get their audio. The World Economic Forum’s Future of Jobs Report 2025 states that “AI and big data top the list of fastest-growing skills”, and audio production is one of the places where that shift [...]",
-      "location": null,
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": null,
-      "source": "Opportunity Desk",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-11-02T00:00:00+00:00",
       "sourceConnector": "Opportunity Desk"
     },
     {
