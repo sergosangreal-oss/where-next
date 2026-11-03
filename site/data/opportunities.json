@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T15:41:02+00:00",
+  "updatedAt": "2026-11-03T00:55:45+00:00",
   "listingCount": 417,
   "sources": [
     {
@@ -7,21 +7,21 @@
       "url": "https://techopportunities.eu/api/v1/opportunities",
       "ok": true,
       "count": 400,
-      "checkedAt": "2026-11-02T15:41:02+00:00"
+      "checkedAt": "2026-11-03T00:55:45+00:00"
     },
     {
       "name": "Opportunity Desk",
       "url": "https://opportunitydesk.org/feed/",
       "ok": true,
       "count": 3,
-      "checkedAt": "2026-11-02T15:41:02+00:00"
+      "checkedAt": "2026-11-03T00:55:45+00:00"
     },
     {
       "name": "ScholarshipHunter",
       "url": "https://scholarshiphunter.app/feed.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-02T15:41:02+00:00",
+      "checkedAt": "2026-11-03T00:55:45+00:00",
       "error": "HTTPError"
     },
     {
@@ -29,7 +29,7 @@
       "url": "https://www.grants.gov/rss/GG_NewOppByCategory.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-02T15:41:02+00:00",
+      "checkedAt": "2026-11-03T00:55:45+00:00",
       "error": "ParseError"
     },
     {
@@ -37,17 +37,35 @@
       "url": "https://api.grants.gov/v1/api/search2",
       "ok": true,
       "count": 1,
-      "checkedAt": "2026-11-02T15:41:02+00:00"
+      "checkedAt": "2026-11-03T00:55:45+00:00"
     },
     {
       "name": "ResearchRadar.at",
       "url": "https://researchradar.at/api/v1/grants",
       "ok": true,
       "count": 13,
-      "checkedAt": "2026-11-02T15:41:02+00:00"
+      "checkedAt": "2026-11-03T00:55:45+00:00"
     }
   ],
   "opportunities": [
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/02/waaw-foundation-scholarship-2027/",
+      "title": "WAAW Foundation Scholarship 2027 for Female College Students in Africa",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/02/waaw-foundation-scholarship-2027/",
+      "summary": "Deadline: Unspecified Applications are open for the WAAW Foundation Scholarship 2027. WAAW Foundation Scholarship enables female college students in Africa to pursue their studies in a STEM-related course. With this scholarship, you are free to focus on achieving your academic goal and volunteer to give back to your community and promote the engagement of women [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": null,
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-02T20:33:21+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
     {
       "id": "opportunity desk:https://opportunitydesk.org/2026/11/02/beyond-the-classroom-my-journey-doing-a-placement-based-masters-dissertation-in-sierra-leone/",
       "title": "Beyond the Classroom: My Journey Doing a Placement-Based Master’s Dissertation in Sierra Leone",
@@ -67,40 +85,40 @@
       "sourceConnector": "Opportunity Desk"
     },
     {
-      "id": "opportunity desk:https://opportunitydesk.org/2026/10/31/mastercard-foundation-scholars-program-at-sciences-po-2027/",
-      "title": "Mastercard Foundation Scholars Program at Sciences Po 2027 (Fully-funded)",
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/02/text-to-speech-careers-roles-and-skills-in-ai-voice-work/",
+      "title": "Text to Speech Careers: Roles and Skills in AI Voice Work",
       "type": "Opportunity",
       "organizer": "Opportunity Desk listing",
-      "url": "https://opportunitydesk.org/2026/10/31/mastercard-foundation-scholars-program-at-sciences-po-2027/",
-      "summary": "Deadline: December 14, 2026 Applications are open for the Mastercard Foundation Scholars Program at Sciences Po 2027. The Mastercard Foundation Scholars Program at Sciences Po is designed for students from the African continent who wish to pursue a two-year Master’s degree at Sciences Po. Across its various Master’s programmes, each Graduate School offers students a [...]",
+      "url": "https://opportunitydesk.org/2026/11/02/text-to-speech-careers-roles-and-skills-in-ai-voice-work/",
+      "summary": "Text to Speech and wider AI voice technology are changing how training courses, product tutorials, apps and customer service lines get their audio. The World Economic Forum’s Future of Jobs Report 2025 states that “AI and big data top the list of fastest-growing skills”, and audio production is one of the places where that shift [...]",
       "location": null,
       "minAge": null,
       "maxAge": null,
       "eligibleCountries": [],
       "budgetEur": null,
-      "deadline": "2026-12-14",
+      "deadline": null,
       "source": "Opportunity Desk",
       "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-10-31T14:24:45+00:00",
+      "sourceUpdatedAt": "2026-11-02T00:00:00+00:00",
       "sourceConnector": "Opportunity Desk"
     },
     {
-      "id": "opportunity desk:https://opportunitydesk.org/2026/10/31/mit-summer-research-program-2027/",
-      "title": "MIT Summer Research Program (MSRP) 2027 (stipend available)",
-      "type": "Opportunity",
-      "organizer": "Opportunity Desk listing",
-      "url": "https://opportunitydesk.org/2026/10/31/mit-summer-research-program-2027/",
-      "summary": "Deadline: January 19, 2027 Applications are open for the MIT Summer Research Program (MSRP) 2027. The MIT Summer Research Program (MSRP) is a competitive summer initiative designed to promote the value of graduate education, broaden participation in the research enterprise, and prepare and recruit exceptional undergraduate students for graduate study at MIT and beyond. Launched [...]",
-      "location": null,
+      "id": "eto:4485367529",
+      "title": "Newly Graduate Cyber Security Project Engineer",
+      "type": "Graduate role",
+      "organizer": "ABB",
+      "url": "https://www.linkedin.com/jobs/view/4485367529",
+      "summary": "Ballerup, Capital Region of Denmark, Denmark · new-grad",
+      "location": "Ballerup, Capital Region of Denmark, Denmark",
       "minAge": null,
       "maxAge": null,
       "eligibleCountries": [],
       "budgetEur": null,
-      "deadline": "2027-01-19",
-      "source": "Opportunity Desk",
+      "deadline": null,
+      "source": "European Tech Opportunities",
       "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-10-31T12:56:57+00:00",
-      "sourceConnector": "Opportunity Desk"
+      "sourceUpdatedAt": "2026-10-30T23:08:50.461945+00:00",
+      "sourceConnector": "European Tech Opportunities"
     },
     {
       "id": "eto:4484897692",
@@ -373,6 +391,42 @@
       "sourceConnector": "European Tech Opportunities"
     },
     {
+      "id": "eto:4484165171",
+      "title": "Graduate data scientist",
+      "type": "Graduate role",
+      "organizer": "Bending Spoons",
+      "url": "https://www.linkedin.com/jobs/view/4484165171",
+      "summary": "London, England, United Kingdom · new-grad",
+      "location": "London, England, United Kingdom",
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": null,
+      "source": "European Tech Opportunities",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-10-29T23:03:20.043988+00:00",
+      "sourceConnector": "European Tech Opportunities"
+    },
+    {
+      "id": "eto:4484534979",
+      "title": "Digitalisation Intern (Software Developer)",
+      "type": "Internship",
+      "organizer": "Siemens Gamesa",
+      "url": "https://www.linkedin.com/jobs/view/4484534979",
+      "summary": "Kingston Upon Hull, England, United Kingdom · internship",
+      "location": "Kingston Upon Hull, England, United Kingdom",
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": null,
+      "source": "European Tech Opportunities",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-10-29T23:03:20.043988+00:00",
+      "sourceConnector": "European Tech Opportunities"
+    },
+    {
       "id": "eto:4484151621",
       "title": "Graduate data scientist",
       "type": "Graduate role",
@@ -442,6 +496,24 @@
       "source": "European Tech Opportunities",
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-10-29T22:09:27.176779+00:00",
+      "sourceConnector": "European Tech Opportunities"
+    },
+    {
+      "id": "eto:4483879555",
+      "title": "Graduate Software Developer",
+      "type": "Graduate role",
+      "organizer": "Spectrum IT Recruitment",
+      "url": "https://www.linkedin.com/jobs/view/4483879555",
+      "summary": "City Of London, England, United Kingdom · new-grad",
+      "location": "City Of London, England, United Kingdom",
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": null,
+      "source": "European Tech Opportunities",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-10-28T23:03:20.043988+00:00",
       "sourceConnector": "European Tech Opportunities"
     },
     {
@@ -604,6 +676,42 @@
       "source": "European Tech Opportunities",
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-10-27T21:10:53.711800+00:00",
+      "sourceConnector": "European Tech Opportunities"
+    },
+    {
+      "id": "eto:4480058368",
+      "title": "Graduate Data Engineer",
+      "type": "Graduate role",
+      "organizer": "Reply",
+      "url": "https://www.linkedin.com/jobs/view/4480058368",
+      "summary": "London Area, United Kingdom · new-grad · September 2027",
+      "location": "London Area, United Kingdom",
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": null,
+      "source": "European Tech Opportunities",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-10-26T23:03:20.043988+00:00",
+      "sourceConnector": "European Tech Opportunities"
+    },
+    {
+      "id": "eto:4481790150",
+      "title": "2027 ICT Technology Software Engineering Graduate – Reigate/Cambridge",
+      "type": "Graduate role",
+      "organizer": "WTW",
+      "url": "https://www.linkedin.com/jobs/view/4481790150",
+      "summary": "Reigate, England, United Kingdom · new-grad",
+      "location": "Reigate, England, United Kingdom",
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": null,
+      "source": "European Tech Opportunities",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-10-26T23:03:20.043988+00:00",
       "sourceConnector": "European Tech Opportunities"
     },
     {
@@ -6043,24 +6151,6 @@
       "sourceConnector": "European Tech Opportunities"
     },
     {
-      "id": "eto:4468453736",
-      "title": "Graduate software engineer",
-      "type": "Graduate role",
-      "organizer": "Bending Spoons",
-      "url": "https://www.linkedin.com/jobs/view/4468453736",
-      "summary": "Padua, Veneto, Italy · new-grad",
-      "location": "Padua, Veneto, Italy",
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": null,
-      "source": "European Tech Opportunities",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-09-21T10:08:50.838329+00:00",
-      "sourceConnector": "European Tech Opportunities"
-    },
-    {
       "id": "eto:4468462547",
       "title": "Graduate AI software engineer",
       "type": "Graduate role",
@@ -6068,24 +6158,6 @@
       "url": "https://www.linkedin.com/jobs/view/4468462547",
       "summary": "Spain · new-grad",
       "location": "Spain",
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": null,
-      "source": "European Tech Opportunities",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-09-21T10:08:50.838329+00:00",
-      "sourceConnector": "European Tech Opportunities"
-    },
-    {
-      "id": "eto:4468457614",
-      "title": "Graduate AI software engineer",
-      "type": "Graduate role",
-      "organizer": "Bending Spoons",
-      "url": "https://www.linkedin.com/jobs/view/4468457614",
-      "summary": "Madrid, Community of Madrid, Spain · new-grad",
-      "location": "Madrid, Community of Madrid, Spain",
       "minAge": null,
       "maxAge": null,
       "eligibleCountries": [],
@@ -6220,60 +6292,6 @@
       "source": "European Tech Opportunities",
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-09-18T01:08:45.164874+00:00",
-      "sourceConnector": "European Tech Opportunities"
-    },
-    {
-      "id": "eto:4467826287",
-      "title": "Graduate security engineer",
-      "type": "Graduate role",
-      "organizer": "Bending Spoons",
-      "url": "https://www.linkedin.com/jobs/view/4467826287",
-      "summary": "Granada, Andalusia, Spain · new-grad",
-      "location": "Granada, Andalusia, Spain",
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": null,
-      "source": "European Tech Opportunities",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-09-18T00:22:33.113294+00:00",
-      "sourceConnector": "European Tech Opportunities"
-    },
-    {
-      "id": "eto:4467821332",
-      "title": "Graduate security engineer",
-      "type": "Graduate role",
-      "organizer": "Bending Spoons",
-      "url": "https://www.linkedin.com/jobs/view/4467821332",
-      "summary": "Paris, Île-de-France, France · new-grad",
-      "location": "Paris, Île-de-France, France",
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": null,
-      "source": "European Tech Opportunities",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-09-18T00:15:14.556146+00:00",
-      "sourceConnector": "European Tech Opportunities"
-    },
-    {
-      "id": "eto:4468844053",
-      "title": "Software Engineer, Webex - Graduate - Poland",
-      "type": "Graduate role",
-      "organizer": "Cisco",
-      "url": "https://www.linkedin.com/jobs/view/4468844053",
-      "summary": "Cracow, Małopolskie, Poland · new-grad",
-      "location": "Cracow, Małopolskie, Poland",
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": null,
-      "source": "European Tech Opportunities",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-09-17T22:51:55.078559+00:00",
       "sourceConnector": "European Tech Opportunities"
     },
     {
@@ -7282,24 +7300,6 @@
       "source": "European Tech Opportunities",
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-09-01T08:43:36.654502+00:00",
-      "sourceConnector": "European Tech Opportunities"
-    },
-    {
-      "id": "eto:4461547388",
-      "title": "Software Engineer, Intern (Summer or Winter)",
-      "type": "Internship",
-      "organizer": "Stripe",
-      "url": "https://www.linkedin.com/jobs/view/4461547388",
-      "summary": "Dublin, County Dublin, Ireland · internship",
-      "location": "Dublin, County Dublin, Ireland",
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": null,
-      "source": "European Tech Opportunities",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-09-01T08:41:35.252762+00:00",
       "sourceConnector": "European Tech Opportunities"
     },
     {
