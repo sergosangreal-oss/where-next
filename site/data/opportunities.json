@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-04T06:08:58+00:00",
-  "listingCount": 417,
+  "updatedAt": "2026-11-04T14:27:19+00:00",
+  "listingCount": 422,
   "sources": [
     {
       "name": "European Tech Opportunities",
       "url": "https://techopportunities.eu/api/v1/opportunities",
       "ok": true,
       "count": 400,
-      "checkedAt": "2026-11-04T06:08:58+00:00"
+      "checkedAt": "2026-11-04T14:27:19+00:00"
     },
     {
       "name": "Opportunity Desk",
       "url": "https://opportunitydesk.org/feed/",
       "ok": true,
-      "count": 3,
-      "checkedAt": "2026-11-04T06:08:58+00:00"
+      "count": 8,
+      "checkedAt": "2026-11-04T14:27:19+00:00"
     },
     {
       "name": "ScholarshipHunter",
       "url": "https://scholarshiphunter.app/feed.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-04T06:08:58+00:00",
+      "checkedAt": "2026-11-04T14:27:19+00:00",
       "error": "HTTPError"
     },
     {
@@ -29,7 +29,7 @@
       "url": "https://www.grants.gov/rss/GG_NewOppByCategory.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-04T06:08:58+00:00",
+      "checkedAt": "2026-11-04T14:27:19+00:00",
       "error": "ParseError"
     },
     {
@@ -37,17 +37,125 @@
       "url": "https://api.grants.gov/v1/api/search2",
       "ok": true,
       "count": 1,
-      "checkedAt": "2026-11-04T06:08:58+00:00"
+      "checkedAt": "2026-11-04T14:27:19+00:00"
     },
     {
       "name": "ResearchRadar.at",
       "url": "https://researchradar.at/api/v1/grants",
       "ok": true,
       "count": 13,
-      "checkedAt": "2026-11-04T06:08:58+00:00"
+      "checkedAt": "2026-11-04T14:27:19+00:00"
     }
   ],
   "opportunities": [
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/04/institute-for-policy-integrity-economic-fellowship-2027/",
+      "title": "Institute for Policy Integrity Economic Fellowship 2027",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/04/institute-for-policy-integrity-economic-fellowship-2027/",
+      "summary": "Deadline: November 27, 2026 Applications are open for the Institute for Policy Integrity Economic Fellowship 2027. The Institute for Policy Integrity is seeking applicants for one or two full-time two-year postdoctoral research fellowships in economics, starting in September 2027. Housed at the New York University School of Law, Policy Integrity is a non-partisan think tank [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2026-11-27",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-04T13:00:46+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/04/techcongress-programs-internship-2027/",
+      "title": "TechCongress Programs Internship 2027",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/04/techcongress-programs-internship-2027/",
+      "summary": "Deadline: November 12, 2026 Applications are open for the TechCongress Programs Internship 2027. TechCongress is looking for a Programs Intern to work with staff and fellows. You will support TechCongress’s Congressional Innovation Fellowship and contribute to their programs. This internship is a hybrid position, with the intern working at least two days a week in [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2026-11-12",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-04T12:47:22+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/04/techcongress-communications-internship-2027/",
+      "title": "TechCongress Communications Internship 2027",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/04/techcongress-communications-internship-2027/",
+      "summary": "Deadline: November 10, 2026 Applications are invited for the TechCongress Communications Internship 2027. TechCongress seeks a Communications Intern for the winter/spring 2027 term, starting in early January and running through mid-May. You should have an interest in learning about and improving Congress or technology policy. This is a hybrid internship, with at least two days [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2026-11-10",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-04T10:12:12+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/04/institute-for-policy-integrity-legal-fellowship-2027/",
+      "title": "Institute for Policy Integrity Legal Fellowship 2027",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/04/institute-for-policy-integrity-legal-fellowship-2027/",
+      "summary": "Deadline: On Rolling Basis Applications are open for the Institute for Policy Integrity Legal Fellowship 2027. The Institute for Policy Integrity (Policy Integrity) is seeking applicants for a two-year legal fellowship with a focus on regulatory policy. This position is based in the New York City office. Housed at the New York University School of [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": null,
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-04T08:15:18+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/04/international-crisis-group-west-africa-and-sahel-projects-internship-2027/",
+      "title": "International Crisis Group West Africa and Sahel Projects Internship 2027",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/04/international-crisis-group-west-africa-and-sahel-projects-internship-2027/",
+      "summary": "Deadline: November 16, 2026 Applications are open for the International Crisis Group West Africa and Sahel Projects Internship 2027. International Crisis Group’s West Africa and Sahel projects are looking for an intern to start in January 2027 to support their project directors and analysts in their daily activities. Requiring a natural flair for politics and [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2026-11-16",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-04T07:12:34+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/04/csr-internship-program-2027/",
+      "title": "CISPA Summer Research (CSR) Internship Program 2027",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/04/csr-internship-program-2027/",
+      "summary": "Deadline: November 30, 2026 Applications are open for the CISPA Summer Research (CSR) Internship Program 2027. The CISPA Summer Research (CSR) internship program offers BSc or MSc students a 2-3 month paid research internship to work alongside world-leading researchers in cryptography, computer security, privacy, and machine learning/AI at CISPA. During your internship, you’ll join a [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2026-11-30",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-04T06:50:06+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
     {
       "id": "opportunity desk:https://opportunitydesk.org/2026/11/03/harvard-pollman-fellowship-in-real-estate-and-urban-development-2027/",
       "title": "Harvard Pollman Fellowship in Real Estate and Urban Development 2027 (up to $55,000)",
@@ -82,24 +190,6 @@
       "source": "Opportunity Desk",
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-11-03T05:25:00+00:00",
-      "sourceConnector": "Opportunity Desk"
-    },
-    {
-      "id": "opportunity desk:https://opportunitydesk.org/2026/11/02/waaw-foundation-scholarship-2027/",
-      "title": "WAAW Foundation Scholarship 2027 for Female College Students in Africa",
-      "type": "Opportunity",
-      "organizer": "Opportunity Desk listing",
-      "url": "https://opportunitydesk.org/2026/11/02/waaw-foundation-scholarship-2027/",
-      "summary": "Deadline: Unspecified Applications are open for the WAAW Foundation Scholarship 2027. WAAW Foundation Scholarship enables female college students in Africa to pursue their studies in a STEM-related course. With this scholarship, you are free to focus on achieving your academic goal and volunteer to give back to your community and promote the engagement of women [...]",
-      "location": null,
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": null,
-      "source": "Opportunity Desk",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-11-02T20:33:21+00:00",
       "sourceConnector": "Opportunity Desk"
     },
     {
