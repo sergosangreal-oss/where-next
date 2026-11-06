@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-06T06:33:48+00:00",
-  "listingCount": 417,
+  "updatedAt": "2026-11-06T19:19:49+00:00",
+  "listingCount": 419,
   "sources": [
     {
       "name": "European Tech Opportunities",
       "url": "https://techopportunities.eu/api/v1/opportunities",
       "ok": true,
       "count": 400,
-      "checkedAt": "2026-11-06T06:33:48+00:00"
+      "checkedAt": "2026-11-06T19:19:49+00:00"
     },
     {
       "name": "Opportunity Desk",
       "url": "https://opportunitydesk.org/feed/",
       "ok": true,
-      "count": 4,
-      "checkedAt": "2026-11-06T06:33:48+00:00"
+      "count": 6,
+      "checkedAt": "2026-11-06T19:19:49+00:00"
     },
     {
       "name": "ScholarshipHunter",
       "url": "https://scholarshiphunter.app/feed.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-06T06:33:48+00:00",
+      "checkedAt": "2026-11-06T19:19:49+00:00",
       "error": "HTTPError"
     },
     {
@@ -29,7 +29,7 @@
       "url": "https://www.grants.gov/rss/GG_NewOppByCategory.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-06T06:33:48+00:00",
+      "checkedAt": "2026-11-06T19:19:49+00:00",
       "error": "ParseError"
     },
     {
@@ -37,17 +37,89 @@
       "url": "https://api.grants.gov/v1/api/search2",
       "ok": true,
       "count": 1,
-      "checkedAt": "2026-11-06T06:33:48+00:00"
+      "checkedAt": "2026-11-06T19:19:49+00:00"
     },
     {
       "name": "ResearchRadar.at",
       "url": "https://researchradar.at/api/v1/grants",
       "ok": true,
       "count": 12,
-      "checkedAt": "2026-11-06T06:33:48+00:00"
+      "checkedAt": "2026-11-06T19:19:49+00:00"
     }
   ],
   "opportunities": [
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/06/global-changemakers-media-impact-academy-2027-for-youth-in-the-usa/",
+      "title": "Global Changemakers’ Media Impact Academy 2027 for Youth in the USA (A chance to win a $1,000 grant)",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/06/global-changemakers-media-impact-academy-2027-for-youth-in-the-usa/",
+      "summary": "Deadline: December 18, 2026 Applications are open for the Media Impact Academy, a Nationwide initiative engaging 500 youth across the United States. Designed for young adults navigating early financial independence, this 90-day challenge equips you with practical financial skills, project management tools, and storytelling capabilities to transform your personal habits and drive real community impact. [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2026-12-18",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-06T17:28:35+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/06/spencer-fellowship-for-education-reporting-2027/",
+      "title": "Spencer Fellowship for Education Reporting 2027 (Funded)",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/06/spencer-fellowship-for-education-reporting-2027/",
+      "summary": "Deadline: February 4, 2027 Do you have a great idea for an education-related journalism project? Do you need the time and resources to complete it? Apply for the Spencer Fellowship for Education Reporting 2027. The Spencer Fellowship for Education Reporting is open to journalists and educators who want to develop and publish an ambitious long-form [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2027-02-04",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-06T15:08:57+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/06/ibci-fellowship-program-2027/",
+      "title": "International Blue Carbon Institute (IBCI) Fellowship Program 2027 ($60,000 grant)",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/06/ibci-fellowship-program-2027/",
+      "summary": "Deadline: November 23, 2026 Applications for the International Blue Carbon Institute (IBCI) Fellowship Program 2027 are now open. The International Blue Carbon Institute (IBCI) Fellowship program advances the conservation, restoration, and protection of blue carbon ecosystems for their climate mitigation and adaptation benefits. The program is a cornerstone of the IBCI’s mission to scale global [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2026-11-23",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-06T13:34:08+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/06/reagan-fascell-democracy-fellows-program-2027-2028/",
+      "title": "Reagan-Fascell Democracy Fellows Program 2027-2028 (Fully-funded)",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/06/reagan-fascell-democracy-fellows-program-2027-2028/",
+      "summary": "Deadline: January 5, 2027 Applications are open for the Reagan-Fascell Democracy Fellows Program 2027-2028. Named in honor of NED’s principal founders, former president Ronald Reagan and the late congressman Dante Fascell (D-Fl.), the Reagan-Fascell Democracy Fellows Program is a federally funded, international exchange program that offers democracy activists, journalists, civil society leaders, and scholars from around [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2027-01-05",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-06T13:10:51+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
     {
       "id": "opportunity desk:https://opportunitydesk.org/2026/11/05/how-to-ace-your-scholarship-interview-12-tips-to-help-you-stand-out/",
       "title": "How to Ace Your Scholarship Interview: 12 Tips to Help You Stand Out",
@@ -82,42 +154,6 @@
       "source": "Opportunity Desk",
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-11-05T14:51:21+00:00",
-      "sourceConnector": "Opportunity Desk"
-    },
-    {
-      "id": "opportunity desk:https://opportunitydesk.org/2026/11/05/young-security-conference-fellowship-2026/",
-      "title": "Young Security Conference (YSC) Fellowship 2026",
-      "type": "Opportunity",
-      "organizer": "Opportunity Desk listing",
-      "url": "https://opportunitydesk.org/2026/11/05/young-security-conference-fellowship-2026/",
-      "summary": "Deadline: November 11, 2026 Applications are open for the Young Security Conference (YSC) Fellowship 2026. The Young Security Conference (YSC) Fellowship offers an exceptional opportunity to participate in high-level debates shaping contemporary European and transatlantic security architecture. Running from December 2026 to February 2027, the program awards up to 8 fully supported fellowship places to [...]",
-      "location": null,
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": "2026-11-11",
-      "source": "Opportunity Desk",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-11-05T14:29:01+00:00",
-      "sourceConnector": "Opportunity Desk"
-    },
-    {
-      "id": "opportunity desk:https://opportunitydesk.org/2026/11/05/15-global-scholarship-opportunities-currently-open-november-5-2026/",
-      "title": "15 Global Scholarship Opportunities Currently Open – November 5, 2026",
-      "type": "Opportunity",
-      "organizer": "Opportunity Desk listing",
-      "url": "https://opportunitydesk.org/2026/11/05/15-global-scholarship-opportunities-currently-open-november-5-2026/",
-      "summary": "1. WAAW Foundation Scholarship 2027 for Female College Students in AfricaThe WAAW Foundation Scholarship supports female university students of African origin who are studying STEM-related courses at universities or colleges in Africa. The one-time award of US$500 is intended for students who demonstrate financial need, strong academic performance, leadership, volunteering and commitment to giving back [...]",
-      "location": null,
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": null,
-      "source": "Opportunity Desk",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-11-05T14:09:17+00:00",
       "sourceConnector": "Opportunity Desk"
     },
     {
