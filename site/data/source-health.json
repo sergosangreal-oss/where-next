@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-11-05T14:39:42+00:00",
+  "checkedAt": "2026-11-06T14:15:47+00:00",
   "total": 51,
-  "reachable": 44,
+  "reachable": 41,
   "sources": {
     "https://youth.europa.eu/go-abroad_en": {
       "ok": true,
@@ -39,9 +39,9 @@
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-search"
     },
     "https://www.daad.de/en/study-and-research-in-germany/scholarships/": {
-      "ok": true,
-      "status": 200,
-      "url": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/"
+      "ok": false,
+      "status": 403,
+      "error": "HTTPError"
     },
     "https://campusbourses.campusfrance.org/": {
       "ok": true,
@@ -69,9 +69,9 @@
       "url": "https://foreign.fulbrightonline.org/"
     },
     "https://educationusa.state.gov/your-5-steps-us-study/finance-your-studies": {
-      "ok": true,
-      "status": 200,
-      "url": "https://educationusa.state.gov/your-5-steps-us-study/finance-your-studies"
+      "ok": false,
+      "status": 503,
+      "error": "HTTP error"
     },
     "https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-government-excellence-scholarships.html": {
       "ok": true,
@@ -104,9 +104,9 @@
       "url": "https://www.jasso.go.jp/en/ryugaku/scholarship_j/"
     },
     "https://studyinkorea.go.kr/ko/plan/scholarship.do?tab=gks-tab1": {
-      "ok": true,
-      "status": 200,
-      "url": "https://studyinkorea.go.kr/ko/plan/scholarship.do?tab=gks-tab1"
+      "ok": false,
+      "status": null,
+      "error": "URLError"
     },
     "https://www.campuschina.org/": {
       "ok": false,
