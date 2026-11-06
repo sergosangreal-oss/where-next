@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-05T19:53:46+00:00",
-  "listingCount": 418,
+  "updatedAt": "2026-11-06T06:33:48+00:00",
+  "listingCount": 417,
   "sources": [
     {
       "name": "European Tech Opportunities",
       "url": "https://techopportunities.eu/api/v1/opportunities",
       "ok": true,
       "count": 400,
-      "checkedAt": "2026-11-05T19:53:46+00:00"
+      "checkedAt": "2026-11-06T06:33:48+00:00"
     },
     {
       "name": "Opportunity Desk",
       "url": "https://opportunitydesk.org/feed/",
       "ok": true,
       "count": 4,
-      "checkedAt": "2026-11-05T19:53:46+00:00"
+      "checkedAt": "2026-11-06T06:33:48+00:00"
     },
     {
       "name": "ScholarshipHunter",
       "url": "https://scholarshiphunter.app/feed.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-05T19:53:46+00:00",
+      "checkedAt": "2026-11-06T06:33:48+00:00",
       "error": "HTTPError"
     },
     {
@@ -29,7 +29,7 @@
       "url": "https://www.grants.gov/rss/GG_NewOppByCategory.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-05T19:53:46+00:00",
+      "checkedAt": "2026-11-06T06:33:48+00:00",
       "error": "ParseError"
     },
     {
@@ -37,14 +37,14 @@
       "url": "https://api.grants.gov/v1/api/search2",
       "ok": true,
       "count": 1,
-      "checkedAt": "2026-11-05T19:53:46+00:00"
+      "checkedAt": "2026-11-06T06:33:48+00:00"
     },
     {
       "name": "ResearchRadar.at",
       "url": "https://researchradar.at/api/v1/grants",
       "ok": true,
-      "count": 13,
-      "checkedAt": "2026-11-05T19:53:46+00:00"
+      "count": 12,
+      "checkedAt": "2026-11-06T06:33:48+00:00"
     }
   ],
   "opportunities": [
@@ -7438,27 +7438,6 @@
       "eligibleCountries": [],
       "budgetEur": null,
       "deadline": null,
-      "source": "ResearchRadar.at",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-07-22",
-      "eligibleResidenceCountries": [
-        "any"
-      ],
-      "sourceConnector": "ResearchRadar.at"
-    },
-    {
-      "id": "rr:oefg-internationale-kommunikation",
-      "title": "International Communication",
-      "type": "Research funding / award",
-      "organizer": "ResearchRadar listed funder",
-      "url": "https://www.oefg.at/foerderungen/internationale-kommunikation/antragsformular-ik/",
-      "summary": "ÖFG travel-funding programme, open to all disciplines including psychology. It supports: presenting new research findings at international conferences abroad, small international symposia/workshops in Austria, short-term research stays at institutions abroad (max. 3 months), and inviting foreign researchers. The travel lines are aimed primarily at early-career researchers up to age 40 (3 years credited per child for care time, up to 3 years for illness/disability); at least one peer-reviewed international publication is required. Congress fees, travel and hotel costs are covered; only one substantial grant per person and year.",
-      "location": null,
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": "2026-11-05",
       "source": "ResearchRadar.at",
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-07-22",
