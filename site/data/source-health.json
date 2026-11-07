@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-06T14:15:47+00:00",
+  "checkedAt": "2026-11-07T12:59:50+00:00",
   "total": 51,
   "reachable": 41,
   "sources": {
@@ -104,14 +104,14 @@
       "url": "https://www.jasso.go.jp/en/ryugaku/scholarship_j/"
     },
     "https://studyinkorea.go.kr/ko/plan/scholarship.do?tab=gks-tab1": {
-      "ok": false,
-      "status": null,
-      "error": "URLError"
+      "ok": true,
+      "status": 200,
+      "url": "https://studyinkorea.go.kr/ko/plan/scholarship.do?tab=gks-tab1"
     },
     "https://www.campuschina.org/": {
       "ok": false,
-      "status": 412,
-      "error": "HTTP error"
+      "status": null,
+      "error": "URLError"
     },
     "https://english.moe.gov.tw/": {
       "ok": true,
@@ -129,9 +129,9 @@
       "url": "https://a2ascholarships.iccr.gov.in/"
     },
     "https://studyinindia.gov.in/": {
-      "ok": true,
-      "status": 200,
-      "url": "https://studyinindia.gov.in/"
+      "ok": false,
+      "status": null,
+      "error": "URLError"
     },
     "https://www.dfat.gov.au/people-to-people/australia-awards": {
       "ok": false,
