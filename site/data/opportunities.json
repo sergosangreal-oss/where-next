@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-07T05:52:30+00:00",
-  "listingCount": 420,
+  "updatedAt": "2026-11-07T12:54:04+00:00",
+  "listingCount": 421,
   "sources": [
     {
       "name": "European Tech Opportunities",
       "url": "https://techopportunities.eu/api/v1/opportunities",
       "ok": true,
       "count": 400,
-      "checkedAt": "2026-11-07T05:52:30+00:00"
+      "checkedAt": "2026-11-07T12:54:04+00:00"
     },
     {
       "name": "Opportunity Desk",
       "url": "https://opportunitydesk.org/feed/",
       "ok": true,
       "count": 7,
-      "checkedAt": "2026-11-07T05:52:30+00:00"
+      "checkedAt": "2026-11-07T12:54:04+00:00"
     },
     {
       "name": "ScholarshipHunter",
       "url": "https://scholarshiphunter.app/feed.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-07T05:52:30+00:00",
+      "checkedAt": "2026-11-07T12:54:04+00:00",
       "error": "HTTPError"
     },
     {
@@ -29,7 +29,7 @@
       "url": "https://www.grants.gov/rss/GG_NewOppByCategory.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-07T05:52:30+00:00",
+      "checkedAt": "2026-11-07T12:54:04+00:00",
       "error": "ParseError"
     },
     {
@@ -37,14 +37,14 @@
       "url": "https://api.grants.gov/v1/api/search2",
       "ok": true,
       "count": 1,
-      "checkedAt": "2026-11-07T05:52:30+00:00"
+      "checkedAt": "2026-11-07T12:54:04+00:00"
     },
     {
       "name": "ResearchRadar.at",
       "url": "https://researchradar.at/api/v1/grants",
       "ok": true,
-      "count": 12,
-      "checkedAt": "2026-11-07T05:52:30+00:00"
+      "count": 13,
+      "checkedAt": "2026-11-07T12:54:04+00:00"
     }
   ],
   "opportunities": [
@@ -65,6 +65,27 @@
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-11-07T00:19:14+00:00",
       "sourceConnector": "Opportunity Desk"
+    },
+    {
+      "id": "rr:aiomics-award-2027",
+      "title": "aiomics Award 2027",
+      "type": "Research funding / award",
+      "organizer": "ResearchRadar listed funder",
+      "url": "https://www.aiomics.io/de/award",
+      "summary": "The aiomics Award 2027 recognises research on clinical AI: operational improvements and staff workload; physician–AI teaming; and benefits, harms and evaluation. Researchers at eligible European institutions can enter a journal paper first published from 1 July 2026, or an unpublished paper finally accepted within the eligible period. The journal must have a qualifying Journal Impact Factor of at least 2.0. Prizes: €1,000 and €500. Free applications open 1 September and close 1 December 2027 at 23:59 CET. Five external jurors will assess scientific rigour, clinical relevance, human factors, transferability and transparency; the jury will be announced before applications open.",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2027-12-01",
+      "source": "ResearchRadar.at",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-07",
+      "eligibleResidenceCountries": [
+        "any"
+      ],
+      "sourceConnector": "ResearchRadar.at"
     },
     {
       "id": "opportunity desk:https://opportunitydesk.org/2026/11/06/global-changemakers-media-impact-academy-2027-for-youth-in-the-usa/",
