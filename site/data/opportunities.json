@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-06T19:19:49+00:00",
-  "listingCount": 419,
+  "updatedAt": "2026-11-07T05:52:30+00:00",
+  "listingCount": 420,
   "sources": [
     {
       "name": "European Tech Opportunities",
       "url": "https://techopportunities.eu/api/v1/opportunities",
       "ok": true,
       "count": 400,
-      "checkedAt": "2026-11-06T19:19:49+00:00"
+      "checkedAt": "2026-11-07T05:52:30+00:00"
     },
     {
       "name": "Opportunity Desk",
       "url": "https://opportunitydesk.org/feed/",
       "ok": true,
-      "count": 6,
-      "checkedAt": "2026-11-06T19:19:49+00:00"
+      "count": 7,
+      "checkedAt": "2026-11-07T05:52:30+00:00"
     },
     {
       "name": "ScholarshipHunter",
       "url": "https://scholarshiphunter.app/feed.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-06T19:19:49+00:00",
+      "checkedAt": "2026-11-07T05:52:30+00:00",
       "error": "HTTPError"
     },
     {
@@ -29,7 +29,7 @@
       "url": "https://www.grants.gov/rss/GG_NewOppByCategory.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-06T19:19:49+00:00",
+      "checkedAt": "2026-11-07T05:52:30+00:00",
       "error": "ParseError"
     },
     {
@@ -37,17 +37,35 @@
       "url": "https://api.grants.gov/v1/api/search2",
       "ok": true,
       "count": 1,
-      "checkedAt": "2026-11-06T19:19:49+00:00"
+      "checkedAt": "2026-11-07T05:52:30+00:00"
     },
     {
       "name": "ResearchRadar.at",
       "url": "https://researchradar.at/api/v1/grants",
       "ok": true,
       "count": 12,
-      "checkedAt": "2026-11-06T19:19:49+00:00"
+      "checkedAt": "2026-11-07T05:52:30+00:00"
     }
   ],
   "opportunities": [
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/07/call-for-judges-join-the-od-impact-challenge-2026-global-judging-panel/",
+      "title": "Call for judges : Join the OD Impact Challenge 2026 global judging panel",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/07/call-for-judges-join-the-od-impact-challenge-2026-global-judging-panel/",
+      "summary": "Are you passionate about youth leadership, innovation and social impact? Opportunity Desk invites experienced professionals, entrepreneurs, development practitioners and industry leaders to join the global judging panel for the Opportunity Desk Impact Challenge (ODIC) 2026. The OD Impact Challenge is an annual global competition that recognises and supports young changemakers aged 18–30 who are creating positive [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": null,
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-07T00:19:14+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
     {
       "id": "opportunity desk:https://opportunitydesk.org/2026/11/06/global-changemakers-media-impact-academy-2027-for-youth-in-the-usa/",
       "title": "Global Changemakers’ Media Impact Academy 2027 for Youth in the USA (A chance to win a $1,000 grant)",
