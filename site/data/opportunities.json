@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T21:58:50+00:00",
+  "updatedAt": "2026-11-09T06:15:59+00:00",
   "listingCount": 422,
   "sources": [
     {
@@ -7,21 +7,21 @@
       "url": "https://techopportunities.eu/api/v1/opportunities",
       "ok": true,
       "count": 400,
-      "checkedAt": "2026-11-08T21:58:50+00:00"
+      "checkedAt": "2026-11-09T06:15:59+00:00"
     },
     {
       "name": "Opportunity Desk",
       "url": "https://opportunitydesk.org/feed/",
       "ok": true,
       "count": 7,
-      "checkedAt": "2026-11-08T21:58:50+00:00"
+      "checkedAt": "2026-11-09T06:15:59+00:00"
     },
     {
       "name": "ScholarshipHunter",
       "url": "https://scholarshiphunter.app/feed.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-08T21:58:50+00:00",
+      "checkedAt": "2026-11-09T06:15:59+00:00",
       "error": "HTTPError"
     },
     {
@@ -29,7 +29,7 @@
       "url": "https://www.grants.gov/rss/GG_NewOppByCategory.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-08T21:58:50+00:00",
+      "checkedAt": "2026-11-09T06:15:59+00:00",
       "error": "ParseError"
     },
     {
@@ -37,17 +37,35 @@
       "url": "https://api.grants.gov/v1/api/search2",
       "ok": true,
       "count": 1,
-      "checkedAt": "2026-11-08T21:58:50+00:00"
+      "checkedAt": "2026-11-09T06:15:59+00:00"
     },
     {
       "name": "ResearchRadar.at",
       "url": "https://researchradar.at/api/v1/grants",
       "ok": true,
       "count": 14,
-      "checkedAt": "2026-11-08T21:58:50+00:00"
+      "checkedAt": "2026-11-09T06:15:59+00:00"
     }
   ],
   "opportunities": [
+    {
+      "id": "eto:4465067812",
+      "title": "2027 - Internship, Software Engineering and Quantitative Development",
+      "type": "Internship",
+      "organizer": "Qube Research & Technologies",
+      "url": "https://www.linkedin.com/jobs/view/4465067812",
+      "summary": "London; Paris; Wrocław; Zurich; Dubai · internship",
+      "location": "London; Paris; Wrocław; Zurich; Dubai",
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": null,
+      "source": "European Tech Opportunities",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-08T12:48:11.909635+00:00",
+      "sourceConnector": "European Tech Opportunities"
+    },
     {
       "id": "opportunity desk:https://opportunitydesk.org/2026/11/07/mcw-global-young-leaders-fellowship-2027-funded/",
       "title": "MCW Global Young Leaders Fellowship 2027 (Funded)",
@@ -7375,24 +7393,6 @@
       "source": "European Tech Opportunities",
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-08-22T13:46:56.913978+00:00",
-      "sourceConnector": "European Tech Opportunities"
-    },
-    {
-      "id": "eto:4456391154",
-      "title": "Internship IT Software Engineer",
-      "type": "Internship",
-      "organizer": "CBRE",
-      "url": "https://www.linkedin.com/jobs/view/4456391154",
-      "summary": "Brussels, Brussels Region, Belgium · internship",
-      "location": "Brussels, Brussels Region, Belgium",
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": null,
-      "source": "European Tech Opportunities",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-08-22T10:36:59.665961+00:00",
       "sourceConnector": "European Tech Opportunities"
     },
     {
