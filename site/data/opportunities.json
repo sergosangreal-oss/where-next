@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-10T07:10:48+00:00",
-  "listingCount": 420,
+  "updatedAt": "2026-11-10T19:40:56+00:00",
+  "listingCount": 422,
   "sources": [
     {
       "name": "European Tech Opportunities",
       "url": "https://techopportunities.eu/api/v1/opportunities",
       "ok": true,
       "count": 400,
-      "checkedAt": "2026-11-10T07:10:48+00:00"
+      "checkedAt": "2026-11-10T19:40:56+00:00"
     },
     {
       "name": "Opportunity Desk",
       "url": "https://opportunitydesk.org/feed/",
       "ok": true,
-      "count": 5,
-      "checkedAt": "2026-11-10T07:10:48+00:00"
+      "count": 7,
+      "checkedAt": "2026-11-10T19:40:56+00:00"
     },
     {
       "name": "ScholarshipHunter",
       "url": "https://scholarshiphunter.app/feed.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-10T07:10:48+00:00",
+      "checkedAt": "2026-11-10T19:40:56+00:00",
       "error": "HTTPError"
     },
     {
@@ -29,7 +29,7 @@
       "url": "https://www.grants.gov/rss/GG_NewOppByCategory.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-10T07:10:48+00:00",
+      "checkedAt": "2026-11-10T19:40:56+00:00",
       "error": "ParseError"
     },
     {
@@ -37,17 +37,107 @@
       "url": "https://api.grants.gov/v1/api/search2",
       "ok": true,
       "count": 1,
-      "checkedAt": "2026-11-10T07:10:48+00:00"
+      "checkedAt": "2026-11-10T19:40:56+00:00"
     },
     {
       "name": "ResearchRadar.at",
       "url": "https://researchradar.at/api/v1/grants",
       "ok": true,
       "count": 14,
-      "checkedAt": "2026-11-10T07:10:48+00:00"
+      "checkedAt": "2026-11-10T19:40:56+00:00"
     }
   ],
   "opportunities": [
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/10/wave-winter-research-fellowship-2026-2027/",
+      "title": "Wave Winter Research Fellowship 2026-2027",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/10/wave-winter-research-fellowship-2026-2027/",
+      "summary": "Deadline: November 13, 2026 Applications are open for the Wave Winter Research Fellowship 2026-2027. The Wave Winter Research Fellowship (November 15, 2026 – January 15, 2027) is an 8-week scientific research and engineering incubator guided directly by Regeneron ISEF winners and International Olympiad medalists. Unlike paid research programs, participation is completely free ($0 application fee, [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2026-11-13",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-10T15:31:42+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/10/career-pathways-initiative-fellowship-2027/",
+      "title": "Career Pathways Initiative Fellowship 2027",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/10/career-pathways-initiative-fellowship-2027/",
+      "summary": "Deadline: January 29, 2027 Applications are open for the Career Pathways Initiative Fellowship 2027. Are you a first-generation, low-income (FGLI) undergraduate college student looking for an internship or your first job? Tired of spending hours on job applications and hearing nothing back? You’re not alone. Over 80% of jobs are filled through networking, yet access to professional [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2027-01-29",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-10T15:05:24+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/10/nature-culture-fellowship-2027/",
+      "title": "Nature Culture Fellowship 2027",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/10/nature-culture-fellowship-2027/",
+      "summary": "Deadline: December 1, 2026 Applications for the Nature Culture Fellowship 2027 are now open. The Nature Culture Fellowship brings together a diverse, global community of changemakers to explore how storytelling, artivism, and culture can drive social environmental change and transform systems. Through an online Learning Journey and Project Implementation phase, Fellows begin to seed the [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2026-12-01",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-10T14:45:05+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/10/debt-accountability-journalism-fellowship-2027/",
+      "title": "Debt Accountability Journalism Fellowship 2027 for Nigerian Journalists",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/10/debt-accountability-journalism-fellowship-2027/",
+      "summary": "Deadline: November 13, 2026 Applications are open for the Debt Accountability Journalism Fellowship 2027. The International Budget Partnership (IBP) Nigeria, in partnership with the Westminster Foundation for Democracy (WFD) Nigeria, is organising a Debt Accountability Journalism Fellowship Workshop to strengthen journalists’ understanding of public debt, government borrowing, fiscal accountability and how debt decisions affect public [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2026-11-13",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-10T14:16:04+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/10/cactus-internship-program-2027/",
+      "title": "Computation & Cognition Tübingen Summer (CaCTüS) Internship Program 2027",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/10/cactus-internship-program-2027/",
+      "summary": "Deadline: November 16, 2026 Applications are open for the Computation & Cognition Tübingen Summer (CaCTüS) Internship Program 2027. The CaCTüS Internship program aims to boost the careers of talented students who experience significant difficulties in their pursuit of higher education and scientific development. Interns will have the chance to come to Tübingen or Stuttgart for [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2026-11-16",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-10T13:25:25+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
     {
       "id": "opportunity desk:https://opportunitydesk.org/2026/11/09/icann-fellowship-program-2027/",
       "title": "ICANN Fellowship Program 2027 to Attend ICANN89 Policy Forum in Vancouver, Canada (Funded)",
@@ -85,42 +175,6 @@
       "sourceConnector": "Opportunity Desk"
     },
     {
-      "id": "opportunity desk:https://opportunitydesk.org/2026/11/09/effie-lions-foundation-voices-of-the-future-global-fellowship-2027/",
-      "title": "Voices of the Future Global Fellowship 2027 (Fully-funded trip to France)",
-      "type": "Opportunity",
-      "organizer": "Opportunity Desk listing",
-      "url": "https://opportunitydesk.org/2026/11/09/effie-lions-foundation-voices-of-the-future-global-fellowship-2027/",
-      "summary": "Voices of the Future is a fully funded, eight-month global fellowship that gives the next generation the real-world experience, skills, and relationships needed to launch a career in marketing.",
-      "location": null,
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": null,
-      "source": "Opportunity Desk",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-11-09T16:26:26+00:00",
-      "sourceConnector": "Opportunity Desk"
-    },
-    {
-      "id": "opportunity desk:https://opportunitydesk.org/2026/11/09/state-of-black-entrepreneurship-fellows-program-2027/",
-      "title": "State of Black Entrepreneurship Fellows Program 2027 (up to $10,000)",
-      "type": "Opportunity",
-      "organizer": "Opportunity Desk listing",
-      "url": "https://opportunitydesk.org/2026/11/09/state-of-black-entrepreneurship-fellows-program-2027/",
-      "summary": "Deadline: November 16, 2026 Applications are invited for the State of Black Entrepreneurship Fellows Program 2027. This initiative reflects the Center for Black Entrepreneurship (CBE’s) commitment to advancing scholarship on entrepreneurship, economic mobility, and wealth creation while building the nation’s leading body of knowledge on Black entrepreneurship. The Fellowship supports a hybrid model that advances [...]",
-      "location": null,
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": "2026-11-16",
-      "source": "Opportunity Desk",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-11-09T12:56:29+00:00",
-      "sourceConnector": "Opportunity Desk"
-    },
-    {
       "id": "eto:4465067812",
       "title": "2027 - Internship, Software Engineering and Quantitative Development",
       "type": "Internship",
@@ -137,24 +191,6 @@
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-11-08T12:48:11.909635+00:00",
       "sourceConnector": "European Tech Opportunities"
-    },
-    {
-      "id": "opportunity desk:https://opportunitydesk.org/2026/11/07/mcw-global-young-leaders-fellowship-2027-funded/",
-      "title": "MCW Global Young Leaders Fellowship 2027 (Funded)",
-      "type": "Opportunity",
-      "organizer": "Opportunity Desk listing",
-      "url": "https://opportunitydesk.org/2026/11/07/mcw-global-young-leaders-fellowship-2027-funded/",
-      "summary": "Deadline: December 3, 2026 Applications are open for the MCW Global Young Leaders Fellowship 2027. The Fellowship Program aims to mobilize young people with the skills and resources needed to create and implement vision plans in the areas of education, health, and economic security. MCW Global’s Young Leaders Fellowship begins with the Community Needs Assessment [...]",
-      "location": null,
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": "2026-12-03",
-      "source": "Opportunity Desk",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-11-07T22:14:35+00:00",
-      "sourceConnector": "Opportunity Desk"
     },
     {
       "id": "rr:aiomics-award-2027",
