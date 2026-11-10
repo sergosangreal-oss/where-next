@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-11-09T16:17:44+00:00",
+  "checkedAt": "2026-11-10T14:52:27+00:00",
   "total": 51,
-  "reachable": 39,
+  "reachable": 41,
   "sources": {
     "https://youth.europa.eu/go-abroad_en": {
       "ok": true,
@@ -14,9 +14,9 @@
       "url": "https://erasmus-plus.ec.europa.eu/opportunities/individuals/youth-exchanges-and-activities"
     },
     "https://youth.europa.eu/solidarity_en": {
-      "ok": true,
-      "status": 200,
-      "url": "https://youth.europa.eu/solidarity_en"
+      "ok": false,
+      "status": 429,
+      "error": "HTTP error"
     },
     "https://programmes.eurodesk.eu/": {
       "ok": false,
@@ -84,9 +84,9 @@
       "url": "https://grants.at/en/"
     },
     "https://stipendiumhungaricum.hu/": {
-      "ok": false,
-      "status": null,
-      "error": "URLError"
+      "ok": true,
+      "status": 200,
+      "url": "https://stipendiumhungaricum.hu/"
     },
     "https://www.turkiyeburslari.gov.tr/": {
       "ok": true,
@@ -110,8 +110,8 @@
     },
     "https://www.campuschina.org/": {
       "ok": false,
-      "status": 412,
-      "error": "HTTP error"
+      "status": null,
+      "error": "URLError"
     },
     "https://english.moe.gov.tw/": {
       "ok": true,
@@ -129,9 +129,9 @@
       "url": "https://a2ascholarships.iccr.gov.in/"
     },
     "https://studyinindia.gov.in/": {
-      "ok": false,
-      "status": null,
-      "error": "URLError"
+      "ok": true,
+      "status": 200,
+      "url": "https://studyinindia.gov.in/"
     },
     "https://www.dfat.gov.au/people-to-people/australia-awards": {
       "ok": false,
@@ -239,9 +239,9 @@
       "error": "HTTPError"
     },
     "https://ecosocc.au.int/index.php/en/opportunities": {
-      "ok": false,
-      "status": 404,
-      "error": "HTTP error"
+      "ok": true,
+      "status": 200,
+      "url": "https://ecosocc.au.int/index.php/en/opportunities"
     },
     "https://mastercardfdn.org/all/scholars/": {
       "ok": true,
