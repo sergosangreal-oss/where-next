@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-11-11T14:22:16+00:00",
+  "checkedAt": "2026-11-12T15:14:41+00:00",
   "total": 51,
-  "reachable": 40,
+  "reachable": 39,
   "sources": {
     "https://youth.europa.eu/go-abroad_en": {
       "ok": false,
@@ -14,9 +14,9 @@
       "url": "https://erasmus-plus.ec.europa.eu/opportunities/individuals/youth-exchanges-and-activities"
     },
     "https://youth.europa.eu/solidarity_en": {
-      "ok": true,
-      "status": 200,
-      "url": "https://youth.europa.eu/solidarity_en"
+      "ok": false,
+      "status": 429,
+      "error": "HTTP error"
     },
     "https://programmes.eurodesk.eu/": {
       "ok": false,
@@ -24,9 +24,9 @@
       "error": "HTTPError"
     },
     "https://www.salto-youth.net/tools/european-training-calendar/": {
-      "ok": false,
-      "status": null,
-      "error": "URLError"
+      "ok": true,
+      "status": 200,
+      "url": "https://www.salto-youth.net/tools/european-training-calendar/"
     },
     "https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/erasmus-mundus-joint-masters": {
       "ok": true,
@@ -70,8 +70,8 @@
     },
     "https://educationusa.state.gov/your-5-steps-us-study/finance-your-studies": {
       "ok": false,
-      "status": 503,
-      "error": "HTTP error"
+      "status": 403,
+      "error": "HTTPError"
     },
     "https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-government-excellence-scholarships.html": {
       "ok": true,
@@ -110,8 +110,8 @@
     },
     "https://www.campuschina.org/": {
       "ok": false,
-      "status": 412,
-      "error": "HTTP error"
+      "status": null,
+      "error": "URLError"
     },
     "https://english.moe.gov.tw/": {
       "ok": true,
@@ -129,9 +129,9 @@
       "url": "https://a2ascholarships.iccr.gov.in/"
     },
     "https://studyinindia.gov.in/": {
-      "ok": true,
-      "status": 200,
-      "url": "https://studyinindia.gov.in/"
+      "ok": false,
+      "status": null,
+      "error": "URLError"
     },
     "https://www.dfat.gov.au/people-to-people/australia-awards": {
       "ok": false,
