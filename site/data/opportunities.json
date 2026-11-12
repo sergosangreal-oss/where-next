@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-12T15:05:41+00:00",
-  "listingCount": 421,
+  "updatedAt": "2026-11-12T23:33:32+00:00",
+  "listingCount": 422,
   "sources": [
     {
       "name": "European Tech Opportunities",
       "url": "https://techopportunities.eu/api/v1/opportunities",
       "ok": true,
       "count": 400,
-      "checkedAt": "2026-11-12T15:05:41+00:00"
+      "checkedAt": "2026-11-12T23:33:32+00:00"
     },
     {
       "name": "Opportunity Desk",
       "url": "https://opportunitydesk.org/feed/",
       "ok": true,
-      "count": 6,
-      "checkedAt": "2026-11-12T15:05:41+00:00"
+      "count": 7,
+      "checkedAt": "2026-11-12T23:33:32+00:00"
     },
     {
       "name": "ScholarshipHunter",
       "url": "https://scholarshiphunter.app/feed.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-12T15:05:41+00:00",
+      "checkedAt": "2026-11-12T23:33:32+00:00",
       "error": "HTTPError"
     },
     {
@@ -29,7 +29,7 @@
       "url": "https://www.grants.gov/rss/GG_NewOppByCategory.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-12T15:05:41+00:00",
+      "checkedAt": "2026-11-12T23:33:32+00:00",
       "error": "ParseError"
     },
     {
@@ -37,17 +37,71 @@
       "url": "https://api.grants.gov/v1/api/search2",
       "ok": true,
       "count": 1,
-      "checkedAt": "2026-11-12T15:05:41+00:00"
+      "checkedAt": "2026-11-12T23:33:32+00:00"
     },
     {
       "name": "ResearchRadar.at",
       "url": "https://researchradar.at/api/v1/grants",
       "ok": true,
       "count": 14,
-      "checkedAt": "2026-11-12T15:05:41+00:00"
+      "checkedAt": "2026-11-12T23:33:32+00:00"
     }
   ],
   "opportunities": [
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/12/ashoka-young-changemakers-program-nigeria-2027/",
+      "title": "Ashoka Young Changemakers Program – Nigeria 2027",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/12/ashoka-young-changemakers-program-nigeria-2027/",
+      "summary": "Deadline: Unspecified Applications are open for the Ashoka Young Changemakers Program – Nigeria 2027. Ashoka Anglophone West Africa is seeking young people in Nigeria who have found their power to create change for the good of all, and who are engaging their peers and the entire society in realizing a world where everyone is a [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": null,
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-12T22:03:24+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/12/e-just-ticad9-african-scholarship-for-sti-fall-2027/",
+      "title": "E-JUST TICAD9 African Scholarship for STI – Fall 2027",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/12/e-just-ticad9-african-scholarship-for-sti-fall-2027/",
+      "summary": "Deadline: Unspecified Applications are open for the E-JUST TICAD9 African Scholarship for STI – Fall 2027. E-JUST offers “E-JUST TICAD9 African Scholarship for STI” – i.e. TICAD9 Scholarships to develop high-quality human resources in the field of STI (Science, Technology and Innovation) toward future African STI network and beyond. These scholarships are provided under the [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": null,
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-12T21:51:38+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/12/dsti-nrf-policy-fellowship-programme-2027/",
+      "title": "DSTI-NRF Policy Fellowship Programme 2027 (Funded)",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/12/dsti-nrf-policy-fellowship-programme-2027/",
+      "summary": "Deadline: November 17, 2026 Applications are open for the DSTI-NRF Policy Fellowship Programme 2027. The National Research Foundation (NRF), in partnership with the Department of Science, Technology and Innovation (DSTI), invites eligible early- and mid-career researchers to apply for the second cohort of the DSTI–NRF Policy Fellowship Programme. The programme aims to strengthen the relationship [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2026-11-17",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-12T21:23:57+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
     {
       "id": "opportunity desk:https://opportunitydesk.org/2026/11/12/gratitude-network-fellowship-2027/",
       "title": "Gratitude Network Fellowship 2027",
@@ -118,42 +172,6 @@
       "source": "Opportunity Desk",
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-11-12T09:42:44+00:00",
-      "sourceConnector": "Opportunity Desk"
-    },
-    {
-      "id": "opportunity desk:https://opportunitydesk.org/2026/11/11/harvard-kennedy-school-american-service-fellowship-2027/",
-      "title": "Harvard Kennedy School (HKS) American Service Fellowship 2027 (up to $100,000)",
-      "type": "Opportunity",
-      "organizer": "Opportunity Desk listing",
-      "url": "https://opportunitydesk.org/2026/11/11/harvard-kennedy-school-american-service-fellowship-2027/",
-      "summary": "Deadline: December 1, 2026 Applications are invited for the Harvard Kennedy School (HKS) American Service Fellowship 2027. The American Service Fellowship offers a full scholarship and a partial living stipend for U.S. public servants to enroll in the one-year, on-campus Mid-Career Master in Public Administration (MC/MPA) Program at Harvard Kennedy School. This fellowship honors your [...]",
-      "location": null,
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": "2026-12-01",
-      "source": "Opportunity Desk",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-11-11T14:03:15+00:00",
-      "sourceConnector": "Opportunity Desk"
-    },
-    {
-      "id": "opportunity desk:https://opportunitydesk.org/2026/11/11/africa-dyslexia-teacher-fellowship-program-2027/",
-      "title": "Africa Dyslexia Teacher Fellowship Program 2027",
-      "type": "Opportunity",
-      "organizer": "Opportunity Desk listing",
-      "url": "https://opportunitydesk.org/2026/11/11/africa-dyslexia-teacher-fellowship-program-2027/",
-      "summary": "Deadline: November 20, 2026 Africa Dyslexia Organisation (ADO), in partnership with REED Charitable Foundation, invites passionate and committed teachers across Africa to apply for the Africa Dyslexia Teacher Fellowship Programme 2027. The fellowship is designed to equip teachers with the knowledge, practical skills and confidence to improve literacy instruction and better support learners with dyslexia [...]",
-      "location": null,
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": "2026-11-20",
-      "source": "Opportunity Desk",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-11-11T13:30:18+00:00",
       "sourceConnector": "Opportunity Desk"
     },
     {
