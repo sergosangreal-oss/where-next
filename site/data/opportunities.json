@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-11T14:11:30+00:00",
-  "listingCount": 424,
+  "updatedAt": "2026-11-12T00:37:02+00:00",
+  "listingCount": 423,
   "sources": [
     {
       "name": "European Tech Opportunities",
       "url": "https://techopportunities.eu/api/v1/opportunities",
       "ok": true,
       "count": 400,
-      "checkedAt": "2026-11-11T14:11:30+00:00"
+      "checkedAt": "2026-11-12T00:37:02+00:00"
     },
     {
       "name": "Opportunity Desk",
       "url": "https://opportunitydesk.org/feed/",
       "ok": true,
-      "count": 9,
-      "checkedAt": "2026-11-11T14:11:30+00:00"
+      "count": 8,
+      "checkedAt": "2026-11-12T00:37:02+00:00"
     },
     {
       "name": "ScholarshipHunter",
       "url": "https://scholarshiphunter.app/feed.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-11T14:11:30+00:00",
+      "checkedAt": "2026-11-12T00:37:02+00:00",
       "error": "HTTPError"
     },
     {
@@ -29,7 +29,7 @@
       "url": "https://www.grants.gov/rss/GG_NewOppByCategory.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-11T14:11:30+00:00",
+      "checkedAt": "2026-11-12T00:37:02+00:00",
       "error": "ParseError"
     },
     {
@@ -37,14 +37,14 @@
       "url": "https://api.grants.gov/v1/api/search2",
       "ok": true,
       "count": 1,
-      "checkedAt": "2026-11-11T14:11:30+00:00"
+      "checkedAt": "2026-11-12T00:37:02+00:00"
     },
     {
       "name": "ResearchRadar.at",
       "url": "https://researchradar.at/api/v1/grants",
       "ok": true,
       "count": 14,
-      "checkedAt": "2026-11-11T14:11:30+00:00"
+      "checkedAt": "2026-11-12T00:37:02+00:00"
     }
   ],
   "opportunities": [
@@ -190,24 +190,6 @@
       "source": "Opportunity Desk",
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-11-10T15:05:24+00:00",
-      "sourceConnector": "Opportunity Desk"
-    },
-    {
-      "id": "opportunity desk:https://opportunitydesk.org/2026/11/10/nature-culture-fellowship-2027/",
-      "title": "Nature Culture Fellowship 2027",
-      "type": "Opportunity",
-      "organizer": "Opportunity Desk listing",
-      "url": "https://opportunitydesk.org/2026/11/10/nature-culture-fellowship-2027/",
-      "summary": "Deadline: December 1, 2026 Applications for the Nature Culture Fellowship 2027 are now open. The Nature Culture Fellowship brings together a diverse, global community of changemakers to explore how storytelling, artivism, and culture can drive social environmental change and transform systems. Through an online Learning Journey and Project Implementation phase, Fellows begin to seed the [...]",
-      "location": null,
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": "2026-12-01",
-      "source": "Opportunity Desk",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-11-10T14:45:05+00:00",
       "sourceConnector": "Opportunity Desk"
     },
     {
