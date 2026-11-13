@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T06:34:43+00:00",
+  "updatedAt": "2026-11-13T19:36:44+00:00",
   "listingCount": 422,
   "sources": [
     {
@@ -7,21 +7,22 @@
       "url": "https://techopportunities.eu/api/v1/opportunities",
       "ok": true,
       "count": 400,
-      "checkedAt": "2026-11-13T06:34:43+00:00"
+      "checkedAt": "2026-11-13T19:36:44+00:00"
     },
     {
       "name": "Opportunity Desk",
       "url": "https://opportunitydesk.org/feed/",
-      "ok": true,
-      "count": 7,
-      "checkedAt": "2026-11-13T06:34:43+00:00"
+      "ok": false,
+      "count": 0,
+      "checkedAt": "2026-11-13T19:36:44+00:00",
+      "error": "TimeoutError"
     },
     {
       "name": "ScholarshipHunter",
       "url": "https://scholarshiphunter.app/feed.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-13T06:34:43+00:00",
+      "checkedAt": "2026-11-13T19:36:44+00:00",
       "error": "HTTPError"
     },
     {
@@ -29,7 +30,7 @@
       "url": "https://www.grants.gov/rss/GG_NewOppByCategory.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-13T06:34:43+00:00",
+      "checkedAt": "2026-11-13T19:36:44+00:00",
       "error": "ParseError"
     },
     {
@@ -37,14 +38,14 @@
       "url": "https://api.grants.gov/v1/api/search2",
       "ok": true,
       "count": 1,
-      "checkedAt": "2026-11-13T06:34:43+00:00"
+      "checkedAt": "2026-11-13T19:36:44+00:00"
     },
     {
       "name": "ResearchRadar.at",
       "url": "https://researchradar.at/api/v1/grants",
       "ok": true,
       "count": 14,
-      "checkedAt": "2026-11-13T06:34:43+00:00"
+      "checkedAt": "2026-11-13T19:36:44+00:00"
     }
   ],
   "opportunities": [
@@ -64,7 +65,8 @@
       "source": "Opportunity Desk",
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-11-12T22:03:24+00:00",
-      "sourceConnector": "Opportunity Desk"
+      "sourceConnector": "Opportunity Desk",
+      "stale": true
     },
     {
       "id": "opportunity desk:https://opportunitydesk.org/2026/11/12/e-just-ticad9-african-scholarship-for-sti-fall-2027/",
@@ -82,7 +84,8 @@
       "source": "Opportunity Desk",
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-11-12T21:51:38+00:00",
-      "sourceConnector": "Opportunity Desk"
+      "sourceConnector": "Opportunity Desk",
+      "stale": true
     },
     {
       "id": "opportunity desk:https://opportunitydesk.org/2026/11/12/dsti-nrf-policy-fellowship-programme-2027/",
@@ -100,7 +103,8 @@
       "source": "Opportunity Desk",
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-11-12T21:23:57+00:00",
-      "sourceConnector": "Opportunity Desk"
+      "sourceConnector": "Opportunity Desk",
+      "stale": true
     },
     {
       "id": "opportunity desk:https://opportunitydesk.org/2026/11/12/gratitude-network-fellowship-2027/",
@@ -118,7 +122,8 @@
       "source": "Opportunity Desk",
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-11-12T12:05:23+00:00",
-      "sourceConnector": "Opportunity Desk"
+      "sourceConnector": "Opportunity Desk",
+      "stale": true
     },
     {
       "id": "opportunity desk:https://opportunitydesk.org/2026/11/12/allpeoplebehappy-volunteer-service-award-program-2027/",
@@ -136,7 +141,8 @@
       "source": "Opportunity Desk",
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-11-12T11:54:34+00:00",
-      "sourceConnector": "Opportunity Desk"
+      "sourceConnector": "Opportunity Desk",
+      "stale": true
     },
     {
       "id": "opportunity desk:https://opportunitydesk.org/2026/11/12/thrive-capital-summer-fellowship-2027/",
@@ -154,7 +160,8 @@
       "source": "Opportunity Desk",
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-11-12T11:02:50+00:00",
-      "sourceConnector": "Opportunity Desk"
+      "sourceConnector": "Opportunity Desk",
+      "stale": true
     },
     {
       "id": "opportunity desk:https://opportunitydesk.org/2026/11/12/jodi-harris-scholarship-2027/",
@@ -172,7 +179,8 @@
       "source": "Opportunity Desk",
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-11-12T09:42:44+00:00",
-      "sourceConnector": "Opportunity Desk"
+      "sourceConnector": "Opportunity Desk",
+      "stale": true
     },
     {
       "id": "eto:4465067812",
