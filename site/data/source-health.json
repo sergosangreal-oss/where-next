@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-11-14T13:30:32+00:00",
+  "checkedAt": "2026-11-15T13:55:46+00:00",
   "total": 51,
-  "reachable": 43,
+  "reachable": 41,
   "sources": {
     "https://youth.europa.eu/go-abroad_en": {
-      "ok": true,
-      "status": 200,
-      "url": "https://youth.europa.eu/go-abroad_en"
+      "ok": false,
+      "status": 429,
+      "error": "HTTP error"
     },
     "https://erasmus-plus.ec.europa.eu/opportunities/individuals/youth-exchanges-and-activities": {
       "ok": true,
@@ -39,9 +39,9 @@
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-search"
     },
     "https://www.daad.de/en/study-and-research-in-germany/scholarships/": {
-      "ok": true,
-      "status": 200,
-      "url": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/"
+      "ok": false,
+      "status": 403,
+      "error": "HTTPError"
     },
     "https://campusbourses.campusfrance.org/": {
       "ok": true,
