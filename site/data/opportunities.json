@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-17T07:49:45+00:00",
-  "listingCount": 418,
+  "updatedAt": "2026-11-17T20:50:35+00:00",
+  "listingCount": 417,
   "sources": [
     {
       "name": "European Tech Opportunities",
       "url": "https://techopportunities.eu/api/v1/opportunities",
       "ok": true,
       "count": 400,
-      "checkedAt": "2026-11-17T07:49:45+00:00"
+      "checkedAt": "2026-11-17T20:50:35+00:00"
     },
     {
       "name": "Opportunity Desk",
       "url": "https://opportunitydesk.org/feed/",
       "ok": true,
-      "count": 4,
-      "checkedAt": "2026-11-17T07:49:45+00:00"
+      "count": 3,
+      "checkedAt": "2026-11-17T20:50:35+00:00"
     },
     {
       "name": "ScholarshipHunter",
       "url": "https://scholarshiphunter.app/feed.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-17T07:49:45+00:00",
+      "checkedAt": "2026-11-17T20:50:35+00:00",
       "error": "HTTPError"
     },
     {
@@ -29,7 +29,7 @@
       "url": "https://www.grants.gov/rss/GG_NewOppByCategory.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-17T07:49:45+00:00",
+      "checkedAt": "2026-11-17T20:50:35+00:00",
       "error": "ParseError"
     },
     {
@@ -37,17 +37,53 @@
       "url": "https://api.grants.gov/v1/api/search2",
       "ok": true,
       "count": 1,
-      "checkedAt": "2026-11-17T07:49:45+00:00"
+      "checkedAt": "2026-11-17T20:50:35+00:00"
     },
     {
       "name": "ResearchRadar.at",
       "url": "https://researchradar.at/api/v1/grants",
       "ok": true,
       "count": 13,
-      "checkedAt": "2026-11-17T07:49:45+00:00"
+      "checkedAt": "2026-11-17T20:50:35+00:00"
     }
   ],
   "opportunities": [
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/17/idac-foundation-summer-fellowship-2027/",
+      "title": "iDAC Foundation Summer Fellowship 2027 ($6,000 stipend)",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/17/idac-foundation-summer-fellowship-2027/",
+      "summary": "Deadline: November 23, 206 Applications for the iDAC Foundation Summer Fellowship 2027 are now open. The iDAC Foundation connects promising students with paid summer fellowship placements at pension funds, state investment councils and leading investment firms, building the next generation of diverse finance professionals. iDAC, Inc., a 501c-6 membership organization, and the iDAC Foundation envision [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": null,
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-17T19:28:27+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/17/daad-heilbronn-ai-fellowship-2027/",
+      "title": "DAAD Heilbronn AI Fellowship 2027 (Funded)",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/17/daad-heilbronn-ai-fellowship-2027/",
+      "summary": "Deadline: Unspecified Applications are open for the DAAD Heilbronn AI Fellowship 2027. The Heilbronn AI Fellowship attracts outstanding international postdoctoral researchers to Heilbronn’s rapidly growing AI ecosystem. The programme supports cutting-edge AI research at institutions on the Bildungscampus Heilbronn and across the broader innovation network. Fellows benefit from a unique environment that combines academic excellence, industry [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": null,
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-17T18:57:56+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
     {
       "id": "opportunity desk:https://opportunitydesk.org/2026/11/16/icj-judicial-fellowship-2027-2028/",
       "title": "International Court of Justice Judicial Fellowship Programme 2027-2028",
@@ -64,24 +100,6 @@
       "source": "Opportunity Desk",
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-11-16T20:48:21+00:00",
-      "sourceConnector": "Opportunity Desk"
-    },
-    {
-      "id": "opportunity desk:https://opportunitydesk.org/2026/11/16/digispace-africa-research-fellowship-2027/",
-      "title": "Digispace Africa Research Fellowship 2027",
-      "type": "Opportunity",
-      "organizer": "Opportunity Desk listing",
-      "url": "https://opportunitydesk.org/2026/11/16/digispace-africa-research-fellowship-2027/",
-      "summary": "Deadline: December 7, 2026 Are you curious about how technology is shaping Africa’s future? Do you have ideas about digital rights, emerging technologies or the policies affecting our connected societies? Apply for the Digispace Africa Research Fellowship 2027. The Digispace Africa Research Fellowship brings together emerging African researchers, professionals and changemakers to explore digital challenges [...]",
-      "location": null,
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": "2026-12-07",
-      "source": "Opportunity Desk",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-11-16T13:35:19+00:00",
       "sourceConnector": "Opportunity Desk"
     },
     {
@@ -155,42 +173,6 @@
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-11-16T03:24:47.987259+00:00",
       "sourceConnector": "European Tech Opportunities"
-    },
-    {
-      "id": "opportunity desk:https://opportunitydesk.org/2026/11/14/businessday-young-economists-writing-challenge-2026/",
-      "title": "BusinessDay Young Economists Writing Challenge 2026 (N450,000 in prizes)",
-      "type": "Opportunity",
-      "organizer": "Opportunity Desk listing",
-      "url": "https://opportunitydesk.org/2026/11/14/businessday-young-economists-writing-challenge-2026/",
-      "summary": "Deadline: November 27, 2026 Applications are invited for the BusinessDay Young Economists Writing Challenge 2026. Are you an Economics student with a bold perspective on the issues shaping Nigeria and Africa’s economic future? BusinessDay is inviting the next generation of economists to move beyond the classroom and put their ideas, research and analytical skills to [...]",
-      "location": null,
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": "2026-11-27",
-      "source": "Opportunity Desk",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-11-14T14:47:44+00:00",
-      "sourceConnector": "Opportunity Desk"
-    },
-    {
-      "id": "opportunity desk:https://opportunitydesk.org/2026/11/14/morris-animal-foundation-veterinary-student-scholar-program-2026/",
-      "title": "Morris Animal Foundation Veterinary Student Scholar Program 2026 ($5,500 stipend)",
-      "type": "Opportunity",
-      "organizer": "Opportunity Desk listing",
-      "url": "https://opportunitydesk.org/2026/11/14/morris-animal-foundation-veterinary-student-scholar-program-2026/",
-      "summary": "Deadline: Unspecified Applications are invited for the Morris Animal Foundation Veterinary Student Scholar Program 2026. The Morris Animal Foundation Veterinary Student Scholar program is a competitive program that provides veterinary students the opportunity to conduct mentored research to advance the health and well-being of dogs, cats, equids and wildlife. Morris Animal Foundation funds high-quality research that advances [...]",
-      "location": null,
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": null,
-      "source": "Opportunity Desk",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-11-14T14:26:49+00:00",
-      "sourceConnector": "Opportunity Desk"
     },
     {
       "id": "eto:4490744329",
