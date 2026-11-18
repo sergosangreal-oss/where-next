@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-18T07:19:43+00:00",
-  "listingCount": 417,
+  "updatedAt": "2026-11-18T20:26:31+00:00",
+  "listingCount": 420,
   "sources": [
     {
       "name": "European Tech Opportunities",
       "url": "https://techopportunities.eu/api/v1/opportunities",
       "ok": true,
       "count": 400,
-      "checkedAt": "2026-11-18T07:19:43+00:00"
+      "checkedAt": "2026-11-18T20:26:31+00:00"
     },
     {
       "name": "Opportunity Desk",
       "url": "https://opportunitydesk.org/feed/",
       "ok": true,
-      "count": 3,
-      "checkedAt": "2026-11-18T07:19:43+00:00"
+      "count": 6,
+      "checkedAt": "2026-11-18T20:26:31+00:00"
     },
     {
       "name": "ScholarshipHunter",
       "url": "https://scholarshiphunter.app/feed.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-18T07:19:43+00:00",
+      "checkedAt": "2026-11-18T20:26:31+00:00",
       "error": "HTTPError"
     },
     {
@@ -29,7 +29,7 @@
       "url": "https://www.grants.gov/rss/GG_NewOppByCategory.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-18T07:19:43+00:00",
+      "checkedAt": "2026-11-18T20:26:31+00:00",
       "error": "ParseError"
     },
     {
@@ -37,17 +37,89 @@
       "url": "https://api.grants.gov/v1/api/search2",
       "ok": true,
       "count": 1,
-      "checkedAt": "2026-11-18T07:19:43+00:00"
+      "checkedAt": "2026-11-18T20:26:31+00:00"
     },
     {
       "name": "ResearchRadar.at",
       "url": "https://researchradar.at/api/v1/grants",
       "ok": true,
       "count": 13,
-      "checkedAt": "2026-11-18T07:19:43+00:00"
+      "checkedAt": "2026-11-18T20:26:31+00:00"
     }
   ],
   "opportunities": [
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/18/digital-democracy-edinburgh-2027/",
+      "title": "Open Call: Travel Stipends for Digital Democracy Edinburgh 2027",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/18/digital-democracy-edinburgh-2027/",
+      "summary": "Deadline: December 3, 2026 Applications for stipends to attend the Digital Democracy Edinburgh 2027 are open. The Evens Foundation is offering ten travel stipends of up to €300 each in direct expenses so that young people (age 29 or under by 11 March 2027) can attend Digital Democracy Edinburgh in person. Digital Democracy Edinburgh takes [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2026-12-03",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-18T12:59:31+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/18/jaws-health-journalism-fellowship-2027/",
+      "title": "Journalism & Women Symposium (JAWS) Health Journalism Fellowship 2027 ($4,000 stipend)",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/18/jaws-health-journalism-fellowship-2027/",
+      "summary": "Deadline: December 7, 2026 Applications are open for the Journalism & Women Symposium (JAWS) Health Journalism Fellowship 2027. The Journalism & Women Symposium (JAWS) is proud to offer a fellowship designed to empower early-career journalists and those new to the health beat who are eager to strengthen their health reporting skills. Open to women and [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2026-12-07",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-18T10:43:54+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/18/healthy-futures-mastercard-scholarship-2027/",
+      "title": "Healthy Futures Mastercard Scholarship 2027",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/18/healthy-futures-mastercard-scholarship-2027/",
+      "summary": "Deadline: December 10, 2026 Applications are open for the Healthy Futures Mastercard Scholarship 2027. The Bertha Centre for Social Innovation and Entrepreneurship and the Faculty of Health Sciences at the University of Cape Town invite applications for the Healthy Futures Mastercard Scholarship 2027, funded by the Mastercard Foundation Healthy Futures Project. The scholarship supports emerging [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2026-12-10",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-18T08:15:25+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/18/french-african-foundation-young-leaders-program-2027/",
+      "title": "French-African Foundation Young Leaders Program 2027",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/18/french-african-foundation-young-leaders-program-2027/",
+      "summary": "Deadline: December 16, 2026 Applications are open for the French-African Foundation Young Leaders Program 2027. The Young Leaders program, an emblematic initiative of the French-African Foundation, offers an exceptional platform for networking, training, and mentoring young African and French talents. By leveraging these talents, the Foundation offers them exclusive networking opportunities through prestigious events and [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2026-12-16",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-18T08:06:48+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
     {
       "id": "opportunity desk:https://opportunitydesk.org/2026/11/17/idac-foundation-summer-fellowship-2027/",
       "title": "iDAC Foundation Summer Fellowship 2027 ($6,000 stipend)",
@@ -82,24 +154,6 @@
       "source": "Opportunity Desk",
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-11-17T18:57:56+00:00",
-      "sourceConnector": "Opportunity Desk"
-    },
-    {
-      "id": "opportunity desk:https://opportunitydesk.org/2026/11/16/icj-judicial-fellowship-2027-2028/",
-      "title": "International Court of Justice Judicial Fellowship Programme 2027-2028",
-      "type": "Opportunity",
-      "organizer": "Opportunity Desk listing",
-      "url": "https://opportunitydesk.org/2026/11/16/icj-judicial-fellowship-2027-2028/",
-      "summary": "Deadline: February 5, 2027 Applications are open for the International Court of Justice Judicial Fellowship Programme 2027-2028. The Judicial Fellowship Programme, formerly known as the University Traineeship Programme, was established in 1999 to enable recent law graduates to gain professional experience by working for the International Court of Justice. The programme aims to deepen participants’ [...]",
-      "location": null,
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": "2027-02-05",
-      "source": "Opportunity Desk",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-11-16T20:48:21+00:00",
       "sourceConnector": "Opportunity Desk"
     },
     {
