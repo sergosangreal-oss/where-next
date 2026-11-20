@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-20T07:06:23+00:00",
-  "listingCount": 419,
+  "updatedAt": "2026-11-20T20:06:15+00:00",
+  "listingCount": 418,
   "sources": [
     {
       "name": "European Tech Opportunities",
       "url": "https://techopportunities.eu/api/v1/opportunities",
       "ok": true,
       "count": 400,
-      "checkedAt": "2026-11-20T07:06:23+00:00"
+      "checkedAt": "2026-11-20T20:06:15+00:00"
     },
     {
       "name": "Opportunity Desk",
       "url": "https://opportunitydesk.org/feed/",
       "ok": true,
-      "count": 5,
-      "checkedAt": "2026-11-20T07:06:23+00:00"
+      "count": 4,
+      "checkedAt": "2026-11-20T20:06:15+00:00"
     },
     {
       "name": "ScholarshipHunter",
       "url": "https://scholarshiphunter.app/feed.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-20T07:06:23+00:00",
+      "checkedAt": "2026-11-20T20:06:15+00:00",
       "error": "HTTPError"
     },
     {
@@ -29,7 +29,7 @@
       "url": "https://www.grants.gov/rss/GG_NewOppByCategory.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-20T07:06:23+00:00",
+      "checkedAt": "2026-11-20T20:06:15+00:00",
       "error": "URLError"
     },
     {
@@ -37,17 +37,35 @@
       "url": "https://api.grants.gov/v1/api/search2",
       "ok": true,
       "count": 1,
-      "checkedAt": "2026-11-20T07:06:23+00:00"
+      "checkedAt": "2026-11-20T20:06:15+00:00"
     },
     {
       "name": "ResearchRadar.at",
       "url": "https://researchradar.at/api/v1/grants",
       "ok": true,
       "count": 13,
-      "checkedAt": "2026-11-20T07:06:23+00:00"
+      "checkedAt": "2026-11-20T20:06:15+00:00"
     }
   ],
   "opportunities": [
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/20/cambridge-africa-climate-collaborative-research-fund-2026-2027/",
+      "title": "Cambridge Africa Climate Collaborative Research Fund 2026/2027",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/20/cambridge-africa-climate-collaborative-research-fund-2026-2027/",
+      "summary": "Deadline: January 15, 2027 Applications for the Cambridge Africa Climate Collaborative Research Fund 2026/2027 are now open. Applications are invited from pairs of researchers (at post-doctoral level and above) from the University of Cambridge and African universities across all disciplines to initiate and/or strengthen research collaborations that address key challenges in climate resilience and sustainability. [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2027-01-15",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-20T18:37:28+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
     {
       "id": "opportunity desk:https://opportunitydesk.org/2026/11/19/rest-resilience-fellowship-2027/",
       "title": "Rest & Resilience Fellowship 2027 (Fully-funded)",
@@ -100,42 +118,6 @@
       "source": "Opportunity Desk",
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-11-19T19:33:36+00:00",
-      "sourceConnector": "Opportunity Desk"
-    },
-    {
-      "id": "opportunity desk:https://opportunitydesk.org/2026/11/19/20-scholarships-grants-fellowships-and-other-opportunities-currently-open-november-19-2026/",
-      "title": "20 Scholarships, Grants, Fellowships and Other Opportunities Currently Open – November 19, 2026",
-      "type": "Opportunity",
-      "organizer": "Opportunity Desk listing",
-      "url": "https://opportunitydesk.org/2026/11/19/20-scholarships-grants-fellowships-and-other-opportunities-currently-open-november-19-2026/",
-      "summary": "1. Morris B. Abram Fellowship 2027-2028The Morris B. Abram Fellowship is designed to train recent college graduates through hands-on work with UN Watch. The fellow works closely with the Executive Director on research, writing, monitoring United Nations sessions, communications, social media and administrative assignments. The programme is suited to strong writers with at least one [...]",
-      "location": null,
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": null,
-      "source": "Opportunity Desk",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-11-19T17:20:09+00:00",
-      "sourceConnector": "Opportunity Desk"
-    },
-    {
-      "id": "opportunity desk:https://opportunitydesk.org/2026/11/19/malek-sghiri-scholarship-2027/",
-      "title": "Malek Sghiri Scholarship 2027 to Study Arabic in Tunisia",
-      "type": "Opportunity",
-      "organizer": "Opportunity Desk listing",
-      "url": "https://opportunitydesk.org/2026/11/19/malek-sghiri-scholarship-2027/",
-      "summary": "Deadline: March 15, 2027 Applications are open for the Malek Sghiri Scholarship 2027 to Study Arabic in Tunisia. The scholarship supports students, professionals and career changers who want to study Modern Standard Arabic in La Marsa, Tunisia, and pursue a short internship or research project in human rights, anti-corruption or civil society. Study Arabic in [...]",
-      "location": null,
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": "2027-03-15",
-      "source": "Opportunity Desk",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-11-19T14:28:31+00:00",
       "sourceConnector": "Opportunity Desk"
     },
     {
