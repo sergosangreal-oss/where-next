@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-21T06:58:45+00:00",
-  "listingCount": 418,
+  "updatedAt": "2026-11-21T19:09:08+00:00",
+  "listingCount": 420,
   "sources": [
     {
       "name": "European Tech Opportunities",
       "url": "https://techopportunities.eu/api/v1/opportunities",
       "ok": true,
       "count": 400,
-      "checkedAt": "2026-11-21T06:58:45+00:00"
+      "checkedAt": "2026-11-21T19:09:08+00:00"
     },
     {
       "name": "Opportunity Desk",
       "url": "https://opportunitydesk.org/feed/",
       "ok": true,
-      "count": 4,
-      "checkedAt": "2026-11-21T06:58:45+00:00"
+      "count": 6,
+      "checkedAt": "2026-11-21T19:09:08+00:00"
     },
     {
       "name": "ScholarshipHunter",
       "url": "https://scholarshiphunter.app/feed.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-21T06:58:45+00:00",
+      "checkedAt": "2026-11-21T19:09:08+00:00",
       "error": "HTTPError"
     },
     {
@@ -29,7 +29,7 @@
       "url": "https://www.grants.gov/rss/GG_NewOppByCategory.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-21T06:58:45+00:00",
+      "checkedAt": "2026-11-21T19:09:08+00:00",
       "error": "URLError"
     },
     {
@@ -37,17 +37,107 @@
       "url": "https://api.grants.gov/v1/api/search2",
       "ok": true,
       "count": 1,
-      "checkedAt": "2026-11-21T06:58:45+00:00"
+      "checkedAt": "2026-11-21T19:09:08+00:00"
     },
     {
       "name": "ResearchRadar.at",
       "url": "https://researchradar.at/api/v1/grants",
       "ok": true,
       "count": 13,
-      "checkedAt": "2026-11-21T06:58:45+00:00"
+      "checkedAt": "2026-11-21T19:09:08+00:00"
     }
   ],
   "opportunities": [
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/21/clements-archer-national-security-policy-postdoctoral-fellowship-2027-2028/",
+      "title": "Clements-Archer National Security Policy Postdoctoral Fellowship 2027-2028 ($80,000 stipend)",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/21/clements-archer-national-security-policy-postdoctoral-fellowship-2027-2028/",
+      "summary": "Deadline: January 15, 2027 Applications are open for the Clements-Archer National Security Policy Postdoctoral Fellowship 2027-2028. Through a partnership between the Clements Center for National Security and the Archer Center, The University of Texas System campus in Washington, D.C., the Clements-Archer National Security Policy Postdoctoral Fellowship offers recent Ph.D. graduates of The University of Texas [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2027-01-15",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-21T17:01:44+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/21/asia-house-fellowship-2027-2028/",
+      "title": "Asia House Fellowship 2027/2028 (£24,000 stipend)",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/21/asia-house-fellowship-2027-2028/",
+      "summary": "Deadline: January 31, 2027 Applications are open for the Asia House Fellowship 2027/2028. The Asia House Fellowship aims to develop the next generation of business and policy leaders. Now in its sixth year, it is a unique opportunity for two candidates who share Asia House’s vision for a strong and dynamic relationship between Asia, the [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2027-01-31",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-21T16:45:19+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/21/sadc-secondary-school-essay-competition-2027/",
+      "title": "SADC Secondary School Essay Competition 2027",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/21/sadc-secondary-school-essay-competition-2027/",
+      "summary": "Deadline: May 31, 2027 Applications are open for the SADC Secondary School Essay Competition 2027. The future prosperity of the Southern African Development Community (SADC) region lies in the hands of young people. Following a Decision of the SADC Council of Ministers in Windhoek, Republic of Namibia in 2000, SADC introduced the annual SADC Secondary [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2027-05-31",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-21T16:21:49+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/21/mastercard-foundation-scholars-program-at-the-university-of-cambridge-2027-2028/",
+      "title": "Mastercard Foundation Scholars Program at the University of Cambridge 2027/2028",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/21/mastercard-foundation-scholars-program-at-the-university-of-cambridge-2027-2028/",
+      "summary": "Deadline: December 31, 2026 Applications are open for the Mastercard Foundation Scholars Program at the University of Cambridge 2027/2028. The Mastercard Foundation Scholars Program at the University of Cambridge enables talented young Africans to pursue a master’s degree and grow their leadership potential. If you are a passionate, ambitious young African committed to creating impact and driving [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2026-12-31",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-21T16:01:11+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/21/dataphyte-foundation-infra-watch-media-fellowship-2027/",
+      "title": "Dataphyte Foundation Infra-Watch Media Fellowship 2027",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/21/dataphyte-foundation-infra-watch-media-fellowship-2027/",
+      "summary": "Deadline: November 27, 2026 Applications are open for the Dataphyte Foundation Infra-Watch Media Fellowship 2027. Dataphyte Foundation, in partnership with the Center for International Private Enterprise (CIPE), invites applications from Nigerian journalists to join a two-month investigative journalism fellowship on foreign-funded infrastructure reporting. About the Fellowship The Foreign-Funded Infrastructure Accountability (“Infra-Watch”) Media Fellowship will train five [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2026-11-27",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-21T15:41:30+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
     {
       "id": "opportunity desk:https://opportunitydesk.org/2026/11/20/cambridge-africa-climate-collaborative-research-fund-2026-2027/",
       "title": "Cambridge Africa Climate Collaborative Research Fund 2026/2027",
@@ -64,60 +154,6 @@
       "source": "Opportunity Desk",
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-11-20T18:37:28+00:00",
-      "sourceConnector": "Opportunity Desk"
-    },
-    {
-      "id": "opportunity desk:https://opportunitydesk.org/2026/11/19/rest-resilience-fellowship-2027/",
-      "title": "Rest & Resilience Fellowship 2027 (Fully-funded)",
-      "type": "Opportunity",
-      "organizer": "Opportunity Desk listing",
-      "url": "https://opportunitydesk.org/2026/11/19/rest-resilience-fellowship-2027/",
-      "summary": "Deadline: December 6, 2026 Applications are open for the Rest & Resilience Fellowship 2027. They invite two journalists from countries with restricted press and information freedoms to Berlin for a six-month stay. During their time in Berlin, the media professionals can take a break from their daily responsibilities, recover from difficult working conditions, and broaden [...]",
-      "location": null,
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": "2026-12-06",
-      "source": "Opportunity Desk",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-11-19T20:09:26+00:00",
-      "sourceConnector": "Opportunity Desk"
-    },
-    {
-      "id": "opportunity desk:https://opportunitydesk.org/2026/11/19/rsf-berlin-fellowship-2027/",
-      "title": "Reporters Without Borders (RSF) Berlin Fellowship 2027 (Funded)",
-      "type": "Opportunity",
-      "organizer": "Opportunity Desk listing",
-      "url": "https://opportunitydesk.org/2026/11/19/rsf-berlin-fellowship-2027/",
-      "summary": "Deadline: December 15, 2026 Applications are invited for the Reporters Without Borders (RSF) Berlin Fellowship 2027. Reporters Without Borders (RSF) Germany will once again invite journalists from countries with restricted freedom of press and information to Berlin for the annual fellowship program. The RSF Fellowship Program is designed to provide a safe space for journalists: [...]",
-      "location": null,
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": "2026-12-15",
-      "source": "Opportunity Desk",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-11-19T19:52:03+00:00",
-      "sourceConnector": "Opportunity Desk"
-    },
-    {
-      "id": "opportunity desk:https://opportunitydesk.org/2026/11/19/global-citizen-prize-2027-cisco-youth-leadership-award/",
-      "title": "Global Citizen Prize: 2027 Cisco Youth Leadership Award ($250,000 prize)",
-      "type": "Opportunity",
-      "organizer": "Opportunity Desk listing",
-      "url": "https://opportunitydesk.org/2026/11/19/global-citizen-prize-2027-cisco-youth-leadership-award/",
-      "summary": "Deadline: December 18, 2026 Applications are invited for the Global Citizen Prize: 2027 Cisco Youth Leadership Award. Established by Cisco and Global Citizen, the Global Citizen Prize: 2027 Cisco Youth Leadership Award will honor three individuals aged 18–35 who have made a meaningful contribution to ending extreme poverty through the use of technology. Cisco and [...]",
-      "location": null,
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": "2026-12-18",
-      "source": "Opportunity Desk",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-11-19T19:33:36+00:00",
       "sourceConnector": "Opportunity Desk"
     },
     {
