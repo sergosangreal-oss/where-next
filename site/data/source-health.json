@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-11-21T14:39:26+00:00",
+  "checkedAt": "2026-11-22T14:34:17+00:00",
   "total": 51,
-  "reachable": 40,
+  "reachable": 41,
   "sources": {
     "https://youth.europa.eu/go-abroad_en": {
-      "ok": false,
-      "status": 429,
-      "error": "HTTP error"
+      "ok": true,
+      "status": 200,
+      "url": "https://youth.europa.eu/go-abroad_en"
     },
     "https://erasmus-plus.ec.europa.eu/opportunities/individuals/youth-exchanges-and-activities": {
       "ok": true,
@@ -169,9 +169,9 @@
       "error": "HTTPError"
     },
     "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas": {
-      "ok": false,
-      "status": null,
-      "error": "URLError"
+      "ok": true,
+      "status": 200,
+      "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas"
     },
     "https://www.gob.mx/amexcid/acciones-y-programas/becas-para-extranjeros-29785": {
       "ok": true,
@@ -180,7 +180,7 @@
     },
     "https://www.a-star.edu.sg/gis/join-us/students": {
       "ok": true,
-      "status": 202,
+      "status": 200,
       "url": "https://www.a-star.edu.sg/gis/join-us/students"
     },
     "https://www.nus.edu.sg/oam/scholarships": {
@@ -194,9 +194,9 @@
       "url": "https://www.ntu.edu.sg/admissions/undergraduate/scholarships-and-awards"
     },
     "https://www.moe.gov.sg/financial-matters/awards-scholarships/asean-scholarships": {
-      "ok": true,
-      "status": 202,
-      "url": "https://www.moe.gov.sg/financial-matters/awards-scholarships/asean-scholarships"
+      "ok": false,
+      "status": 404,
+      "error": "HTTP error"
     },
     "https://www.worldbank.org/en/programs/scholarships": {
       "ok": true,
