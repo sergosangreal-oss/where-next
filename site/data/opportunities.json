@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-23T07:27:59+00:00",
-  "listingCount": 420,
+  "updatedAt": "2026-11-23T23:49:15+00:00",
+  "listingCount": 422,
   "sources": [
     {
       "name": "European Tech Opportunities",
       "url": "https://techopportunities.eu/api/v1/opportunities",
       "ok": true,
       "count": 400,
-      "checkedAt": "2026-11-23T07:27:59+00:00"
+      "checkedAt": "2026-11-23T23:49:15+00:00"
     },
     {
       "name": "Opportunity Desk",
       "url": "https://opportunitydesk.org/feed/",
       "ok": true,
-      "count": 6,
-      "checkedAt": "2026-11-23T07:27:59+00:00"
+      "count": 8,
+      "checkedAt": "2026-11-23T23:49:15+00:00"
     },
     {
       "name": "ScholarshipHunter",
       "url": "https://scholarshiphunter.app/feed.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-23T07:27:59+00:00",
+      "checkedAt": "2026-11-23T23:49:15+00:00",
       "error": "HTTPError"
     },
     {
@@ -29,7 +29,7 @@
       "url": "https://www.grants.gov/rss/GG_NewOppByCategory.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-23T07:27:59+00:00",
+      "checkedAt": "2026-11-23T23:49:15+00:00",
       "error": "URLError"
     },
     {
@@ -37,17 +37,89 @@
       "url": "https://api.grants.gov/v1/api/search2",
       "ok": true,
       "count": 1,
-      "checkedAt": "2026-11-23T07:27:59+00:00"
+      "checkedAt": "2026-11-23T23:49:15+00:00"
     },
     {
       "name": "ResearchRadar.at",
       "url": "https://researchradar.at/api/v1/grants",
       "ok": true,
       "count": 13,
-      "checkedAt": "2026-11-23T07:27:59+00:00"
+      "checkedAt": "2026-11-23T23:49:15+00:00"
     }
   ],
   "opportunities": [
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/23/yale-council-on-african-studies-visiting-african-scholars-fellowship-2027-2028/",
+      "title": "Yale Council on African Studies Visiting African Scholars Fellowship 2027-2028",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/23/yale-council-on-african-studies-visiting-african-scholars-fellowship-2027-2028/",
+      "summary": "Deadline: December 31, 2026 Applications are open for the Yale Council on African Studies Visiting African Scholars Fellowship 2027-2028. The Council on African Studies at the Whitney and Betty MacMillan Center for International and Area Studies at Yale University invites applications for its Visiting African Scholars Fellowship Program for the 2027-2028 academic year. This opportunity [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2026-12-31",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-23T18:06:00+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/23/tor-community-fellowship-2027/",
+      "title": "Tor Community Fellowship 2027 (stipend available)",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/23/tor-community-fellowship-2027/",
+      "summary": "Deadline: December 17, 2026 Applications are open for the Tor Community Fellowship 2027. For its first year, they are accepting 4 human rights defenders, journalists, technologists, and researchers. Fellows will get the chance to learn from the Tor Project team, build a deep understanding of how internet censorship works, how tools like Tor work to [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2026-12-17",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-23T17:27:25+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/23/itu-secretary-general-youth-advisory-board-2/",
+      "title": "Apply to join the ITU Secretary-General’s Youth Advisory Board​​​",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/23/itu-secretary-general-youth-advisory-board-2/",
+      "summary": "Deadline: January 15, 2027 Applications are open for join the ITU Secretary-General’s Youth Advisory Board​​​. The ITU Secretary-General’s Youth Advisory Board (YAB) brings young people into the heart of global digital decision-making, through a unique platform to inform the work of ITU and directly advise as young experts, the International Telecommunication Union (ITU) Secretary-General on [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2027-01-15",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-23T13:55:30+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/23/public-policy-new-voices-fellowship-program-2026-2027/",
+      "title": "Public Policy New Voices Fellowship Program 2026-2027",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/23/public-policy-new-voices-fellowship-program-2026-2027/",
+      "summary": "Deadline: November 29, 2026 Applications are invited for the Public Policy New Voices Fellowship Program 2026-2027. The Public Policy New Voices (PPNV) Program is a collaboration among leading public policy graduate schools, corporate public policy teams, and some of the most innovative global strategic advisory firms in the nation who are committed to addressing the [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2026-11-29",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-23T13:04:30+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
     {
       "id": "opportunity desk:https://opportunitydesk.org/2026/11/21/clements-archer-national-security-policy-postdoctoral-fellowship-2027-2028/",
       "title": "Clements-Archer National Security Policy Postdoctoral Fellowship 2027-2028 ($80,000 stipend)",
@@ -118,42 +190,6 @@
       "source": "Opportunity Desk",
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-11-21T16:01:11+00:00",
-      "sourceConnector": "Opportunity Desk"
-    },
-    {
-      "id": "opportunity desk:https://opportunitydesk.org/2026/11/21/dataphyte-foundation-infra-watch-media-fellowship-2027/",
-      "title": "Dataphyte Foundation Infra-Watch Media Fellowship 2027",
-      "type": "Opportunity",
-      "organizer": "Opportunity Desk listing",
-      "url": "https://opportunitydesk.org/2026/11/21/dataphyte-foundation-infra-watch-media-fellowship-2027/",
-      "summary": "Deadline: November 27, 2026 Applications are open for the Dataphyte Foundation Infra-Watch Media Fellowship 2027. Dataphyte Foundation, in partnership with the Center for International Private Enterprise (CIPE), invites applications from Nigerian journalists to join a two-month investigative journalism fellowship on foreign-funded infrastructure reporting. About the Fellowship The Foreign-Funded Infrastructure Accountability (“Infra-Watch”) Media Fellowship will train five [...]",
-      "location": null,
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": "2026-11-27",
-      "source": "Opportunity Desk",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-11-21T15:41:30+00:00",
-      "sourceConnector": "Opportunity Desk"
-    },
-    {
-      "id": "opportunity desk:https://opportunitydesk.org/2026/11/20/cambridge-africa-climate-collaborative-research-fund-2026-2027/",
-      "title": "Cambridge Africa Climate Collaborative Research Fund 2026/2027",
-      "type": "Opportunity",
-      "organizer": "Opportunity Desk listing",
-      "url": "https://opportunitydesk.org/2026/11/20/cambridge-africa-climate-collaborative-research-fund-2026-2027/",
-      "summary": "Deadline: January 15, 2027 Applications for the Cambridge Africa Climate Collaborative Research Fund 2026/2027 are now open. Applications are invited from pairs of researchers (at post-doctoral level and above) from the University of Cambridge and African universities across all disciplines to initiate and/or strengthen research collaborations that address key challenges in climate resilience and sustainability. [...]",
-      "location": null,
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": "2027-01-15",
-      "source": "Opportunity Desk",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-11-20T18:37:28+00:00",
       "sourceConnector": "Opportunity Desk"
     },
     {
