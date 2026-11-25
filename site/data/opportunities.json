@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T08:22:56+00:00",
+  "updatedAt": "2026-11-25T21:37:13+00:00",
   "listingCount": 418,
   "sources": [
     {
@@ -7,21 +7,22 @@
       "url": "https://techopportunities.eu/api/v1/opportunities",
       "ok": true,
       "count": 400,
-      "checkedAt": "2026-11-25T08:22:56+00:00"
+      "checkedAt": "2026-11-25T21:37:13+00:00"
     },
     {
       "name": "Opportunity Desk",
       "url": "https://opportunitydesk.org/feed/",
-      "ok": true,
-      "count": 5,
-      "checkedAt": "2026-11-25T08:22:56+00:00"
+      "ok": false,
+      "count": 0,
+      "checkedAt": "2026-11-25T21:37:13+00:00",
+      "error": "TimeoutError"
     },
     {
       "name": "ScholarshipHunter",
       "url": "https://scholarshiphunter.app/feed.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-25T08:22:56+00:00",
+      "checkedAt": "2026-11-25T21:37:13+00:00",
       "error": "HTTPError"
     },
     {
@@ -29,7 +30,7 @@
       "url": "https://www.grants.gov/rss/GG_NewOppByCategory.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-25T08:22:56+00:00",
+      "checkedAt": "2026-11-25T21:37:13+00:00",
       "error": "URLError"
     },
     {
@@ -37,14 +38,14 @@
       "url": "https://api.grants.gov/v1/api/search2",
       "ok": true,
       "count": 1,
-      "checkedAt": "2026-11-25T08:22:56+00:00"
+      "checkedAt": "2026-11-25T21:37:13+00:00"
     },
     {
       "name": "ResearchRadar.at",
       "url": "https://researchradar.at/api/v1/grants",
       "ok": true,
       "count": 12,
-      "checkedAt": "2026-11-25T08:22:56+00:00"
+      "checkedAt": "2026-11-25T21:37:13+00:00"
     }
   ],
   "opportunities": [
@@ -64,7 +65,8 @@
       "source": "Opportunity Desk",
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-11-24T21:47:42+00:00",
-      "sourceConnector": "Opportunity Desk"
+      "sourceConnector": "Opportunity Desk",
+      "stale": true
     },
     {
       "id": "opportunity desk:https://opportunitydesk.org/2026/11/24/sparkup-initiative-fellowship-2027/",
@@ -82,7 +84,8 @@
       "source": "Opportunity Desk",
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-11-24T20:45:30+00:00",
-      "sourceConnector": "Opportunity Desk"
+      "sourceConnector": "Opportunity Desk",
+      "stale": true
     },
     {
       "id": "opportunity desk:https://opportunitydesk.org/2026/11/24/anso-cas-twas-unesco-phd-scholarship-2026-2027/",
@@ -100,7 +103,8 @@
       "source": "Opportunity Desk",
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-11-24T15:31:56+00:00",
-      "sourceConnector": "Opportunity Desk"
+      "sourceConnector": "Opportunity Desk",
+      "stale": true
     },
     {
       "id": "opportunity desk:https://opportunitydesk.org/2026/11/24/hsema-internship-program-2027/",
@@ -118,7 +122,8 @@
       "source": "Opportunity Desk",
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-11-24T14:44:10+00:00",
-      "sourceConnector": "Opportunity Desk"
+      "sourceConnector": "Opportunity Desk",
+      "stale": true
     },
     {
       "id": "opportunity desk:https://opportunitydesk.org/2026/11/23/yale-council-on-african-studies-visiting-african-scholars-fellowship-2027-2028/",
@@ -136,7 +141,8 @@
       "source": "Opportunity Desk",
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-11-23T18:06:00+00:00",
-      "sourceConnector": "Opportunity Desk"
+      "sourceConnector": "Opportunity Desk",
+      "stale": true
     },
     {
       "id": "eto:4491939039",
