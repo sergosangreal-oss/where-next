@@ -1,22 +1,22 @@
 {
-  "checkedAt": "2026-11-24T17:43:43+00:00",
+  "checkedAt": "2026-11-25T17:12:25+00:00",
   "total": 51,
-  "reachable": 41,
+  "reachable": 39,
   "sources": {
     "https://youth.europa.eu/go-abroad_en": {
-      "ok": true,
-      "status": 200,
-      "url": "https://youth.europa.eu/go-abroad_en"
+      "ok": false,
+      "status": 429,
+      "error": "HTTP error"
     },
     "https://erasmus-plus.ec.europa.eu/opportunities/individuals/youth-exchanges-and-activities": {
-      "ok": true,
-      "status": 200,
-      "url": "https://erasmus-plus.ec.europa.eu/opportunities/individuals/youth-exchanges-and-activities"
+      "ok": false,
+      "status": 429,
+      "error": "HTTP error"
     },
     "https://youth.europa.eu/solidarity_en": {
-      "ok": true,
-      "status": 200,
-      "url": "https://youth.europa.eu/solidarity_en"
+      "ok": false,
+      "status": 429,
+      "error": "HTTP error"
     },
     "https://programmes.eurodesk.eu/": {
       "ok": false,
@@ -129,9 +129,9 @@
       "url": "https://a2ascholarships.iccr.gov.in/"
     },
     "https://studyinindia.gov.in/": {
-      "ok": false,
-      "status": null,
-      "error": "URLError"
+      "ok": true,
+      "status": 200,
+      "url": "https://studyinindia.gov.in/"
     },
     "https://www.dfat.gov.au/people-to-people/australia-awards": {
       "ok": false,
