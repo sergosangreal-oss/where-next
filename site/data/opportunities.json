@@ -1,28 +1,27 @@
 {
-  "updatedAt": "2026-11-25T21:37:13+00:00",
-  "listingCount": 418,
+  "updatedAt": "2026-11-26T08:08:22+00:00",
+  "listingCount": 416,
   "sources": [
     {
       "name": "European Tech Opportunities",
       "url": "https://techopportunities.eu/api/v1/opportunities",
       "ok": true,
       "count": 400,
-      "checkedAt": "2026-11-25T21:37:13+00:00"
+      "checkedAt": "2026-11-26T08:08:22+00:00"
     },
     {
       "name": "Opportunity Desk",
       "url": "https://opportunitydesk.org/feed/",
-      "ok": false,
-      "count": 0,
-      "checkedAt": "2026-11-25T21:37:13+00:00",
-      "error": "TimeoutError"
+      "ok": true,
+      "count": 3,
+      "checkedAt": "2026-11-26T08:08:22+00:00"
     },
     {
       "name": "ScholarshipHunter",
       "url": "https://scholarshiphunter.app/feed.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-25T21:37:13+00:00",
+      "checkedAt": "2026-11-26T08:08:22+00:00",
       "error": "HTTPError"
     },
     {
@@ -30,7 +29,7 @@
       "url": "https://www.grants.gov/rss/GG_NewOppByCategory.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-25T21:37:13+00:00",
+      "checkedAt": "2026-11-26T08:08:22+00:00",
       "error": "URLError"
     },
     {
@@ -38,111 +37,70 @@
       "url": "https://api.grants.gov/v1/api/search2",
       "ok": true,
       "count": 1,
-      "checkedAt": "2026-11-25T21:37:13+00:00"
+      "checkedAt": "2026-11-26T08:08:22+00:00"
     },
     {
       "name": "ResearchRadar.at",
       "url": "https://researchradar.at/api/v1/grants",
       "ok": true,
       "count": 12,
-      "checkedAt": "2026-11-25T21:37:13+00:00"
+      "checkedAt": "2026-11-26T08:08:22+00:00"
     }
   ],
   "opportunities": [
     {
-      "id": "opportunity desk:https://opportunitydesk.org/2026/11/24/better-futures-fellowship-2027/",
-      "title": "Call for Applications: Better Futures Fellowship 2027",
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/25/10-global-scholarship-opportunities-currently-open-november-25-2026/",
+      "title": "10 Global Scholarship Opportunities Currently Open – November 25, 2026",
       "type": "Opportunity",
       "organizer": "Opportunity Desk listing",
-      "url": "https://opportunitydesk.org/2026/11/24/better-futures-fellowship-2027/",
-      "summary": "Deadline: December 6, 2026 Applications are open for the Better Futures Fellowship 2027. The Better Futures Fellowship is a 9-week program for people deciding whether better-futures work should become their focus. Better-futures work is research and fieldbuilding aimed at improving how good the future is, conditional on humanity surviving. Most longtermist effort goes into making [...]",
+      "url": "https://opportunitydesk.org/2026/11/25/10-global-scholarship-opportunities-currently-open-november-25-2026/",
+      "summary": "1. ANSO-CAS-TWAS/UNESCO PhD Scholarship 2026-2027 (Funded)The ANSO-CAS-TWAS/UNESCO PhD Scholarship supports outstanding students from developing countries to pursue full-time doctoral study at the University of Science and Technology of China, the University of Chinese Academy of Sciences, or institutes of the Chinese Academy of Sciences. Up to 40 PhD candidates are selected annually under the TWAS/UNESCO [...]",
       "location": null,
       "minAge": null,
       "maxAge": null,
       "eligibleCountries": [],
       "budgetEur": null,
-      "deadline": "2026-12-06",
+      "deadline": null,
       "source": "Opportunity Desk",
       "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-11-24T21:47:42+00:00",
-      "sourceConnector": "Opportunity Desk",
-      "stale": true
+      "sourceUpdatedAt": "2026-11-25T21:55:55+00:00",
+      "sourceConnector": "Opportunity Desk"
     },
     {
-      "id": "opportunity desk:https://opportunitydesk.org/2026/11/24/sparkup-initiative-fellowship-2027/",
-      "title": "SparkUp Initiative Fellowship 2027",
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/25/iaffe-feminist-economics-school-2027/",
+      "title": "IAFFE Feminist Economics School 2027 (Funded)",
       "type": "Opportunity",
       "organizer": "Opportunity Desk listing",
-      "url": "https://opportunitydesk.org/2026/11/24/sparkup-initiative-fellowship-2027/",
-      "summary": "Deadline: December 20, 2026 Applications are open for the SparkUp Initiative Fellowship 2027. The SparkUp Initiative is a transformative capacity-building program designed to strengthen women-led organizations by equipping them with the knowledge, tools, and confidence to succeed in fundraising. This global initiative supports women-led organizations across all sectors—whether you’re working in education, health, gender equity, [...]",
+      "url": "https://opportunitydesk.org/2026/11/25/iaffe-feminist-economics-school-2027/",
+      "summary": "Deadline: December 10, 2026 Applications are open for the IAFFE Feminist Economics School 2027. The IAFFE Feminist Economics School is designed to bring together approximately 30 early-career scholars, practitioners, activists, and policymakers engaged in research and action on issues of concern to feminist economics, but who have had little or no formal access to training [...]",
       "location": null,
       "minAge": null,
       "maxAge": null,
       "eligibleCountries": [],
       "budgetEur": null,
-      "deadline": "2026-12-20",
+      "deadline": "2026-12-10",
       "source": "Opportunity Desk",
       "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-11-24T20:45:30+00:00",
-      "sourceConnector": "Opportunity Desk",
-      "stale": true
+      "sourceUpdatedAt": "2026-11-25T20:59:12+00:00",
+      "sourceConnector": "Opportunity Desk"
     },
     {
-      "id": "opportunity desk:https://opportunitydesk.org/2026/11/24/anso-cas-twas-unesco-phd-scholarship-2026-2027/",
-      "title": "ANSO-CAS-TWAS/UNESCO PhD Scholarship 2026-2027 (Funded)",
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/25/acumen-academy-green-rise-east-africa-fellowship-2027/",
+      "title": "Acumen Academy Green RISE East Africa Fellowship 2027 (Fully-funded)",
       "type": "Opportunity",
       "organizer": "Opportunity Desk listing",
-      "url": "https://opportunitydesk.org/2026/11/24/anso-cas-twas-unesco-phd-scholarship-2026-2027/",
-      "summary": "Deadline: February 28, 2027 Applications are open for the ANSO-CAS-TWAS/UNESCO PhD Scholarship 2026-2027. The ANSO-CAS Scholarship (formerly the ANSO Scholarship for Young Talents) was launched in 2019 to nurture outstanding young scientists from across the globe. Each year, the scholarship provides support for 100–200 master’s candidates and 300 PhD candidates to pursue full-time postgraduate studies [...]",
+      "url": "https://opportunitydesk.org/2026/11/25/acumen-academy-green-rise-east-africa-fellowship-2027/",
+      "summary": "Deadline: December 22, 2026 Applications are open for the Acumen Academy Green RISE East Africa Fellowship 2027. Acumen invests in social entrepreneurs across the capital continuum and accompanies them on the journey to create transformational change. Acumen Academy identifies and prepares these leaders with the hard skills required to build scalable solutions to poverty and [...]",
       "location": null,
       "minAge": null,
       "maxAge": null,
       "eligibleCountries": [],
       "budgetEur": null,
-      "deadline": "2027-02-28",
+      "deadline": "2026-12-22",
       "source": "Opportunity Desk",
       "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-11-24T15:31:56+00:00",
-      "sourceConnector": "Opportunity Desk",
-      "stale": true
-    },
-    {
-      "id": "opportunity desk:https://opportunitydesk.org/2026/11/24/hsema-internship-program-2027/",
-      "title": "Homeland Security and Emergency Management Agency (HSEMA) Internship Program 2027",
-      "type": "Opportunity",
-      "organizer": "Opportunity Desk listing",
-      "url": "https://opportunitydesk.org/2026/11/24/hsema-internship-program-2027/",
-      "summary": "Deadline: December 16, 2026 Applications are open for the HSEMA Internship Program 2027. The HSEMA’s internship program provides real-world knowledge and experience in emergency management, homeland security, public affairs, and intelligence analysis. The internship program seeks qualified graduate and undergraduate students who are majoring in a wide variety of fields. A highly qualified applicant will [...]",
-      "location": null,
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": "2026-12-16",
-      "source": "Opportunity Desk",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-11-24T14:44:10+00:00",
-      "sourceConnector": "Opportunity Desk",
-      "stale": true
-    },
-    {
-      "id": "opportunity desk:https://opportunitydesk.org/2026/11/23/yale-council-on-african-studies-visiting-african-scholars-fellowship-2027-2028/",
-      "title": "Yale Council on African Studies Visiting African Scholars Fellowship 2027-2028",
-      "type": "Opportunity",
-      "organizer": "Opportunity Desk listing",
-      "url": "https://opportunitydesk.org/2026/11/23/yale-council-on-african-studies-visiting-african-scholars-fellowship-2027-2028/",
-      "summary": "Deadline: December 31, 2026 Applications are open for the Yale Council on African Studies Visiting African Scholars Fellowship 2027-2028. The Council on African Studies at the Whitney and Betty MacMillan Center for International and Area Studies at Yale University invites applications for its Visiting African Scholars Fellowship Program for the 2027-2028 academic year. This opportunity [...]",
-      "location": null,
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": "2026-12-31",
-      "source": "Opportunity Desk",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-11-23T18:06:00+00:00",
-      "sourceConnector": "Opportunity Desk",
-      "stale": true
+      "sourceUpdatedAt": "2026-11-25T16:19:32+00:00",
+      "sourceConnector": "Opportunity Desk"
     },
     {
       "id": "eto:4491939039",
