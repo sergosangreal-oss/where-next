@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T08:08:22+00:00",
+  "updatedAt": "2026-11-26T21:26:27+00:00",
   "listingCount": 416,
   "sources": [
     {
@@ -7,21 +7,21 @@
       "url": "https://techopportunities.eu/api/v1/opportunities",
       "ok": true,
       "count": 400,
-      "checkedAt": "2026-11-26T08:08:22+00:00"
+      "checkedAt": "2026-11-26T21:26:27+00:00"
     },
     {
       "name": "Opportunity Desk",
       "url": "https://opportunitydesk.org/feed/",
       "ok": true,
       "count": 3,
-      "checkedAt": "2026-11-26T08:08:22+00:00"
+      "checkedAt": "2026-11-26T21:26:27+00:00"
     },
     {
       "name": "ScholarshipHunter",
       "url": "https://scholarshiphunter.app/feed.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-26T08:08:22+00:00",
+      "checkedAt": "2026-11-26T21:26:27+00:00",
       "error": "HTTPError"
     },
     {
@@ -29,7 +29,7 @@
       "url": "https://www.grants.gov/rss/GG_NewOppByCategory.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-26T08:08:22+00:00",
+      "checkedAt": "2026-11-26T21:26:27+00:00",
       "error": "URLError"
     },
     {
@@ -37,17 +37,35 @@
       "url": "https://api.grants.gov/v1/api/search2",
       "ok": true,
       "count": 1,
-      "checkedAt": "2026-11-26T08:08:22+00:00"
+      "checkedAt": "2026-11-26T21:26:27+00:00"
     },
     {
       "name": "ResearchRadar.at",
       "url": "https://researchradar.at/api/v1/grants",
       "ok": true,
       "count": 12,
-      "checkedAt": "2026-11-26T08:08:22+00:00"
+      "checkedAt": "2026-11-26T21:26:27+00:00"
     }
   ],
   "opportunities": [
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/26/friends-of-pakistan-fellowship-2027/",
+      "title": "Friends of Pakistan Fellowship 2027 (Funded)",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/26/friends-of-pakistan-fellowship-2027/",
+      "summary": "Deadline: December 11, 2026 Applications are open for the Friends of Pakistan Fellowship 2027. Pakistan has extraordinary leaders working on big social problems. Scale is the next frontier. Each year, a small cohort of Pakistani leaders spends seven days in Northern Pakistan refining their model for scale. They leave with a sharper operating approach, an [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2026-12-11",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-26T11:22:13+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
     {
       "id": "opportunity desk:https://opportunitydesk.org/2026/11/25/10-global-scholarship-opportunities-currently-open-november-25-2026/",
       "title": "10 Global Scholarship Opportunities Currently Open – November 25, 2026",
@@ -82,24 +100,6 @@
       "source": "Opportunity Desk",
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-11-25T20:59:12+00:00",
-      "sourceConnector": "Opportunity Desk"
-    },
-    {
-      "id": "opportunity desk:https://opportunitydesk.org/2026/11/25/acumen-academy-green-rise-east-africa-fellowship-2027/",
-      "title": "Acumen Academy Green RISE East Africa Fellowship 2027 (Fully-funded)",
-      "type": "Opportunity",
-      "organizer": "Opportunity Desk listing",
-      "url": "https://opportunitydesk.org/2026/11/25/acumen-academy-green-rise-east-africa-fellowship-2027/",
-      "summary": "Deadline: December 22, 2026 Applications are open for the Acumen Academy Green RISE East Africa Fellowship 2027. Acumen invests in social entrepreneurs across the capital continuum and accompanies them on the journey to create transformational change. Acumen Academy identifies and prepares these leaders with the hard skills required to build scalable solutions to poverty and [...]",
-      "location": null,
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": "2026-12-22",
-      "source": "Opportunity Desk",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-11-25T16:19:32+00:00",
       "sourceConnector": "Opportunity Desk"
     },
     {
