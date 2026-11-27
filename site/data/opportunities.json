@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-27T08:18:19+00:00",
-  "listingCount": 416,
+  "updatedAt": "2026-11-27T21:09:56+00:00",
+  "listingCount": 418,
   "sources": [
     {
       "name": "European Tech Opportunities",
       "url": "https://techopportunities.eu/api/v1/opportunities",
       "ok": true,
       "count": 400,
-      "checkedAt": "2026-11-27T08:18:19+00:00"
+      "checkedAt": "2026-11-27T21:09:56+00:00"
     },
     {
       "name": "Opportunity Desk",
       "url": "https://opportunitydesk.org/feed/",
       "ok": true,
-      "count": 3,
-      "checkedAt": "2026-11-27T08:18:19+00:00"
+      "count": 5,
+      "checkedAt": "2026-11-27T21:09:56+00:00"
     },
     {
       "name": "ScholarshipHunter",
       "url": "https://scholarshiphunter.app/feed.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-27T08:18:19+00:00",
+      "checkedAt": "2026-11-27T21:09:56+00:00",
       "error": "HTTPError"
     },
     {
@@ -29,7 +29,7 @@
       "url": "https://www.grants.gov/rss/GG_NewOppByCategory.xml",
       "ok": false,
       "count": 0,
-      "checkedAt": "2026-11-27T08:18:19+00:00",
+      "checkedAt": "2026-11-27T21:09:56+00:00",
       "error": "URLError"
     },
     {
@@ -37,17 +37,71 @@
       "url": "https://api.grants.gov/v1/api/search2",
       "ok": true,
       "count": 1,
-      "checkedAt": "2026-11-27T08:18:19+00:00"
+      "checkedAt": "2026-11-27T21:09:56+00:00"
     },
     {
       "name": "ResearchRadar.at",
       "url": "https://researchradar.at/api/v1/grants",
       "ok": true,
       "count": 12,
-      "checkedAt": "2026-11-27T08:18:19+00:00"
+      "checkedAt": "2026-11-27T21:09:56+00:00"
     }
   ],
   "opportunities": [
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/27/dot-climate-innovation-bootcamp-2026/",
+      "title": "DOT Climate Innovation Bootcamp 2026",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/27/dot-climate-innovation-bootcamp-2026/",
+      "summary": "Deadline: Ongoing Applications are open for the Digital Opportunity Trust (DOT) Climate Innovation Bootcamp 2026. The world needs bold, youth-led climate solutions now more than ever. Whether your idea is just starting or you’ve already piloted a project, scaling it requires the right tools, mindset, and strategies. The Climate Innovation Bootcamp is designed for youth [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": null,
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-27T18:30:00+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/27/eu-india-young-leaders-exchange-programme-2026-2027/",
+      "title": "EU–India Young Leaders Exchange Programme 2026–2027 (Funded)",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/27/eu-india-young-leaders-exchange-programme-2026-2027/",
+      "summary": "Deadline: December 11, 2026 The European Union Delegation to India invites young professionals and emerging leaders from the European Union and India to apply for the EU–India Young Leaders Exchange Programme 2026–2027. The initiative brings emerging leaders together to strengthen dialogue, build connections and contribute new ideas to the EU–India Strategic Partnership. The programme will [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2026-12-11",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-27T18:26:23+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
+    {
+      "id": "opportunity desk:https://opportunitydesk.org/2026/11/27/queen-elizabeth-commonwealth-scholarships-2027/",
+      "title": "Queen Elizabeth Commonwealth Scholarships 2027 (Fully-funded)",
+      "type": "Opportunity",
+      "organizer": "Opportunity Desk listing",
+      "url": "https://opportunitydesk.org/2026/11/27/queen-elizabeth-commonwealth-scholarships-2027/",
+      "summary": "Deadline: January 13, 2027 Applications are open for the Queen Elizabeth Commonwealth Scholarships 2027. The Queen Elizabeth Commonwealth Scholarships (QECS) offer a unique opportunity to study a two-year master’s degree in a low or middle-income Commonwealth country. Aimed at students who are committed to creating change in their communities, the scholarships are a life-changing opportunity [...]",
+      "location": null,
+      "minAge": null,
+      "maxAge": null,
+      "eligibleCountries": [],
+      "budgetEur": null,
+      "deadline": "2027-01-13",
+      "source": "Opportunity Desk",
+      "sourceType": "Public API/RSS",
+      "sourceUpdatedAt": "2026-11-27T18:07:19+00:00",
+      "sourceConnector": "Opportunity Desk"
+    },
     {
       "id": "opportunity desk:https://opportunitydesk.org/2026/11/26/friends-of-pakistan-fellowship-2027/",
       "title": "Friends of Pakistan Fellowship 2027 (Funded)",
@@ -82,24 +136,6 @@
       "source": "Opportunity Desk",
       "sourceType": "Public API/RSS",
       "sourceUpdatedAt": "2026-11-25T21:55:55+00:00",
-      "sourceConnector": "Opportunity Desk"
-    },
-    {
-      "id": "opportunity desk:https://opportunitydesk.org/2026/11/25/iaffe-feminist-economics-school-2027/",
-      "title": "IAFFE Feminist Economics School 2027 (Funded)",
-      "type": "Opportunity",
-      "organizer": "Opportunity Desk listing",
-      "url": "https://opportunitydesk.org/2026/11/25/iaffe-feminist-economics-school-2027/",
-      "summary": "Deadline: December 10, 2026 Applications are open for the IAFFE Feminist Economics School 2027. The IAFFE Feminist Economics School is designed to bring together approximately 30 early-career scholars, practitioners, activists, and policymakers engaged in research and action on issues of concern to feminist economics, but who have had little or no formal access to training [...]",
-      "location": null,
-      "minAge": null,
-      "maxAge": null,
-      "eligibleCountries": [],
-      "budgetEur": null,
-      "deadline": "2026-12-10",
-      "source": "Opportunity Desk",
-      "sourceType": "Public API/RSS",
-      "sourceUpdatedAt": "2026-11-25T20:59:12+00:00",
       "sourceConnector": "Opportunity Desk"
     },
     {
