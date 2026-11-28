@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-11-27T16:39:06+00:00",
+  "checkedAt": "2026-11-28T15:30:17+00:00",
   "total": 51,
-  "reachable": 41,
+  "reachable": 40,
   "sources": {
     "https://youth.europa.eu/go-abroad_en": {
-      "ok": true,
-      "status": 200,
-      "url": "https://youth.europa.eu/go-abroad_en"
+      "ok": false,
+      "status": 429,
+      "error": "HTTP error"
     },
     "https://erasmus-plus.ec.europa.eu/opportunities/individuals/youth-exchanges-and-activities": {
       "ok": true,
